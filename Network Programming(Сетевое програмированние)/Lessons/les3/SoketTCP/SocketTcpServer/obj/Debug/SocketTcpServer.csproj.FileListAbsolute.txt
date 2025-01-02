@@ -1,0 +1,8 @@
+E:\ШАГ\Network Programming(Сетевое програмированние)\SoketTCP\SocketTcpServer\bin\Debug\SocketTcpServer.exe.config
+E:\ШАГ\Network Programming(Сетевое програмированние)\SoketTCP\SocketTcpServer\bin\Debug\SocketTcpServer.exe
+E:\ШАГ\Network Programming(Сетевое програмированние)\SoketTCP\SocketTcpServer\bin\Debug\SocketTcpServer.pdb
+E:\ШАГ\Network Programming(Сетевое програмированние)\SoketTCP\SocketTcpServer\obj\Debug\SocketTcpServer.csproj.AssemblyReference.cache
+E:\ШАГ\Network Programming(Сетевое програмированние)\SoketTCP\SocketTcpServer\obj\Debug\SocketTcpServer.csproj.SuggestedBindingRedirects.cache
+E:\ШАГ\Network Programming(Сетевое програмированние)\SoketTCP\SocketTcpServer\obj\Debug\SocketTcpServer.csproj.CoreCompileInputs.cache
+E:\ШАГ\Network Programming(Сетевое програмированние)\SoketTCP\SocketTcpServer\obj\Debug\SocketTcpServer.exe
+E:\ШАГ\Network Programming(Сетевое програмированние)\SoketTCP\SocketTcpServer\obj\Debug\SocketTcpServer.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoketTCPClient_les3", "SoketTCPClient_les3\SoketTCPClient_les3.csproj", "{2714E7AC-61C8-4439-BC2D-A9F0095AA5E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketTcpServer", "SocketTcpServer\SocketTcpServer.csproj", "{6A60136D-DCD9-4915-A42E-E7F53631DBDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2714E7AC-61C8-4439-BC2D-A9F0095AA5E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2714E7AC-61C8-4439-BC2D-A9F0095AA5E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2714E7AC-61C8-4439-BC2D-A9F0095AA5E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2714E7AC-61C8-4439-BC2D-A9F0095AA5E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A60136D-DCD9-4915-A42E-E7F53631DBDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A60136D-DCD9-4915-A42E-E7F53631DBDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A60136D-DCD9-4915-A42E-E7F53631DBDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A60136D-DCD9-4915-A42E-E7F53631DBDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE8BD681-F373-401E-AE02-55430D9136A8}
+	EndGlobalSection
+EndGlobal

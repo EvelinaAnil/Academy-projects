@@ -1,0 +1,6 @@
+C:\Users\Bux6\source\repos\SocketUdp\SocketUdpClient\bin\Debug\SocketUdpClient.exe.config
+C:\Users\Bux6\source\repos\SocketUdp\SocketUdpClient\bin\Debug\SocketUdpClient.exe
+C:\Users\Bux6\source\repos\SocketUdp\SocketUdpClient\bin\Debug\SocketUdpClient.pdb
+C:\Users\Bux6\source\repos\SocketUdp\SocketUdpClient\obj\Debug\SocketUdpClient.csprojAssemblyReference.cache
+C:\Users\Bux6\source\repos\SocketUdp\SocketUdpClient\obj\Debug\SocketUdpClient.exe
+C:\Users\Bux6\source\repos\SocketUdp\SocketUdpClient\obj\Debug\SocketUdpClient.pdb

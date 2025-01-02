@@ -1,0 +1,13 @@
+C:\Users\asp\source\repos\SocketServerAsync\SocketClientAsync\bin\Debug\SocketClientAsync.exe.config
+C:\Users\asp\source\repos\SocketServerAsync\SocketClientAsync\bin\Debug\SocketClientAsync.exe
+C:\Users\asp\source\repos\SocketServerAsync\SocketClientAsync\bin\Debug\SocketClientAsync.pdb
+C:\Users\asp\source\repos\SocketServerAsync\SocketClientAsync\obj\Debug\SocketClientAsync.csproj.CoreCompileInputs.cache
+C:\Users\asp\source\repos\SocketServerAsync\SocketClientAsync\obj\Debug\SocketClientAsync.exe
+C:\Users\asp\source\repos\SocketServerAsync\SocketClientAsync\obj\Debug\SocketClientAsync.pdb
+C:\Users\asp\source\repos\SocketServerAsync\SocketClientAsync\obj\Debug\SocketClientAsync.csprojResolveAssemblyReference.cache
+D:\SocketUdpAsync\SocketClientAsync\bin\Debug\SocketClientAsync.exe.config
+D:\SocketUdpAsync\SocketClientAsync\bin\Debug\SocketClientAsync.exe
+D:\SocketUdpAsync\SocketClientAsync\bin\Debug\SocketClientAsync.pdb
+D:\SocketUdpAsync\SocketClientAsync\obj\Debug\SocketClientAsync.csprojAssemblyReference.cache
+D:\SocketUdpAsync\SocketClientAsync\obj\Debug\SocketClientAsync.exe
+D:\SocketUdpAsync\SocketClientAsync\obj\Debug\SocketClientAsync.pdb

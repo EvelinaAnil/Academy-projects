@@ -1,0 +1,8 @@
+E:\ШАГ\Network Programming(Сетевое програмированние)\Lessons\ConsoleApp_26.04.2023\ConsoleApp_26.04.2023\bin\Debug\ConsoleApp_26.04.2023.exe.config
+E:\ШАГ\Network Programming(Сетевое програмированние)\Lessons\ConsoleApp_26.04.2023\ConsoleApp_26.04.2023\bin\Debug\ConsoleApp_26.04.2023.exe
+E:\ШАГ\Network Programming(Сетевое програмированние)\Lessons\ConsoleApp_26.04.2023\ConsoleApp_26.04.2023\bin\Debug\ConsoleApp_26.04.2023.pdb
+E:\ШАГ\Network Programming(Сетевое програмированние)\Lessons\ConsoleApp_26.04.2023\ConsoleApp_26.04.2023\obj\Debug\ConsoleApp_26.04.2023.csproj.AssemblyReference.cache
+E:\ШАГ\Network Programming(Сетевое програмированние)\Lessons\ConsoleApp_26.04.2023\ConsoleApp_26.04.2023\obj\Debug\ConsoleApp_26.04.2023.csproj.SuggestedBindingRedirects.cache
+E:\ШАГ\Network Programming(Сетевое програмированние)\Lessons\ConsoleApp_26.04.2023\ConsoleApp_26.04.2023\obj\Debug\ConsoleApp_26.04.2023.csproj.CoreCompileInputs.cache
+E:\ШАГ\Network Programming(Сетевое програмированние)\Lessons\ConsoleApp_26.04.2023\ConsoleApp_26.04.2023\obj\Debug\ConsoleApp_26.04.2023.exe
+E:\ШАГ\Network Programming(Сетевое програмированние)\Lessons\ConsoleApp_26.04.2023\ConsoleApp_26.04.2023\obj\Debug\ConsoleApp_26.04.2023.pdb

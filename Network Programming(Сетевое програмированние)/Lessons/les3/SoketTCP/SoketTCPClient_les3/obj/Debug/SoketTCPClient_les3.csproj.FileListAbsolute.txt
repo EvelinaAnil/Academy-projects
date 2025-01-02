@@ -1,0 +1,8 @@
+E:\ШАГ\Network Programming(Сетевое програмированние)\SoketTCP\SoketTCPClient_les3\obj\Debug\SoketTCPClient_les3.csproj.AssemblyReference.cache
+E:\ШАГ\Network Programming(Сетевое програмированние)\SoketTCP\SoketTCPClient_les3\obj\Debug\SoketTCPClient_les3.csproj.SuggestedBindingRedirects.cache
+E:\ШАГ\Network Programming(Сетевое програмированние)\SoketTCP\SoketTCPClient_les3\obj\Debug\SoketTCPClient_les3.csproj.CoreCompileInputs.cache
+E:\ШАГ\Network Programming(Сетевое програмированние)\SoketTCP\SoketTCPClient_les3\bin\Debug\SoketTCPClient_les3.exe.config
+E:\ШАГ\Network Programming(Сетевое програмированние)\SoketTCP\SoketTCPClient_les3\bin\Debug\SoketTCPClient_les3.exe
+E:\ШАГ\Network Programming(Сетевое програмированние)\SoketTCP\SoketTCPClient_les3\bin\Debug\SoketTCPClient_les3.pdb
+E:\ШАГ\Network Programming(Сетевое програмированние)\SoketTCP\SoketTCPClient_les3\obj\Debug\SoketTCPClient_les3.exe
+E:\ШАГ\Network Programming(Сетевое програмированние)\SoketTCP\SoketTCPClient_les3\obj\Debug\SoketTCPClient_les3.pdb

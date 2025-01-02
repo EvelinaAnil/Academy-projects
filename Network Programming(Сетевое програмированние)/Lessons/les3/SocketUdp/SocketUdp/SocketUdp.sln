@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketUdpClient", "SocketUdpClient\SocketUdpClient.csproj", "{E00E79C6-B979-445A-9B7C-4D2BE3761FF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketUdpServer", "SocketUdpServer\SocketUdpServer.csproj", "{1FFD726D-76CD-4F17-B150-DEAE6F2662A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E00E79C6-B979-445A-9B7C-4D2BE3761FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00E79C6-B979-445A-9B7C-4D2BE3761FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00E79C6-B979-445A-9B7C-4D2BE3761FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00E79C6-B979-445A-9B7C-4D2BE3761FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FFD726D-76CD-4F17-B150-DEAE6F2662A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FFD726D-76CD-4F17-B150-DEAE6F2662A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FFD726D-76CD-4F17-B150-DEAE6F2662A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FFD726D-76CD-4F17-B150-DEAE6F2662A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C69DE14-6ADD-4C92-BAF5-C3E1A2FF9CA2}
+	EndGlobalSection
+EndGlobal

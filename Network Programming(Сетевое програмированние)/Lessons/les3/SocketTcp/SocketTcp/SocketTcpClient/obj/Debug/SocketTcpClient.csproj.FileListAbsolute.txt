@@ -1,0 +1,6 @@
+C:\Users\Bux6\source\repos\SocketTcp\SocketTcpClient\bin\Debug\SocketTcpClient.exe.config
+C:\Users\Bux6\source\repos\SocketTcp\SocketTcpClient\bin\Debug\SocketTcpClient.exe
+C:\Users\Bux6\source\repos\SocketTcp\SocketTcpClient\bin\Debug\SocketTcpClient.pdb
+C:\Users\Bux6\source\repos\SocketTcp\SocketTcpClient\obj\Debug\SocketTcpClient.csprojAssemblyReference.cache
+C:\Users\Bux6\source\repos\SocketTcp\SocketTcpClient\obj\Debug\SocketTcpClient.exe
+C:\Users\Bux6\source\repos\SocketTcp\SocketTcpClient\obj\Debug\SocketTcpClient.pdb
