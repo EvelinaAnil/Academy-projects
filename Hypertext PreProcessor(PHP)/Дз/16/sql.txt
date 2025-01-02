@@ -1,0 +1,19 @@
+CREATE DATABASE IF NOT EXISTS your_database;
+USE your_database;
+
+CREATE TABLE users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    role ENUM('user', 'admin') DEFAULT 'user',
+    photo_path VARCHAR(255) DEFAULT 'default.jpg'
+);
+
+CREATE TABLE tasks (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT,
+    title VARCHAR(255) NOT NULL,
+    description TEXT,
+    status ENUM('todo', 'in_progress', 'done') DEFAULT 'todo',
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);

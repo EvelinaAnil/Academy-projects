@@ -1,0 +1,20 @@
+Version 1.0
+i) Intial version Release
+
+Version 1.1
+i) Removed unused functionality and resolved issues as asked by reviewer.
+
+Version 1.2
+i) Added textdomain in translation function and made some changes as asked by reviewer.
+
+Version 1.2.1
+i) Resolve site title and slider content creation issue also resolved few issue as asked by reviewer.
+
+Version 1.2.2
+i) Resolve header textcolor issue, social links and call text.
+
+Version 1.2.3
+i) escape the output in header.php file.
+
+Version 1.2.4
+i) Translated js file text.

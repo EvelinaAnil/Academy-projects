@@ -1,0 +1,419 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Inventor v10.2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-06-23 15:37+0300\n"
+"Last-Translator: Игорь <dybabiz@ya.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ inventor
+#: 404.php:14
+msgid "<strong>404</strong> Not Found"
+msgstr "<strong>404</strong> Не найдено"
+
+# @ inventor
+#: 404.php:17
+msgid "Looks like you have taken a wrong turn.....<br />Don't worry... it happens to the best of us."
+msgstr "По данному адресу ничего не найдено. <br /> Воспользуйтесь поиском."
+
+# @ inventor
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Один комментарий для &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментариев для &ldquo;%2$s&rdquo;"
+
+# @ inventor
+#: comments.php:36 comments.php:56
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+# @ inventor
+#: comments.php:37 comments.php:57
+msgid "&larr; Older Comments"
+msgstr "&larr; Старые комментарии"
+
+# @ inventor
+#: comments.php:38 comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr "Новые комментарии &larr;"
+
+# @ inventor
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Комментарии закрыты"
+
+# @ inventor
+#: content-page.php:18 content-single.php:28 content.php:36 image.php:59
+msgid "Pages:"
+msgstr "Страницы: "
+
+# @ inventor
+#: content-page.php:23 content-single.php:40 content.php:70 image.php:33
+#: image.php:65 inc/template-tags.php:70 inc/template-tags.php:89
+msgid "Edit"
+msgstr "Изменить"
+
+# @ inventor
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:33 content.php:14 content.php:47 content.php:57
+msgid ", "
+msgstr ""
+
+# @ inventor
+#: content.php:29
+msgid "Read More &raquo;"
+msgstr "Подробнее &raquo;"
+
+# @ inventor
+#: content.php:33
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Читать далее <span class=\"meta-nav\">&rarr;</span>"
+
+# @ inventor
+#: content.php:51
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Категории %1$s"
+
+# @ inventor
+#: content.php:61
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Метки %1$s"
+
+# @ inventor
+#: content.php:67
+msgid "Leave a comment"
+msgstr "Комментировать"
+
+# @ inventor
+#: content.php:67
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+# @ inventor
+#: content.php:67
+msgid "% Comments"
+msgstr "% Комментариев"
+
+# @ inventor
+#: functions.php:33
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+# @ inventor
+#: functions.php:46
+msgid "Blog Sidebar"
+msgstr "Сайдбар блога"
+
+# @ inventor
+#: functions.php:47
+msgid "Appears on blog page sidebar"
+msgstr "Виджет боковой колонки"
+
+# @ inventor
+#: functions.php:56
+msgid "Page Sidebar"
+msgstr "Страницы Сайдбар"
+
+# @ inventor
+#: functions.php:57
+msgid "Appears on page sidebar"
+msgstr "Разместить на панели блога"
+
+# @ inventor
+#: functions.php:75
+msgctxt "Raleway font:on or off"
+msgid "on"
+msgstr ""
+
+# @ inventor
+#: functions.php:141
+msgid "Inventor theme by"
+msgstr ""
+
+# @ inventor
+#: header.php:26 inc/customizer.php:49
+msgid "Call Us Free :"
+msgstr "Звоните нам: "
+
+# @ inventor
+#: header.php:65
+msgid "Menu"
+msgstr "﻿Меню"
+
+# @ inventor
+#: header.php:129
+msgid "Welcome to Inventor."
+msgstr ""
+
+# @ inventor
+#: header.php:130 header.php:137 header.php:144
+msgid "For setup slider go to Appearace >> Customize >> Slider Settings >> Here you can select the pages for slider."
+msgstr "Для установки сайдера перейти на внешний >> Настройка >> слайдера >> здесь вы можете выбрать страницы для слайдера."
+
+# @ inventor
+#: header.php:136
+msgid "Architecture Inventory"
+msgstr ""
+
+# @ inventor
+#: header.php:143
+msgid "Get 24x7 Support."
+msgstr "Получите поддержку 24 x 7."
+
+# @ inventor
+#: image.php:23
+#, php-format
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+msgstr "Опубликовано <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> - <a href=\"%3$s\">%4$s &times; %5$s</a> - <a href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+
+# @ inventor
+#: image.php:38
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Назад"
+
+# @ inventor
+#: image.php:39
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Вперед <span class=\"meta-nav\">&rarr;</span>"
+
+# @ inventor
+#: inc/customizer.php:36
+msgid "Color Scheme"
+msgstr "Цветовая схема"
+
+# @ inventor
+#: inc/customizer.php:43
+msgid "Contact Details"
+msgstr "Контактная информация"
+
+# @ inventor
+#: inc/customizer.php:44
+msgid "Add contact details here."
+msgstr "Добавьте Ваши контактные данные здесь."
+
+# @ inventor
+#: inc/customizer.php:54 inc/customizer.php:67
+msgid "Add phone number here"
+msgstr "Добавить номер телефона здесь"
+
+# @ inventor
+#: inc/customizer.php:55
+msgid "Add call text here"
+msgstr "Добавить текст здесь"
+
+# @ inventor
+#: inc/customizer.php:62
+msgid "12 8888 6666"
+msgstr ""
+
+# @ inventor
+#: inc/customizer.php:74 inc/customizer.php:87 inc/customizer.php:99
+#: inc/customizer.php:111
+msgid "#"
+msgstr ""
+
+# @ inventor
+#: inc/customizer.php:79
+msgid "Add social icons link here"
+msgstr ""
+
+# @ inventor
+#: inc/customizer.php:80
+msgid "Add RSS link here"
+msgstr ""
+
+# @ inventor
+#: inc/customizer.php:92
+msgid "Add pinterest link here"
+msgstr ""
+
+# @ inventor
+#: inc/customizer.php:104
+msgid "Add twitter link here"
+msgstr ""
+
+# @ inventor
+#: inc/customizer.php:116
+msgid "Add facebok link here"
+msgstr ""
+
+# @ inventor
+#: inc/customizer.php:127
+msgid "Slider Settings"
+msgstr "Настройка Слайдера"
+
+# @ inventor
+#: inc/customizer.php:129
+msgid "Recommended image size (1420x567)"
+msgstr "Рекомендуемый размер изображения (1420 x 567)"
+
+# @ inventor
+#: inc/customizer.php:141
+msgid "Select page for slide one:"
+msgstr "Страница для первого слайда"
+
+# @ inventor
+#: inc/customizer.php:153
+msgid "Select page for slide two:"
+msgstr "Страница для второго слайда"
+
+# @ inventor
+#: inc/customizer.php:165
+msgid "Select page for slide three:"
+msgstr "Страница для третьего слайда"
+
+# @ inventor
+#: inc/customizer.php:179
+msgid "Check this to hide slider"
+msgstr "Поставьте галочку чтобы скрыть"
+
+# @ inventor
+#: inc/customizer.php:184
+msgid "Read More"
+msgstr "Подробнее"
+
+# @ inventor
+#: inc/customizer.php:191
+msgid "Add slide link text."
+msgstr "Добавьте текст ссылки слайд."
+
+# @ inventor
+#: inc/customizer.php:198
+msgid "Footer Text"
+msgstr "Текст футер"
+
+# @ inventor
+#: inc/customizer.php:199
+msgid "Add some text for footer like copyright etc."
+msgstr "Добавьте некоторый текст для нижнего колонтитула, как авторское право и т.д."
+
+# @ inventor
+#: inc/customizer.php:204
+msgid "Inventor 2016 | All Rights Reserved."
+msgstr "Copyright. Все права защищены."
+
+# @ inventor
+#: inc/customizer.php:209
+msgid "Copyright Text"
+msgstr "Авторские права"
+
+# @ inventor
+#: inc/customizer.php:258
+msgid "Upgrade to PRO Version"
+msgstr ""
+
+# @ inventor
+#: inc/template-tags.php:33
+msgid "Post navigation"
+msgstr "Навигация по записи"
+
+# @ inventor
+#: inc/template-tags.php:37
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+# @ inventor
+#: inc/template-tags.php:38
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+# @ inventor
+#: inc/template-tags.php:43
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Старые записи"
+
+# @ inventor
+#: inc/template-tags.php:47
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Новые записи <span class=\"meta-nav\">&rarr;</span>"
+
+# @ inventor
+#: inc/template-tags.php:70
+msgid "Pingback:"
+msgstr ""
+
+# @ inventor
+#: inc/template-tags.php:83
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> on"
+msgstr "<cite class=\"fn\">%s</cite> на"
+
+# @ inventor
+#: inc/template-tags.php:86
+#, php-format
+msgctxt "1: date"
+msgid "%1$s"
+msgstr ""
+
+# @ inventor
+#: inc/template-tags.php:93
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+# @ inventor
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+# @ inventor
+#: no-results.php:19
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните здесь</a>."
+
+# @ inventor
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, но ничего не найдено. Пожалуйста, попробуйте еще раз с другими ключевыми словами."
+
+# @ inventor
+#: no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Кажется, нельзя найти то, что Вы ищете. Попробуйте воспользоваться поиском по сайту."
+
+# @ inventor
+#: search.php:15
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+# @ inventor
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search..."
+msgstr "Искать…"
+
+# @ inventor
+#: searchform.php:13
+msgctxt "submit button"
+msgid "Search"
+msgstr "Поиск"
+
+# @ inventor
+#: sidebar-page.php:15 sidebar.php:14
+msgid "Archives"
+msgstr "Архивы"
+
+# @ inventor
+#: sidebar-page.php:21 sidebar.php:20
+msgid "Meta"
+msgstr ""

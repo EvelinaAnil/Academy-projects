@@ -1,0 +1,6 @@
+CREATE DATABASE message_;
+USE message_app;
+CREATE TABLE messages_ (
+    id INT  PRIMARY KEY,
+    text TEXT
+);
