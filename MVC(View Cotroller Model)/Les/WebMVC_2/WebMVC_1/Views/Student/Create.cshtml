@@ -1,0 +1,27 @@
+﻿@using WebMVC_1.Models
+@model IEnumerable<Student>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <form method="post" action="xxx">
+        <div>
+            <p>Id: <input type="text" name="Id"</p>
+            <p>Last name: <input type="text" name="Lastname"</p>
+            <p>First name: <input type="text" name="Firstname"</p>
+            <p>Date of Birth: <input type="date" name="BirthDate"</p>
+        </div>
+        <div>
+            <input type="submit" name="Create"  />
+        </div>
+    </form>
+</body>
+</html>

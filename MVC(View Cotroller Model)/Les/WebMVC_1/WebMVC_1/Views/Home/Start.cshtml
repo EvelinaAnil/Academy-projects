@@ -1,0 +1,20 @@
+﻿
+@{
+    Layout = null;
+
+    string dayOfWeek = DateTime.Now.DayOfWeek == DayOfWeek.Wednesday ? "Yes" : "No";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Start</title>
+</head>
+<body>
+    <div>
+        Is Wednesday? <b>@dayOfWeek</b>xxxx
+    </div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+﻿@model WebMVC_5.Models.ViewModels.UserRegister
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-12" style="text-align:center">
+            <h2>Реєстрація користувача</h2>
+        </div>
+    </div>
+
+    <div class="panel-body">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="row">
+                <div class="col-md-6 col-md-offset-4 col-sm-4 col-sm-offset-2">
+                    <div class="row">
+                        <div class="col-md-4">
+                            @Html.LabelFor(model => model.Email):
+                        </div>
+                        <div class="col-md-5">
+                            @Html.TextBoxFor(model => model.Email, new { @class = "form-control", autofocus = "autofocus" })
+                            @Html.ValidationMessageFor(model => model.Email)
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-4">
+                            @Html.LabelFor(model => model.UserLogin):
+                        </div>
+                        <div class="col-md-5">
+                            @Html.TextBoxFor(model => model.UserLogin, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.UserLogin)
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-4">
+                            @Html.LabelFor(model => model.Password):
+                        </div>
+                        <div class="col-md-5">
+                            @Html.PasswordFor(model => model.Password, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.Password)
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-4">
+                            @Html.LabelFor(model => model.ConfirmPassword):
+                        </div>
+                        <div class="col-md-5">
+                            @Html.PasswordFor(model => model.ConfirmPassword, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.ConfirmPassword)
+                        </div>
+                    </div>
+
+                    @*@if (!HttpContext.Current.User.Identity.IsAuthenticated)
+                        {
+                            <p>Not Authenticatication</p>
+                        }*@
+
+                    @if (HttpContext.Current.User.IsInRole("Admin"))
+                    {
+                        <br />
+                        <div class="row">
+                            <div class="col-md-4">
+                                @Html.LabelFor(model => model.RoleName):
+                            </div>
+
+                            <div class="col-md-5">
+                                @Html.DropDownListFor(model => model.RoleName, ViewBag.Roles as SelectList, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.RoleName)
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-sm-12" style="text-align:center">
+                    <input type="button" value="Створити" onclick="createSubmit()" class="btn btn-primary" />
+                </div>
+            </div>
+        }
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+    </script>
+</body>
+</html>
