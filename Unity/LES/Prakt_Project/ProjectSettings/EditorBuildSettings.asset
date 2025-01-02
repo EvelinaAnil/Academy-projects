@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: 899b3bda87d3f194faf9b133411ad0fd
+  - enabled: 1
+    path: Assets/Scenes/claculartor.unity
+    guid: 0fb2a66166bd54e488051551e78c7427
+  - enabled: 1
+    path: Assets/Scenes/converter.unity
+    guid: b2324be9ca1f2e64a81f0628c6bfe3dd
+  m_configObjects: {}
