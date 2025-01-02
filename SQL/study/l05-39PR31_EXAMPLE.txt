@@ -1,0 +1,68 @@
+Предметы
+==========
+Id   int PK
+Name NVARCHAR(50) NOT NULL
+
+----------------------------------
+
+
+People
+==========
+Id   int PK
+FName NVARCHAR(50) NOT NULL
+LNAME NVARCHAR(50) NOT NULL
+MName NVARCHAR(50) NULL
+
+
+----------------------------------
+
+Студенты
+==========
+Id   int PK
+IdPeople
+BDate Date
+
+------------------------------------
+
+Кафедры
+==========
+Id   int PK
+Name NVARCHAR(50) NOT NULL
+
+--------------------
+
+Сотрудники
+============
+Id   int PK
+IdPeople
+
+---------------------
+
+Сотрудники_Кафедры
+===========
+Id   int PK
+IdСотрудника int  NULL  FK (Сотрудники - Id)
+IdКафедры int  NULL  FK (Кафедры - Id)
+
+---------------------
+
+Предметы
+==========
+Id   int PK
+Name NVARCHAR(50) NOT NULL
+
+--------------
+
+Студенты_Предметы
+==========
+Id   int PK
+IdСтуденты int  NULL  FK (Студенты - Id)
+IdПредметы int  NULL  FK (Предметы - Id)
+
+---------------------
+
+Студенты_Кафедры
+===========
+Id   int PK
+IdСтуденты int  NULL  FK (Студенты - Id)
+IdКафедры int  NULL  FK (Кафедры - Id)

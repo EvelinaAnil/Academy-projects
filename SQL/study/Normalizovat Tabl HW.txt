@@ -1,0 +1,141 @@
+
+--Лицевой счет 
+
+PERSONAL_ACCOUNT
+=============
+ID_lc INT PK
+CHECK  INT NOT NULL
+=============
+
+--Площадь квартиры 
+APARTMEMNT_AREA
+=============
+ID_floor INT PK
+Square FLOAT NOT NULL
+=============
+
+--Площадь квартиры+Лицевой счет
+PERSONAL_ACCOUNT__APARTMEMNT_AREA
+=============
+ID INT PK
+ID_lc INT NOT NULL
+ID_floor INT NOT NULL
+=============
+
+--Дом 
+HOUSE
+=============
+ID_hos INT PK
+Numb_house INT NOT NULL
+=============
+
+--Квартира 
+FLOOR
+=============
+ID_floor INT PK
+Numb_floor INT  NULL
+=============
+
+--Этаж 
+LEVEL
+=============
+ID_level INT PK
+Numb_level INT  NULL
+=============
+
+--Подьезд 
+ENTRANCE
+=============
+ID_entrance INT PK
+Numb_entrance INT  NULL
+=============
+
+--Дом+Квартира_null  (_все остальное нулл)
+ALL_ABOUT_HOUSE
+=============
+ID INT PK
+ID_hos INT NOT NULL
+ID_floor INT NULL
+ID_level INT NULL
+ID_entrance INT NULL
+=============
+
+--Город
+TOWN
+=============
+ID_Town INT PK
+Town  VARCHAR(50) NOT NULL
+=============
+
+--Улица
+STREET
+=============
+ID_Street INT PK
+Street VARCHAR(100) NOT NULL
+=============
+
+--Город+Улица
+TOWN__STREET
+=============
+ID INT PK
+ID_Street INT NOT NULL
+ID_Town INT NOT NULL
+=============
+
+--Собствениик квартиры
+OWNER_OF_THE_APARTMENT
+=============
+ID_peopl INT PK
+FName NVARCHAR(20) NOT NULL
+MNAME NVARCHAR(20) NULL (отчество)
+LNAME NVARCHAR(20) NOT NULL
+=============
+
+--Доля собственности
+SHARE_OF_OWNERSHIP
+=============
+ID_dale INT PK
+Dale INT NULL
+=============
+
+--Собствениик квартиры+Доля собственности
+OWNER_OF_THE_APARTMENT__SHARE_OF_OWNERSHIP
+=============
+ID INT PK
+ID_peopl INT NOT NULL
+ID_dale INT NOT NULL
+=============
+
+--Жители квартиры (имя(NOT NULL) ,пол(NULL) ,возраст(NOT NULL) +(паспорт null))
+RESIDENTS_OF_THE_APARTMENTS
+=============
+ID INT PK
+FName NVARCHAR(20) NOT NULL
+MNAME NVARCHAR(20) NULL (отчество)
+LNAME NVARCHAR(20) NOT NULL
+SEX VARCHAR(20) NULL
+Passport VARCHAR(80)  NULL
+AGE INT NOT NULL
+=============
+
+--Проживающие в квартире 
+RESIDENTS_OF_THE_APARTMENTS___OWNER_OF_THE_APARTMENT__SHARE_OF_OWNERSHIP
+=============
+ID_all_people INT
+ID INT  NOT NULL (--Собствениик квартиры+Доля собственности)
+
+ID INT NOT NULL(--Жители квартиры (имя(NOT NULL) ,пол(NULL) ,возраст(NOT NULL) +(паспорт null)))
+
+=============
+
+--ВСЯ ТАБЛИЦА
+ALL_TABLE
+=============
+ID_all_table INT PK
+
+ID_sq_check INT NOT NULL(--Площадь квартиры+Лицевой счет)--1
+
+ID_house__ INT NOT NULL(--Дом+Квартира_null  (_все остальное нулл))--2
+
+ID_all_people INT NOT NULL(--Проживающие в квартире )--3
+=============

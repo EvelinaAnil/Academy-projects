@@ -1,0 +1,67 @@
+
+Name_
+======
+ID_N int PK not null
+FName NVARCHAR(50) not null 
+
+
+Kontact_ 
+======
+ID_K   int PK not null
+Kontact  int not null 
+
+Name_Kontact
+=============
+ID_K  int PK not null
+ID_N int PK not null
+ID_NANDKONT int PK not null
+
+
+--------------------------------------------
+People
+======
+id  int PK not null
+Name NVARCHAR(50) not null 
+
+TypeContact
+======
+id  int PK not null
+Name NVARCHAR(50) not null  
+
+((((((((((((((()
+1 Phone
+2 Email
+3 Skype
+((((((((((((((()
+
+PeopleContact
+======
+id  int PK not null
+id_TypeCont  int FK not null
+id_Peolple  int FK not null
+Value NVARCHAR(50) null
+
+ID
+((((((((((((((()
+1 
+2 
+3 
+((((((((((((((()
+IDKontact
+((((((((((((((()
+1 
+2
+3 --Skype
+((((((((((((((()
+IDPeople
+((((((((((((((()
+1 --IVAN
+2 
+
+((((((((((((((()
+Value
+((((((((((((((()
+0999 
+rrep@gmail.com
+1224243 --skype
+((((((((((((((()
