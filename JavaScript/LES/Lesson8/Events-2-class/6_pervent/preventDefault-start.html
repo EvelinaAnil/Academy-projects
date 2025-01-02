@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>preventDefault()</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px 10%;
+        }
+
+        label {
+            display: inline-block;
+            width: 60px;
+            margin-right: 10px;
+        }
+        input {padding: 5px;}
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem placeat atque minus, cumque voluptas quasi! Fugit culpa omnis iusto blanditiis repudiandae rem excepturi? Corrupti facilis repellat qui tempore exercitationem. Iure!</p>
+    <p>Nemo ullam ut eum, alias inventore autem esse nam, laborum in facere optio doloremque porro, quidem recusandae eius pariatur adipisci consequuntur nostrum? Soluta, cupiditate! Delectus ducimus numquam odit ab cupiditate.</p>
+    <p>Laudantium beatae, eligendi distinctio ipsam asperiores unde obcaecati debitis, ut quae nam, animi accusantium. A voluptatibus, quod saepe, autem optio nisi magni cupiditate unde, velit cum magnam facere obcaecati aliquid!</p>
+    <p>Ex esse in iste fugiat perspiciatis commodi ipsum quae iure, at nulla dolores repellat voluptates soluta explicabo iusto tempora ab exercitationem pariatur architecto? Rem error cum soluta explicabo aperiam magni?</p>
+    <p>Nisi consequuntur reprehenderit pariatur fuga nostrum quasi, fugiat sed voluptatem doloribus tenetur nemo! Dicta doloremque mollitia quasi a beatae, illum voluptatem dignissimos? Commodi omnis quia voluptatibus placeat, maiores laudantium in?</p>
+    <p>Delectus, doloribus sequi et atque facilis molestias magni? Odio sed fugit harum? Eveniet molestias quas molestiae dolor, vitae, totam debitis officia assumenda maxime ipsa nulla doloremque aut libero placeat id.</p>
+    <p>Itaque fugiat, doloribus eos ipsum commodi ut fugit iure sit distinctio? Ut quidem beatae fugiat rem earum animi consequuntur vel voluptas? Optio quaerat assumenda veniam, iusto officiis deserunt voluptatibus laborum!</p>
+    <p>Dicta quisquam voluptatibus quaerat eveniet ea ut atque tempora iusto saepe exercitationem labore enim repellat vero neque voluptates accusantium eius molestias, blanditiis rem reprehenderit? Libero quod quae numquam totam illum?</p>
+    <p>Cum cumque aliquid rerum magni nobis ex rem, explicabo vero minima sequi, alias itaque commodi voluptates voluptatum. Consequuntur numquam assumenda placeat libero consectetur facere, repudiandae, recusandae rem nemo ratione tempora?</p>
+    <p>Mollitia corporis molestiae laborum nam accusantium nesciunt, unde alias nulla ex nemo illo facere in, quos odit enim! Aspernatur, et asperiores. Deleniti rerum explicabo, quasi eaque illo tenetur maiores eius!</p>
+ 
+<a href="https://mail.ru"
+ onclick="return false">Mail.ru</a><br>
+
+
+<a href="https://vk.com"
+ onclick="alert('Переход запрещен');
+ event.preventDefault()">ВКонтакте</a><br>
+
+<a href="https://google.com.ua" 
+onclick="if(!confirm('Ищите что-то?'))
+ event.preventDefault()">Google</a><br>
+
+<a href="javascript: void()">Ссылка в никуда</a><br>
+    <a href="http://html-plus.in.ua/obrabotka-sobytiya-onclick/">Обычная ссылка</a><br>
+    <hr>
+    <form name="testForm" id="testForm" class="test">
+        <p><label for="userName">Логин</label><input type="text" name="userName"></p>
+        <p><label for="userEmail">Email</label><input type="email" name="userEmail"></p>
+        <p><label for="userSite">Сайт</label><input type="url" name="userSite"></p>
+        <p><input type="submit" id="form-submit" value="Отправить"></p>
+    </form>
+<script src="pervent.js"></script>
+</body></html>

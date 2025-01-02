@@ -1,0 +1,55 @@
+      <!DOCTYPE html>
+        <html lang="en">
+       <html>
+<head>
+<style>
+   #container{
+      width: 100%;
+      height: 100%;
+      background:
+     url("img/images (1).jfif") no-repeat;
+      padding: 100px;
+      margin: 100px;
+   }
+</style>
+</head>
+<body>
+
+   <h3> Use <i> backgroundSize </i> to set the size of the background image </h3>
+   <div id="container">
+   </div>
+   <label for="w_input"> Width(only integer)(required) : </label>
+   <input type="text" name="value1" id="w_input"/> <br>
+   <label for="h_input"> Heigth(only integer)(optional) : </label>
+   <input type="text" name="value2" id="h_input"/> <br>
+   <input type="radio" name="radio_btn" id="pixel" value="px"/>
+   <label for="pixel"> px </label> <br>
+   <input type="radio" name="radio_btn" id="emph" value="em"/>
+   <label for="emph"> em </label> <br>
+   <input type="radio" name = "radio_btn" id="percent" value="%"/>
+   <label for="percent"> % </label> <br>
+   <input type="radio" name="radio_btn" id="centime" value="cm"/>
+   <label for="centime"> cm </label> <br>
+   <button id="btn"> Set background Image size </button>
+   <script>
+      //js
+      var element=document.getElementById("container");
+      var button=document.getElementById("btn");
+      button.addEventListener("click", set_Size);
+      function set_Size(){
+         var width=document.getElementById("w_input").value;
+         var heigth=document.getElementById("h_input").value;
+         var radio_selected=document.querySelector('input[name="radio_btn"]:checked');
+         var width_length=width + radio_selected.value;
+         if(heigth){
+            var heigth_length=heigth + radio_selected.value;
+            var width_heigth=width_length + " " + heigth_length;
+         } else {
+            var width_heigth=width_length;
+         }
+         element.style.backgroundSize=width_heigth;
+      }
+   </script>
+</body>
+</html>
+        </html>
