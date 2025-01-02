@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>numbe1</class>
+ <widget class="QMainWindow" name="numbe1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>321</width>
+    <height>302</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>First</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: rgb(175, 175, 175);
+color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="number1">
+      <property name="maximumSize">
+       <size>
+        <width>7</width>
+        <height>296</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 9pt &quot;Segoe UI Emoji&quot;;</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="maximumSize">
+       <size>
+        <width>6</width>
+        <height>313</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 9pt &quot;Segoe UI Emoji&quot;;</string>
+      </property>
+      <property name="text">
+       <string>x</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="number2">
+      <property name="maximumSize">
+       <size>
+        <width>7</width>
+        <height>313</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Segoe UI Emoji&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="maximumSize">
+       <size>
+        <width>8</width>
+        <height>296</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>=</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Ok</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>321</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFFFFFF">
+    <property name="title">
+     <string>FFFFFF</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuQWWQ">
+    <property name="title">
+     <string>QWWQ</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuQwQ">
+    <property name="title">
+     <string>QwQ</string>
+    </property>
+   </widget>
+   <addaction name="menuFFFFFF"/>
+   <addaction name="menuQWWQ"/>
+   <addaction name="menuQwQ"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
