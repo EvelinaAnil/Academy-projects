@@ -1,0 +1,265 @@
+cout << "Input breed: ";
+	cin.ignore();
+	getline(cin, op);
+
+
+
+========================
+void Scanner::setText(string _text)const
+{//из кост в меняемую (конст игнорирует)
+  /* --mutable string text;--  (in set)->
+    text=_text*/
+    string* tmp;
+    tmp = const_cast<string*>(&text);
+    *tmp = _text;
+
+    string* tmp;
+    tmp = (string*)(&text);
+    *tmp = _text;
+}
+============================
+#include<iostream>
+#include<string>
+#include<fstream>
+#include"Printer.h"
+#include"Scanner.h"
+class NFU:
+public Printer,public Scanner
+{
+public:
+NFU();
+void copyText(string filename,int copy=1);
+};
+---
+MFU::MFU()// Scanner(),Printer()
+{
+this->setText("MaiDay");
+this->
+}
+--
+{
+
+this->scanText(filename);
+this->printText(this->getText(),filename,copy);
+}
+--
+srs
+
+MFU Xerox;
+Xerox.copyText("printer.txt",1);
+///////////////////////////////////////
+void ForeginPassport::addVisa(Visa obj)
+{
+	//повторить добл. нов елмента в дим. массив
+     Visa* tmp = new Visa[++size];
+	for (int i = 0; i < size - 1; i++)
+	{
+		tmp[i] = arr[i];
+	}
+	tmp[size - 1] = obj;
+	if (arr != NULL) delete[] arr;
+	arr = tmp;
+}
+//////////**//////^ЗВУК^//////***////////////
+#pragma comment(lib, "winmm.lib")
+
+
+
+#include <Windows.h>
+#include <mmsystem.h>
+
+
+
+PlaySound(TEXT("test.wav"), NULL, SND_FILENAME | SND_ASYNC);
+////////////////**/////////////////***//////////////////////
+//false true || true false
+void Aviary::add(Animals* obj)
+{
+    if (size ==max ) {
+        throw new MaxCapacityException();
+    }
+    else {
+        if (arr != NULL) {
+            if ((arr[0]->getPredator()==false && obj->getPredator()==true) || 
+                (arr[0]->getPredator()==true&&obj->getPredator()==false)) {
+                throw new  PredatorException();
+            }
+            else {
+              /*  Animals** tmp = new Animals * [++size];
+                for (int i = 0; i < size - 1; i++)
+                {
+
+                    tmp[i] = arr[i];
+                }
+                if (arr != NULL)delete[]arr;
+                tmp[size - 1] = obj;
+                arr = tmp;*/
+            }
+            }
+       
+    
+    Animals** tmp = new Animals * [++size];
+    for (int i = 0; i < size - 1; i++)
+    {
+
+        tmp[i] = arr[i];
+    }
+    if (arr != NULL)delete[]arr;
+    tmp[size - 1] = obj;
+    arr = tmp;
+    }
+    }
+
+void Aviary::dell(string name)
+{
+    if (size == 0) { cout << "\nEmpty or closed\n" << endl; }
+    else {
+        int id = findByName(name);
+        if(id==-1){ cout << "\nNot foundn\ " << endl; }
+        else {
+            Animals** tmp = new Animals * [--size];
+            int i = 0;
+            while (i < size) {
+                if (i < id)tmp[i] = arr[i];
+                else if (i >= id) { tmp[i] = arr[i + 1]; }i++;
+            }
+            arr[id]->~Animals();
+            if (arr != NULL)delete[] arr;
+            arr = tmp;
+            cout<<"\nSucsses deleted!\n";
+
+            
+        }
+    }
+}
+
+int Aviary::findByName(string name)
+{
+    if(size==0) { cout << "Empty or closed" << endl; }
+    else {
+        int i = 0;
+        while (i < size) {
+            if (name == arr[i]->getName()) {
+                return i;
+                break;
+            }
+            i++;
+        }
+    }
+}
+
+
+
+void Aviary::showInfo() const&
+{
+    if (size == 0) { cout << "Empty or closed" << endl; }
+    else{
+        int i = 0;
+        while (i < size) {
+            cout << "\nAnimal #" << i + 1 << endl;
+            arr[i++]->Show();
+        }
+   }
+}
+
+======================OLD-=======================
+void SaveDoctor(DataPeople * arr, int size)
+{
+	FILE* file;
+	fopen_s(&file, "Doctor.txt", "wb");
+	if (file == NULL) { cout << "Error\n"; }
+	else {
+		fwrite(&size, sizeof(size), 1, file);
+
+		for (size_t i = 0; i < size; i++)
+		{
+			arr[i].saveToFile(file);
+		}
+		fclose(file);
+	}
+}
+
+void UploadDoctor(DataPeople *& arr, int & size)
+{
+	FILE* file;
+	fopen_s(&file, "Doctor.txt", "rb");
+	if (file == NULL) {
+		cout << "Error\n"; size = 0;
+		arr = nullptr;
+	}
+	else {
+		fread(&size, sizeof(size), 1, file);
+		arr = new DataPeople[size];
+		for (size_t i = 0; i < size; i++)
+		{
+			arr[i].uploadToFile(file);
+		}
+
+		fclose(file);
+	}
+}
+
+===============================NEW=========================
+void Zoo::Save(ofstream& file)
+{
+	ofstream fl("Zoo.txt");
+	if (fl.is_open()) {
+		if (size == 0) {
+			cout << "\nNo data save\n";
+			fl.close();
+		}
+		else {
+			for (int i = 0; i < size; i++)
+			{
+				arr[i]->Save(fl);
+			}
+			fl.close();
+			cout << "\nZoo sucsess!\n";
+		}
+
+
+	}
+	else cout << "\nNot open file\n";
+}
+
+void Zoo::Load(ifstream& file)
+{
+	ifstream fp("Zoo.txt");
+	Animals* ptr = NULL;
+	
+	if (fp.is_open()) {
+		string tmp;
+		while (!fp.eof())
+		{
+			getline(fp, tmp);
+			if (tmp == "Dog") {
+				ptr = new Dog();
+				ptr->Load(fp);
+				Add(ptr);
+			}
+			else if (tmp == "Cat") {
+				ptr = new Cat();
+				ptr->Load(fp);
+				Add(ptr);
+			}
+			else if (tmp == "Duck") {
+				ptr = new Duck();
+				ptr->Load(fp);
+				Add(ptr);
+			}
+		}fp.close();
+	cout << "\nSucsess\n";
+	} 
+
+	else  {
+		cout << "\nLoad error\n";
+		size = 0;
+		arr = NULL;
+	}
+}
+====================================================
+
+
+https://cplusplus.com/reference/map/
+
+https://en.cppreference.com/w/cpp/container/multimap

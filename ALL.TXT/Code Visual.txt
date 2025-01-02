@@ -1,0 +1,108 @@
+дизайнер 
+и работа с кнопками
+программист на беке
+----------------------------
+HTML--start
+JS-middle табл. стилей
+CSS-disain end
+---------------------------
+css:: -jpg. -video
+brouzer+txt. NEED
+-----------------------
+русс код ==<head> (1) </head>
+то что увидит пользователь==
+<body> (1)</body> --форма опроса....
+
+</p>-абзац
+align="right" текст выр. на прав сторону
+
+<!DOCTYPE html>
+<html>
+<head>--настройки
+<meta charset="UTF-8">
+<title>вкладка </title>
+
+-ширина браузера=блочный тег
+-строч елемент=не весь браузер
+ ,а маленькая часть
+
+выделить---  <strong> ... </strong>
+<b>...</b>
+курсив-- <i>
+srike no in -HTML5-
+---------------------------------------
+CSS:
+внеш. вид.
+ВНИМАТЕЛЬНООО!!!!!!!
+<style> p{color:darkseagreen;}</style>
+++++++++
+font-family  Comic Sans
+text-decoration underline
+-------------------------------------!!!!
+@font-face {
+    font-family: "Evelina";
+    src: url("./font/MysteryQuest-Regular.ttf") format("truetype"),url("./font/MysteryQuest-Regular.woff") format("woff");
+   }
+
+  font-family:Evelina ;
+------------------------------------!!!!!
+ССылки на текст:
+https://fonts.google.com/ шрифты разн.!!
+http://ruseller.com/lessons.php?id=1285  
+https://webcode.tools/css-generator/  
+http://enjoycss.com/#Text 
+======================================
+<ol><li></<li></ol> --упорядочн лист (<li>-
+как <p>)+ <ol type="1">.. </ol>
+<ul><li></<li></ul> --маркер лист
+=======================================
+<head>
+    .....
+    <link rel="shortcut icon" href="http://yoursitedotcom.here/yourdir/favicon.ico">
+    <link rel="icon" href="http://yoursitedotcom.here/yourdir/favicon.ico">
+    .....
+</head>
+-----------------------------------------
+http://ru.wikipedia.org/wiki/Favicon
+http://htmlbook.ru/faq/kak-dobavit-ikonku-sayta-v-adresnuyu-stroku-brauzera
+
+
+http://www.favicon.cc
+=======================================!!!
+Для кнопок подход. hover !!
+.blue_box{
+    border-color: blue;
+    /*border-radius:  0px 30px 0px 30px ;*/
+}
+.blue_box:hover{
+    border-radius: 0ex 20px;
+}
+=========================================
+https://fontawesome.com/
+https://fontawesome.com/search?m=free
+=========================================
+ opacity: 0.6; -полупрозрачн.
+
+width:100%;
+=========================================
+//телофон экран
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {} 
+
+
+//планшет экран
+@media only screen
+and (min-device-width : 481px)
+and (max-device-width : 680px) {}
+-----------------------------------------
+
+https://cp.zomro.com/
+https://cp.zomro.com/services/vhost
+
+https://developer.mozilla.org/ru/docs/Web/SVG/Tutorial/SVG_and_CSS
+-----------------------------------------
+•	Загрузку веб-шрифтов ++
+•	Тени-текста          
+•	Сложные стили оформления  ++
+•Оформить фон сайта. Можно использовать текстуры, цвета, фоновые изображение или видео. Фон сайта должен быть хорошо продуман и подобран под размер любого монитора. 

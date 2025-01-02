@@ -1,0 +1,24 @@
+git init
+git add name
+git add *
+git status
+git commit -m ""
+------
+В папке которую вам нужно загрузить нужно нажать "правю кнопку мыши" и нажать "Git Bash Here" .
+1. git init
+2. git add *
+3. git status
+4. git commit -m "Add all files"
+5. git remote add origin https://github.com/EvelinaAnil/EXAM-Bibliothek-.git(У тебя СВОЙ!!!Это пример!)
+6. git push -u origin master
+7. Обновить репозиторий
+------
+git init
+git add *
+git add name
+git restore name
+git status
+git remote add origin https://github.com/SilverTG/39pr31.git
+git config --list 
+git pull PR39 master
+4 mod

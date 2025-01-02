@@ -1,0 +1,37 @@
+https://doc.qt.io/qt-5/qtime.html
+https://doc.qt.io/qt-5/qdate.html
+https://doc.qt.io/qt-5/qdatetime.html
+------
+https://doc.qt.io/qt-5/qtmath.html
+---
+https://doc.qt.io/qt-5.9/qstring.html
+---
+https://doc.qt.io/qt-5/qrandomgenerator.html
+https://doc.qt.io/qt-5/qdebug.html
+https://doc.qt.io/qt-5/qtime.html
+
+
+QRandomGenerator* rnd = new QRandomGenerator();
+    QTime time;
+    time.currentTime();
+    time.start() ;
+
+    int i = 0;
+    while(i < 10){
+
+    	 int s = rnd->bounded( time.msec());
+     	qDebug() << "rand: " << s << endl;
+     	i++;
+    }
+     qDebug() <<endl;
+
+---------
+https://doc.qt.io/archives/qt-4.8/stylesheet-examples.html
+http://doc.crossplatform.ru/qt/4.5.0/stylesheet-reference.html
+----------
+http://blog.harrix.org/article/1015
+----------
+
+
+
+
