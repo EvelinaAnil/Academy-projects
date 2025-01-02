@@ -1,8 +1,0 @@
-E:\ШАГ\Network Programming(Сетевое програмированние)\ConsoleApp__les1\ConsoleApp__les1\obj\Debug\ConsoleApp__les1.csproj.AssemblyReference.cache
-E:\ШАГ\Network Programming(Сетевое програмированние)\ConsoleApp__les1\ConsoleApp__les1\obj\Debug\ConsoleApp__les1.csproj.SuggestedBindingRedirects.cache
-E:\ШАГ\Network Programming(Сетевое програмированние)\ConsoleApp__les1\ConsoleApp__les1\obj\Debug\ConsoleApp__les1.csproj.CoreCompileInputs.cache
-E:\ШАГ\Network Programming(Сетевое програмированние)\ConsoleApp__les1\ConsoleApp__les1\bin\Debug\ConsoleApp__les1.exe.config
-E:\ШАГ\Network Programming(Сетевое програмированние)\ConsoleApp__les1\ConsoleApp__les1\bin\Debug\ConsoleApp__les1.exe
-E:\ШАГ\Network Programming(Сетевое програмированние)\ConsoleApp__les1\ConsoleApp__les1\bin\Debug\ConsoleApp__les1.pdb
-E:\ШАГ\Network Programming(Сетевое програмированние)\ConsoleApp__les1\ConsoleApp__les1\obj\Debug\ConsoleApp__les1.exe
-E:\ШАГ\Network Programming(Сетевое програмированние)\ConsoleApp__les1\ConsoleApp__les1\obj\Debug\ConsoleApp__les1.pdb

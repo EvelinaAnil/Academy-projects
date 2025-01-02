@@ -1,6 +1,0 @@
-C:\Users\Bux6\source\repos\SocketTcpAsync\SocketTcpAsyncServer\bin\Debug\SocketTcpAsyncServer.exe.config
-C:\Users\Bux6\source\repos\SocketTcpAsync\SocketTcpAsyncServer\bin\Debug\SocketTcpAsyncServer.exe
-C:\Users\Bux6\source\repos\SocketTcpAsync\SocketTcpAsyncServer\bin\Debug\SocketTcpAsyncServer.pdb
-C:\Users\Bux6\source\repos\SocketTcpAsync\SocketTcpAsyncServer\obj\Debug\SocketTcpAsyncServer.csprojAssemblyReference.cache
-C:\Users\Bux6\source\repos\SocketTcpAsync\SocketTcpAsyncServer\obj\Debug\SocketTcpAsyncServer.exe
-C:\Users\Bux6\source\repos\SocketTcpAsync\SocketTcpAsyncServer\obj\Debug\SocketTcpAsyncServer.pdb

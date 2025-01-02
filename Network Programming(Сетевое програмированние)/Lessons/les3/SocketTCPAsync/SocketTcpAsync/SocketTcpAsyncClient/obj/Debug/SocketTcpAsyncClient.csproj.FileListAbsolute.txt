@@ -1,5 +1,0 @@
-C:\Users\Bux6\source\repos\SocketTcpAsync\SocketTcpAsyncClient\bin\Debug\SocketTcpAsyncClient.exe.config
-C:\Users\Bux6\source\repos\SocketTcpAsync\SocketTcpAsyncClient\bin\Debug\SocketTcpAsyncClient.exe
-C:\Users\Bux6\source\repos\SocketTcpAsync\SocketTcpAsyncClient\bin\Debug\SocketTcpAsyncClient.pdb
-C:\Users\Bux6\source\repos\SocketTcpAsync\SocketTcpAsyncClient\obj\Debug\SocketTcpAsyncClient.exe
-C:\Users\Bux6\source\repos\SocketTcpAsync\SocketTcpAsyncClient\obj\Debug\SocketTcpAsyncClient.pdb
