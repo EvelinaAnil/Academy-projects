@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Веб-Калькулятор</title>
+</head>
+<body>
+  <h1>Простой веб-калькулятор</h1>
+  <form action="/calculate" method="post">
+    <input type="number" name="num1" placeholder="Первое число" required>
+    <select name="operator">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select>
+    <input type="number" name="num2" placeholder="Второе число" required>
+    <button type="submit">Посчитать</button>
+  </form>
+  <div id="result"></div>
+  <script>
+    const form = document.querySelector('form');
+    const resultDiv = document.querySelector('#result');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const formData = new FormData(form);
+
+      try {
+        const response = await fetch('/calculate', {
+          method: 'POST',
+          body: formData,
+        });
+
+        if (response.ok) {
+          const result = await response.text();
+          resultDiv.textContent = result;
+        } else {
+          resultDiv.textContent = 'Ошибка при выполнении вычислений.';
+        }
+      } catch (error) {
+        console.error('Ошибка:', error);
+      }
+    });
+  </script>
+</body>
+</html>
