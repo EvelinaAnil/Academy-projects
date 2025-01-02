@@ -1,6 +1,0 @@
-C:\Users\Bux6\source\repos\SocketTcp\SocketTcpServer\bin\Debug\SocketTcpServer.exe.config
-C:\Users\Bux6\source\repos\SocketTcp\SocketTcpServer\bin\Debug\SocketTcpServer.exe
-C:\Users\Bux6\source\repos\SocketTcp\SocketTcpServer\bin\Debug\SocketTcpServer.pdb
-C:\Users\Bux6\source\repos\SocketTcp\SocketTcpServer\obj\Debug\SocketTcpServer.csprojAssemblyReference.cache
-C:\Users\Bux6\source\repos\SocketTcp\SocketTcpServer\obj\Debug\SocketTcpServer.exe
-C:\Users\Bux6\source\repos\SocketTcp\SocketTcpServer\obj\Debug\SocketTcpServer.pdb
