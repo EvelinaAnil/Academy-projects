@@ -1,0 +1,3 @@
+https://codepen.io/aPinix/pen/podREm
+https://tympanus.net/codrops/2015/09/15/styling-customizing-file-inputs-smart-way/
+https://medium.com/@adambene/custom-file-upload-button-with-pure-css-5aacf39aa0a
