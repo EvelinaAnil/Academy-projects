@@ -1,0 +1,112 @@
+TcpClient - класс
+
+Обеспечивает клиентские подключения для сетевых служб TCP.
+
+Пространство имен:  System.Net.Sockets
+Сборка:  System (в System.dll)
+
+Синтаксис
+
+public class TcpClient : IDisposable
+
+Тип TcpClient предоставляет следующие члены.
+
+Конструкторы
+ TcpClient	Перегружен. Инициализирует новый экземпляр класса TcpClient.
+
+Методы
+ BeginConnect	Перегружен. Начинает выполнение асинхронного запроса для подключения к удаленному узлу.
+ Close		Удаляет данный экземпляр класса TcpClient без закрытия основного подключения.
+ Connect	Перегружен. Подключает клиента к удаленному TCP-узлу, используя заданное имя узла и номер порта.
+ Dispose	Освобождает неуправляемые (а при необходимости и управляемые) ресурсы, используемые объектом TcpClient.
+ EndConnect	Асинхронно принимает попытку входящего подключения.
+ Equals		Определяет, равен ли заданный объект Object текущему объекту Object. (Унаследовано от Object.)
+ Finalize	Освобождает ресурсы, используемые классом TcpClient. (Переопределяет Object.Finalize().)
+ GetHashCode	Играет роль хэш-функции для определенного типа. (Унаследовано от Object.)
+ GetStream	Возвращает объект NetworkStream, используемый для отправки и получения данных.
+ GetType	Возвращает объект Type для текущего экземпляра. (Унаследовано от Object.)
+ MemberwiseClone	Создает неполную копию текущего объекта Object. (Унаследовано от Object.)
+ ToString	Возвращает объект String, который представляет текущий объект Object. (Унаследовано от Object.)
+
+Свойства
+ Active		Возвращает или задает значение, указывающее, установлено ли подключение.
+ Available	Возвращает значение, указывающее количество полученных из сети и доступных для чтения данных.
+ Client		Возвращает или задает основной объект Socket.
+ Connected	Возвращает значение, указывающее, подключен ли основной объект Socket для объекта TcpClient к удаленному узлу.
+ ExclusiveAddressUse	Возвращает или задает значение Boolean, указывающее, разрешает ли объект TcpClient использовать порт только одному клиенту.
+ LingerState	Возвращает или задает сведения о времени задержки для сокетов.
+ NoDelay	Возвращает или задает значение, которое отключает задержку в том случае, когда буферы отправки и получения не заполнены.
+ ReceiveBufferSize	Возвращает или задает размер приемного буфера.
+ ReceiveTimeout	Возвращает или задает длительность временного интервала, в течение которого объект TcpClient будет ожидать получение данных после инициации операции чтения.
+ SendBufferSize	Возвращает или задает размер буфера отправки.
+ SendTimeout	Возвращает или задает длительность временного интервала, в течение которого объект TcpClient будет ожидать успешного завершения операции отправки данных.
+
+Явные реализации интерфейса
+ IDisposable.Dispose	Инфраструктура. Освобождает все ресурсы, используемые объектом TcpClient.
+
+Заметки
+Класс TcpClient обеспечивает простые методы для подключения, а также отправки и получения потоков данных в сети в синхронном блокирующем режиме.
+Для того, чтобы объект TcpClient мог выполнить подключение и обмен данными, объект TcpListener или Socket, созданный с использованием протокола ProtocolType TPC, должен выполнять ожидание входящих запросов на подключение. Подключиться к данному слушателю можно одним из следующих двух способов:
+Создать объект TcpClient и вызвать один из трех имеющихся методов Connect.
+Создать объект TcpClient, используя имя узла и номер порта удаленного узла. Этот конструктор будет автоматически предпринимать попытки установления подключения.
+
+Примечание.
+Если необходимо отправлять датаграммы без установления подключения в синхронном блокирующем режиме, воспользуйтесь классом UdpClient.
+Примечания для наследующих объектов:
+Чтобы отправлять и получать данные, используйте метод GetStream для получения объекта NetworkStream. Вызовите методы Write и Read объекта NetworkStream для отправки и получения данных с удаленного узла. Воспользуйтесь методом Close, чтобы освободить все связанные с объектом TcpClient ресурсы.
+
+Примеры
+В следующем примере программы продемонстрировано установление подключения к объекту TcpClient.
+
+static void Connect(String server, String message) 
+{
+  try 
+  {
+    // Create a TcpClient.
+    // Note, for this client to work you need to have a TcpServer 
+    // connected to the same address as specified by the server, port combination.
+    Int32 port = 13000;
+    TcpClient client = new TcpClient(server, port);
+
+    // Translate the passed message into ASCII and store it as a Byte array.
+    Byte[] data = System.Text.Encoding.ASCII.GetBytes(message);         
+
+    // Get a client stream for reading and writing.
+   //  Stream stream = client.GetStream();
+
+    NetworkStream stream = client.GetStream();
+
+    // Send the message to the connected TcpServer. 
+    stream.Write(data, 0, data.Length);
+
+    Console.WriteLine("Sent: {0}", message);         
+
+    // Receive the TcpServer.response.
+
+    // Buffer to store the response bytes.
+    data = new Byte[256];
+
+    // String to store the response ASCII representation.
+    String responseData = String.Empty;
+
+    // Read the first batch of the TcpServer response bytes.
+    Int32 bytes = stream.Read(data, 0, data.Length);
+    responseData = System.Text.Encoding.ASCII.GetString(data, 0, bytes);
+    Console.WriteLine("Received: {0}", responseData);         
+
+    // Close everything.
+    stream.Close();         
+    client.Close();         
+  } 
+  catch (ArgumentNullException e) 
+  {
+    Console.WriteLine("ArgumentNullException: {0}", e);
+  } 
+  catch (SocketException e) 
+  {
+    Console.WriteLine("SocketException: {0}", e);
+  }
+
+  Console.WriteLine("\n Press Enter to continue...");
+  Console.Read();
+}

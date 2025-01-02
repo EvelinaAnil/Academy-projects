@@ -1,0 +1,153 @@
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // 168.33.57.8
+
+            // Domain Name Service (DNS)
+            string hostName = "www.bmw.com";
+
+            /*IPHostEntry hostEntry = Dns.GetHostEntry(hostName);
+
+            Console.WriteLine("\nAddresses:\n");
+            foreach (IPAddress item in hostEntry.AddressList)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine("\nAliases:\n");
+            foreach (string item in hostEntry.Aliases)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine($"Real name: {hostEntry.HostName}");*/
+
+            Dns.BeginGetHostEntry(hostName, HostCallback, null);
+            
+            Console.ReadKey();
+        }
+
+        private static void HostCallback(IAsyncResult ar)
+        {
+            IPHostEntry hostEntry = Dns.EndGetHostEntry(ar);
+
+            Console.WriteLine("\nAddresses:\n");
+            foreach (IPAddress item in hostEntry.AddressList)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine("\nAliases:\n");
+            foreach (string item in hostEntry.Aliases)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine($"Real name: {hostEntry.HostName}");
+        }
+    }
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Uniform Resource Identifiers (URI)
+            // Uniform Resource Locator (URL) !!!
+            // Uniform Resource Name (URN)
+
+            try
+            {
+                /*Uri baseUri = new Uri("https://docs.microsoft.com");
+        Uri newUri = new Uri(baseUri, "en-us/cpp/?view=msvc-170&viewFallbackFrom=vs-2017");
+
+        Console.WriteLine($"Absolute uri: {newUri.AbsoluteUri}");
+        Console.WriteLine($"Query: {newUri.Query}");
+        Console.WriteLine($"Port: {newUri.Port}");*/
+
+                Uri uri = new Uri("https://www.google.com");
+
+                WebRequest request = WebRequest.Create(uri);
+
+                //request.Proxy.Credentials = new NetworkCredential("login", "password");
+
+                using (WebResponse response = request.GetResponse())
+                {
+                    //Stream stream = response.GetResponseStream();
+                    using (StreamReader reader = new StreamReader(response.GetResponseStream()))
+                    {
+                        Console.WriteLine(reader.ReadToEnd());
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+            Console.ReadKey();
+        }
+    }
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //IPAddress iPAddress = IPAddress.Any; // 0.0.0.0
+            //IPAddress iPAddress = IPAddress.Broadcast; // 255.255.255.255
+
+            //IPAddress iPAddress = IPAddress.Loopback; // 127.0.0.1
+
+            IPAddress iPAddress = IPAddress.Parse("127.0.0.1");
+
+            //Console.WriteLine(iPAddress);
+
+            bool isConnected;
+            Socket socket = null;
+
+            for (int i = 440; i < 500; i++)
+            {
+                isConnected = false;
+                try
+                {
+                    IPEndPoint endPoint = new IPEndPoint(iPAddress, i);
+                    socket = new Socket(iPAddress.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
+
+                    socket.Connect(endPoint);
+
+                    Console.WriteLine($"Port: {i} is listening!");
+
+                    isConnected = socket.Connected;
+
+                    Console.ReadKey();
+                }
+                catch (SocketException se)
+                {
+                    if (se.ErrorCode == 10061)
+                    {
+                        Console.WriteLine(se.Message);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    if (isConnected)
+                    {
+                        socket.Shutdown(SocketShutdown.Both);
+                    }
+                    socket?.Close();
+                } 
+            }
+
+            Console.ReadKey();
+        }
+    }
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

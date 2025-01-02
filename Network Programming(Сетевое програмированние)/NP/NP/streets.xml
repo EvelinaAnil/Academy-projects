@@ -1,0 +1,695 @@
+<?xml version="1.0"?>
+<ArrayOfIndexPostOfficeStreet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61016</IndexPostOffice>
+    <Street>Аверина пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61008</IndexPostOffice>
+    <Street>Аверина ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61006</IndexPostOffice>
+    <Street>Академика Волкова ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61015</IndexPostOffice>
+    <Street>Академика Погорелова ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61018</IndexPostOffice>
+    <Street>Академика Подгорного пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61009</IndexPostOffice>
+    <Street>Академика Подгорного ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61006</IndexPostOffice>
+    <Street>Александровский просп.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61012</IndexPostOffice>
+    <Street>Алчевских ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61014</IndexPostOffice>
+    <Street>Архитектора Алешина просп.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61014</IndexPostOffice>
+    <Street>Багалия ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61011</IndexPostOffice>
+    <Street>Балашовский пр-д</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61006</IndexPostOffice>
+    <Street>Баркалова ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61008</IndexPostOffice>
+    <Street>Берегова ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61008</IndexPostOffice>
+    <Street>Беркоса в-д</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61017</IndexPostOffice>
+    <Street>Беркоса ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61008</IndexPostOffice>
+    <Street>Библика ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61016</IndexPostOffice>
+    <Street>Благовещенская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61002</IndexPostOffice>
+    <Street>Бучмы ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61003</IndexPostOffice>
+    <Street>Валентиновская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61005</IndexPostOffice>
+    <Street>Варненская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61011</IndexPostOffice>
+    <Street>Василия Мельникова ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61017</IndexPostOffice>
+    <Street>Верещаковский пр-д</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61015</IndexPostOffice>
+    <Street>Волосная ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61010</IndexPostOffice>
+    <Street>Волосный пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61008</IndexPostOffice>
+    <Street>Воскресенская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61004</IndexPostOffice>
+    <Street>Воскресенский пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61006</IndexPostOffice>
+    <Street>Врубеля ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61008</IndexPostOffice>
+    <Street>Генерала Момота ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61007</IndexPostOffice>
+    <Street>Георгиевский 1-й пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61002</IndexPostOffice>
+    <Street>Георгиевский 2-й пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61010</IndexPostOffice>
+    <Street>Георгиевский м-н</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61006</IndexPostOffice>
+    <Street>Героев Небесной Сотни м-н</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61000</IndexPostOffice>
+    <Street>Гольдберговская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61014</IndexPostOffice>
+    <Street>Гончарний пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61006</IndexPostOffice>
+    <Street>Гордона ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61005</IndexPostOffice>
+    <Street>Григорьевское шосе</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61012</IndexPostOffice>
+    <Street>Грушева ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61013</IndexPostOffice>
+    <Street>Грушевского ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61012</IndexPostOffice>
+    <Street>Гулака-Артемовского ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61003</IndexPostOffice>
+    <Street>Гурзуфская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61015</IndexPostOffice>
+    <Street>Девичья ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61008</IndexPostOffice>
+    <Street>Дизайнерский пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61002</IndexPostOffice>
+    <Street>Дмитрия Миллера ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61008</IndexPostOffice>
+    <Street>Драгоманова ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61013</IndexPostOffice>
+    <Street>Дринова ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61016</IndexPostOffice>
+    <Street>Дудинской ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61002</IndexPostOffice>
+    <Street>Душкина ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61013</IndexPostOffice>
+    <Street>Евгения Плужника в-д</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61018</IndexPostOffice>
+    <Street>Евгения Плужника пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61002</IndexPostOffice>
+    <Street>Евгения Плужника ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61019</IndexPostOffice>
+    <Street>Евгеновская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61016</IndexPostOffice>
+    <Street>Ерлиха ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61018</IndexPostOffice>
+    <Street>Жасминовый б-р</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61018</IndexPostOffice>
+    <Street>Затишнянский пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61013</IndexPostOffice>
+    <Street>Иванова ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61019</IndexPostOffice>
+    <Street>Индустриальний в-д</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61013</IndexPostOffice>
+    <Street>Индустриальний просп.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61015</IndexPostOffice>
+    <Street>Искусств ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61007</IndexPostOffice>
+    <Street>Искусств ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61014</IndexPostOffice>
+    <Street>Кавалерийская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61003</IndexPostOffice>
+    <Street>Камишова ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61017</IndexPostOffice>
+    <Street>Каплуновский пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61005</IndexPostOffice>
+    <Street>Капустянский пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61011</IndexPostOffice>
+    <Street>Каринской ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61004</IndexPostOffice>
+    <Street>Катерининская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61004</IndexPostOffice>
+    <Street>Каунаский пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61005</IndexPostOffice>
+    <Street>Каунасская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61014</IndexPostOffice>
+    <Street>Кедровий пр-д</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61001</IndexPostOffice>
+    <Street>Клочковский спуск</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61012</IndexPostOffice>
+    <Street>Козацкая ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61015</IndexPostOffice>
+    <Street>Конарева ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61003</IndexPostOffice>
+    <Street>Константина Калинина в-д</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61009</IndexPostOffice>
+    <Street>Константина Калинина пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61019</IndexPostOffice>
+    <Street>Константина Калинина ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61009</IndexPostOffice>
+    <Street>Конторская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61003</IndexPostOffice>
+    <Street>Корабельная ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61014</IndexPostOffice>
+    <Street>Корсиковский пр-д</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61006</IndexPostOffice>
+    <Street>Косарева ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61016</IndexPostOffice>
+    <Street>Крушельницкого пр-д</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61011</IndexPostOffice>
+    <Street>Крушельницкого ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61002</IndexPostOffice>
+    <Street>Крушельницького пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61013</IndexPostOffice>
+    <Street>Куликовская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61009</IndexPostOffice>
+    <Street>Куликовский спуск</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61004</IndexPostOffice>
+    <Street>Куриловская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61003</IndexPostOffice>
+    <Street>Куриловский в-д</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61014</IndexPostOffice>
+    <Street>Кутайская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61007</IndexPostOffice>
+    <Street>Кутайский 1-й в-д</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61002</IndexPostOffice>
+    <Street>Кутайский 2-й в-д</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61001</IndexPostOffice>
+    <Street>Лаврентиевский пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61007</IndexPostOffice>
+    <Street>Лазаревича ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61012</IndexPostOffice>
+    <Street>Лебяжий в-д</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61016</IndexPostOffice>
+    <Street>Левченка ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61005</IndexPostOffice>
+    <Street>Леонида Быкова пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61018</IndexPostOffice>
+    <Street>Леонида Быкова ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61000</IndexPostOffice>
+    <Street>Леся Сердюка ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61018</IndexPostOffice>
+    <Street>Льва Ландау просп.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61003</IndexPostOffice>
+    <Street>Любови Малой просп.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61010</IndexPostOffice>
+    <Street>Людмилы Гурченко пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61004</IndexPostOffice>
+    <Street>Маковый пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61008</IndexPostOffice>
+    <Street>Максимилиановская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61011</IndexPostOffice>
+    <Street>Мало-Черновский пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61007</IndexPostOffice>
+    <Street>Марка Бернеса ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61011</IndexPostOffice>
+    <Street>Мефодиевская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61006</IndexPostOffice>
+    <Street>Михаила Водяного ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61006</IndexPostOffice>
+    <Street>Михайла Зеленина в-д</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61016</IndexPostOffice>
+    <Street>Михаила Зеленина ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61006</IndexPostOffice>
+    <Street>Михайлика ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61018</IndexPostOffice>
+    <Street>Молочная ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61009</IndexPostOffice>
+    <Street>Мороховецкая наб.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61010</IndexPostOffice>
+    <Street>Мороховецкий пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61004</IndexPostOffice>
+    <Street>Москалёвская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61007</IndexPostOffice>
+    <Street>Москалёвский в-д</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61019</IndexPostOffice>
+    <Street>Мухачова ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61016</IndexPostOffice>
+    <Street>Науки просп.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61011</IndexPostOffice>
+    <Street>Ново-Баварский просп.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61010</IndexPostOffice>
+    <Street>Ново-Виринская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61007</IndexPostOffice>
+    <Street>Ново-Толкачовский пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61000</IndexPostOffice>
+    <Street>Новохатская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61008</IndexPostOffice>
+    <Street>Озерянская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61010</IndexPostOffice>
+    <Street>Озерянский пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61017</IndexPostOffice>
+    <Street>Осенний пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61003</IndexPostOffice>
+    <Street>Осиповского ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61013</IndexPostOffice>
+    <Street>Пантелеймоновская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61014</IndexPostOffice>
+    <Street>Пестрикова ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61000</IndexPostOffice>
+    <Street>Пильчикова ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61019</IndexPostOffice>
+    <Street>Подольский пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61017</IndexPostOffice>
+    <Street>Причепиловский пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61011</IndexPostOffice>
+    <Street>Прохладный пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61019</IndexPostOffice>
+    <Street>Пушкаровский пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61010</IndexPostOffice>
+    <Street>Раднянская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61000</IndexPostOffice>
+    <Street>Раднянский в-д</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61003</IndexPostOffice>
+    <Street>Раевской ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61001</IndexPostOffice>
+    <Street>Разъездной пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61007</IndexPostOffice>
+    <Street>Редина ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61000</IndexPostOffice>
+    <Street>Рижовская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61014</IndexPostOffice>
+    <Street>Рижовский пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61001</IndexPostOffice>
+    <Street>Рождественская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61003</IndexPostOffice>
+    <Street>Рубановский пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61018</IndexPostOffice>
+    <Street>Сабуровская наб.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61006</IndexPostOffice>
+    <Street>Сабуровская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61007</IndexPostOffice>
+    <Street>Сабуровский пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61009</IndexPostOffice>
+    <Street>Садовая ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61013</IndexPostOffice>
+    <Street>Самсоновская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61010</IndexPostOffice>
+    <Street>Северина Потоцкого пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61002</IndexPostOffice>
+    <Street>Северина Потоцкого ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61005</IndexPostOffice>
+    <Street>Семёна Кузнеца пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61017</IndexPostOffice>
+    <Street>Семёна Кузнеца ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61009</IndexPostOffice>
+    <Street>Семинарская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61006</IndexPostOffice>
+    <Street>Семка ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61010</IndexPostOffice>
+    <Street>Середовская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61011</IndexPostOffice>
+    <Street>Сливовый пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61002</IndexPostOffice>
+    <Street>Соборний пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61002</IndexPostOffice>
+    <Street>Спартака ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61014</IndexPostOffice>
+    <Street>Спартаковский пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61011</IndexPostOffice>
+    <Street>Срезневского в-д</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61007</IndexPostOffice>
+    <Street>Срезневского ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61014</IndexPostOffice>
+    <Street>Старо-искринский пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61016</IndexPostOffice>
+    <Street>Тернопольский в-д</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61006</IndexPostOffice>
+    <Street>Толкачовский в-д</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61007</IndexPostOffice>
+    <Street>Троицкий пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61018</IndexPostOffice>
+    <Street>Тюринская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61015</IndexPostOffice>
+    <Street>Утренний пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61019</IndexPostOffice>
+    <Street>Холодногорская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61018</IndexPostOffice>
+    <Street>Холодногорский пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61010</IndexPostOffice>
+    <Street>Черновский пр.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61000</IndexPostOffice>
+    <Street>Чуйковская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61005</IndexPostOffice>
+    <Street>Шалимова ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61011</IndexPostOffice>
+    <Street>Шатиловская ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61015</IndexPostOffice>
+    <Street>Шацкая ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61017</IndexPostOffice>
+    <Street>Шацкий в-д</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61008</IndexPostOffice>
+    <Street>Юбилейный просп.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61004</IndexPostOffice>
+    <Street>Юдина ул.</Street>
+  </IndexPostOfficeStreet>
+  <IndexPostOfficeStreet>
+    <IndexPostOffice>61002</IndexPostOffice>
+    <Street>Ярослава Мудрого ул.</Street>
+  </IndexPostOfficeStreet>
+</ArrayOfIndexPostOfficeStreet>

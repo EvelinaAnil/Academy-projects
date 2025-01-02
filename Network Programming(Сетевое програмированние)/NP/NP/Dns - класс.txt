@@ -1,0 +1,35 @@
+Dns - класс
+ 
+Предоставляет простые функциональные возможности разрешения доменных имен.
+
+Пространство имен:   System.Net
+Сборка:  System (в System.dll)
+
+Иерархия наследования
+System.Object
+System.Net.Dns
+
+Синтаксис
+public static class Dns
+
+Методы
+ BeginGetHostAddresses(String, AsyncCallback, Object)	Асинхронно возвращает IP-адреса для указанного узла.
+ BeginGetHostByName(String, AsyncCallback, Object)	Устарело.Начинает асинхронный запрос сведений IPHostEntry об указанном DNS-имени узла.
+ BeginGetHostEntry(IPAddress, AsyncCallback, Object)	Асинхронно разрешает IP-адрес в экземпляр IPHostEntry.
+ BeginGetHostEntry(String, AsyncCallback, Object)	Асинхронно разрешает имя узла или IP-адрес экземпляра IPHostEntry.
+ BeginResolve(String, AsyncCallback, Object)	Устарело.Начинает асинхронный запрос для разрешения DNS-имени узла или IP-адреса в экземпляр IPAddress.
+ EndGetHostAddresses(IAsyncResult)	Завершает асинхронный запрос сведений DNS.
+ EndGetHostByName(IAsyncResult)	Устарело.Завершает асинхронный запрос сведений DNS.
+ EndGetHostEntry(IAsyncResult)	Завершает асинхронный запрос сведений DNS.
+ EndResolve(IAsyncResult)	Устарело.Завершает асинхронный запрос сведений DNS.
+ GetHostAddresses(String)	Возвращает IP-адреса для указанного узла.
+ GetHostAddressesAsync(String)	Возвращает IP-адреса для указанного узла как асинхронная операция.
+ GetHostByAddress(IPAddress)	Устарело.Создает экземпляр IPHostEntry из указанного объекта IPAddress.
+ GetHostByAddress(String)	Устарело.Создает экземпляр IPHostEntry из IP-адреса.
+ GetHostByName(String)	Устарело.Возвращает сведения DNS для указанного DNS-имени узла.
+ GetHostEntry(IPAddress)	Разрешает IP-адрес в экземпляр IPHostEntry.
+ GetHostEntry(String)	Разрешает имя узла или IP-адрес в экземпляр IPHostEntry.
+ GetHostEntryAsync(IPAddress)	Разрешает IP-адрес экземпляра IPHostEntry как асинхронная операция.
+ GetHostEntryAsync(String)	Разрешает имя узла или IP-адрес экземпляра IPHostEntry как асинхронная операция.
+ GetHostName()	Возвращает имя узла локального компьютера.
+ Resolve(String)	Устарело.Разрешает DNS-имя узла или IP-адрес в экземпляр IPHostEntry.

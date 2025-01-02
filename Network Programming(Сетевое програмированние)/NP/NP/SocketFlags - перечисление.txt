@@ -1,0 +1,50 @@
+SocketFlags - перечисление
+ 
+Определяет поведения сокет при отправке и получении.
+Это перечисление имеет атрибут FlagsAttribute, поддерживающий побитовое соединение составляющих его значений.
+Пространство имен:   System.Net.Sockets
+Сборка:  System (в System.dll)
+
+Синтаксис
+[FlagsAttribute]
+public enum SocketFlags
+
+Члены
+Broadcast	Указывает пакет широковещательной рассылки.
+ControlDataTruncated	Указывает, что данные элемента управления не поместились во внутренний буфер 64 КБ и был усечен.
+DontRoute	Отправьте без использования таблиц маршрутизации.
+MaxIOVectorLength	Обеспечивает стандартное значение для числа структур WSABUF, используемые для отправки и получения данных. Это значение не используется и не поддерживается на .NET Framework 4.5.
+Multicast	Указывает пакет многоадресной рассылки.
+None	Не использовать флаги для этого вызова.
+OutOfBand	Обработка данных по каналу.
+Partial	Частичный прием или передача сообщения.
+Peek	Просмотр входящего сообщения.
+Truncated	Сообщение слишком велико для в указанный буфер и было усечено.
+
+Примеры
+В следующем примере отправляет данные и указывает None для SocketFlags.
+
+// Displays sending with a connected socket using the overload that takes a buffer, message size, and socket flags.
+public static int SendReceiveTest3(Socket server)
+{
+    byte[] msg = Encoding.UTF8.GetBytes("This is a test");
+    byte[] bytes = new byte[256];
+    try 
+    {
+        // Blocks until send returns.
+        int i = server.Send(msg, msg.Length, SocketFlags.None);
+        Console.WriteLine("Sent {0} bytes.", i);
+
+        // Get reply from the server.
+        int byteCount = server.Receive(bytes, server.Available, 
+                                           SocketFlags.None);
+        if (byteCount > 0)
+            Console.WriteLine(Encoding.UTF8.GetString(bytes));
+    }
+    catch (SocketException e)
+    {
+        Console.WriteLine("{0} Error code: {1}.", e.Message, e.ErrorCode);
+        return (e.ErrorCode);
+    }
+    return 0;
+}

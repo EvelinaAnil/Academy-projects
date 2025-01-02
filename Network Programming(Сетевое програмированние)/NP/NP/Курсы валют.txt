@@ -1,0 +1,3 @@
+http://content.finance.ua/ru/xml/currency-cash
+http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml
+https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange

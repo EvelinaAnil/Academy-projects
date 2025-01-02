@@ -1,0 +1,48 @@
+        static void Main(string[] args)
+        {
+            MailMessage message = new MailMessage();
+
+            message.From = new MailAddress("****@gmail.com");
+
+            message.To.Add(new MailAddress("****@ukr.net"));
+
+            Console.Write("Input theme: ");
+            message.Subject = Console.ReadLine();
+
+            Console.Write("Input message: ");
+            message.Body = Console.ReadLine();
+
+            List<string> files = new List<string>();
+            // ...
+            foreach (string item in files)
+            {
+                message.Attachments.Add(new Attachment(item));
+            }
+
+            string server = "smtp.gmail.com";
+
+            SmtpClient smtpClient = new SmtpClient(server)
+            {
+                Port = 587,
+                Credentials = new NetworkCredential("****@gmail.com", "password"),
+                EnableSsl = true,
+                DeliveryMethod = SmtpDeliveryMethod.Network
+            };
+
+            try
+            {
+                smtpClient.Send(message);
+
+                Console.WriteLine("Smtp OK!");
+            }
+            catch (SmtpException se)
+            {
+                Console.WriteLine($"Post message: {se.Message}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+            Console.ReadKey();
+        }

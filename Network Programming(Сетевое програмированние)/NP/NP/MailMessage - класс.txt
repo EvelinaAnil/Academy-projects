@@ -1,0 +1,155 @@
+MailMessage - класс
+ 
+Представляет сообщение электронной почты, которое может быть отправлено с помощью класса SmtpClient.
+Пространство имен:   System.Net.Mail
+Сборка:  System (в System.dll)
+
+Иерархия наследования
+System.Object
+System.Net.Mail.MailMessage
+
+Синтаксис
+public class MailMessage : IDisposable
+
+Конструкторы
+ MailMessage()	Инициализирует пустой экземпляр класса MailMessage.
+ MailMessage(MailAddress, MailAddress)	Инициализирует новый экземпляр класса MailMessage, используя указанные объекты класса MailAddress.
+ MailMessage(String, String)	Инициализирует новый экземпляр класса MailMessage, используя указанные объекты класса String.
+ MailMessage(String, String, String, String)	Инициализирует новый экземпляр класса MailMessage.
+
+Свойства
+ AlternateViews	Возвращает коллекцию вложений, используемую для хранения альтернативных форм тела сообщения.
+ Attachments	Возвращает коллекцию вложений, используемую для хранения данных, вложенных в это сообщение электронной почты.
+ Bcc	Возвращает коллекцию адресов, содержащую получателей скрытой копии (BCC) данного сообщения электронной почты.
+ Body	Получает или задает основную часть сообщения.
+ BodyEncoding	Получает или задает кодировку, используемую для кодирования тела сообщения.
+ BodyTransferEncoding	Получает или задает кодирование передачи, используемое для кодирования тела сообщения.
+ CC	Возвращает коллекцию адресов, содержащую получателей копии (CC) данного сообщения электронной почты.
+ DeliveryNotificationOptions	Получает или задает уведомления о доставке данного сообщения электронной почты.
+ From	Получает или задает адрес отправителя данного сообщения электронной почты.
+ Headers	Возвращает заголовки электронной почты, передаваемые с данным сообщением.
+ HeadersEncoding	Получает или задает кодировку, используемую для пользовательских заголовков данного сообщения электронной почты.
+ IsBodyHtml	Получает или задает значение, показывающее, имеет ли основная часть почтового сообщения формат HTML.
+ Priority	Получает или задает приоритет данного сообщения электронной почты.
+ ReplyTo	Устарело.Получает или задает адрес ReplyTo для данного почтового сообщения.
+ ReplyToList	Получает или задает список адресов для ответа для данного сообщения электронной почты.
+ Sender	Получает или задает адрес отправителя данного сообщения электронной почты.
+ Subject	Получает или задает строку темы для данного сообщения электронной почты.
+ SubjectEncoding	Получает или задает кодировку, используемую для темы данного сообщения электронной почты.
+ To	Возвращает коллекцию адресов, содержащую получателей данного сообщения электронной почты.
+
+Методы
+ Dispose()	Освобождает все ресурсы, используемые объектом MailMessage.
+ Dispose(Boolean)	Освобождает неуправляемые ресурсы, используемые объектом MailMessage, а при необходимости освобождает также управляемые ресурсы.
+ Equals(Object)	Определяет, равен ли заданный объект текущему объекту.(Наследуется от Object.)
+ Finalize()	Позволяет объекту попытаться освободить ресурсы и выполнить другие операции по очистке перед тем, как объект будет утилизирован сборщиком мусора. (Наследуется от Object.)
+ GetHashCode()	Играет роль хэш-функции для определённого типа.(Наследуется от Object.)
+ GetType()	Возвращает объект класса Type для текущего экземпляра. (Наследуется от Object.)
+ MemberwiseClone()	Создает "поверхностную" копию текущего объекта. (Наследуется от Object.)
+ ToString()	Возвращает строковое представление текущего объекта.(Наследуется от Object.)
+
+Заметки
+Экземпляры класса MailMessage используются для построения сообщений электронной почты, передаваемых на сервер SMTP для доставки с помощью класса SmtpClient.
+При использовании MailMessage для инициализации объекта MailMessage можно указать в качестве параметров отправителя, получателя, тему и текст сообщения электронной почты.Задать или получить доступ к этим параметрам также можно с помощью свойств объекта MailMessage.
+Основные заголовки почтовых сообщений и элементы для сообщения могут быть заданы с помощью следующих свойств класса MailMessage.
+Заголовок или часть сообщения электронной почты
+property
+Вложения
+Attachments
+Получатели скрытых копий (BCC)
+Bcc
+Получатели копий (CC)
+CC
+Content-Type
+BodyEncoding
+Кодировка для пользовательских заголовков
+HeadersEncoding
+Основная часть сообщения
+Body
+Приоритет
+Priority
+Получатель
+To
+Адрес для ответа
+ReplyToList
+Отправитель
+From
+Тема
+Subject
+Класс MailMessage также позволяет приложению получить доступ к коллекции заголовков сообщения с помощью свойства Headers.Хотя эта коллекция доступна только для чтения (новую коллекцию задать нельзя), в нее можно добавить настраиваемые заголовки или удалить их из нее.Все пользовательские заголовки будут включены при передаче экземпляра MailMessage.Перед отправкой сообщения, в коллекцию включаются только заголовки, добавленные в данную коллекцию в свойстве Headers.После отправки экземпляра MailMessage, свойство Headers также включает заголовки, которые устанавливаются с использованием связанных свойств класса MailMessage или параметров, переданных при инициализации MailMessage объекта MailMessage.
+Если некоторые заголовки электронной почты искажены, это может привести к повреждению сообщений электронной почты.Любой заголовок электронной почты в коллекции заголовков, которые могут быть установлены с помощью свойства класса MailMessage следует устанавливать только с помощью свойства класса MailMessage или как параметр, переданный при инициализации MailMessage объекта MailMessage.Ниже приведен список заголовков электронной почты, которые не следует добавлять с помощью свойства Headers, и любые значения, заданные для этих заголовков с помощью свойства Headers, будут отклонены или перезаписаны при отправке сообщения:
+СК
+Cc
+Content-ID
+Размещение содержимого
+Содержимое-Передача-Кодировка
+Content-Type
+Date
+FROM
+Важность
+Версия MIME
+Приоритет
+Адрес для ответа
+Отправитель
+В
+X-Priority
+Если в приложении не указан заголовок X-Sender, с помощью свойства Headers, класс MailMessage создаст его при отправке сообщения.
+Свойство AlternateViews используется для задания копий сообщения в различных форматах.Например, если сообщение отправляется в HTML, можно также предоставить версию с обычным текстом на случай, если клиенты электронной почты некоторых получателей не смогут отобразить HTML-содержимое.Пример, демонстрирующий создание сообщения с альтернативными представлениями, см. в описании свойства AlternateViews.
+Используйте свойство Attachments, чтобы добавлять вложения в сообщение электронной почты.Пример, демонстрирующий создание сообщения с вложением, см. в описании свойства Attachments.
+После составления сообщения электронной почты его можно отправить с помощью методов Send или SendAsync.
+
+Примеры
+Следующий пример кода демонстрирует создание и отправку сообщения электронной почты, которое содержит вложение.
+
+public static void CreateMessageWithAttachment(string server)
+{
+	// Specify the file to be attached and sent.
+	// This example assumes that a file named Data.xls exists in the
+	// current working directory.
+	string file = "data.xls";
+	// Create a message and set up the recipients.
+	MailMessage message = new MailMessage(
+	   "jane@contoso.com",
+	   "ben@contoso.com",
+	   "Quarterly data report.",
+	   "See the attached spreadsheet.");
+
+	// Create  the file attachment for this e-mail message.
+	Attachment data = new Attachment(file, MediaTypeNames.Application.Octet);
+	// Add time stamp information for the file.
+	ContentDisposition disposition = data.ContentDisposition;
+	disposition.CreationDate = System.IO.File.GetCreationTime(file);
+	disposition.ModificationDate = System.IO.File.GetLastWriteTime(file);
+	disposition.ReadDate = System.IO.File.GetLastAccessTime(file);
+	// Add the file attachment to this e-mail message.
+	message.Attachments.Add(data);
+
+	//Send the message.
+	SmtpClient client = new SmtpClient(server);
+	// Add credentials if the SMTP server requires them.
+	client.Credentials = CredentialCache.DefaultNetworkCredentials;
+
+    try {
+	  client.Send(message);
+	}
+	catch (Exception ex) {
+	  Console.WriteLine("Exception caught in CreateMessageWithAttachment(): {0}", 
+                  ex.ToString() );			  
+	}
+	// Display the values in the ContentDisposition for the attachment.
+	ContentDisposition cd = data.ContentDisposition;
+	Console.WriteLine("Content disposition");
+	Console.WriteLine(cd.ToString());
+	Console.WriteLine("File {0}", cd.FileName);
+	Console.WriteLine("Size {0}", cd.Size);
+	Console.WriteLine("Creation {0}", cd.CreationDate);
+	Console.WriteLine("Modification {0}", cd.ModificationDate);
+	Console.WriteLine("Read {0}", cd.ReadDate);
+	Console.WriteLine("Inline {0}", cd.Inline);
+	Console.WriteLine("Parameters: {0}", cd.Parameters.Count);
+	foreach (DictionaryEntry d in cd.Parameters)
+	{
+		Console.WriteLine("{0} = {1}", d.Key, d.Value);
+	}
+	data.Dispose();
+}

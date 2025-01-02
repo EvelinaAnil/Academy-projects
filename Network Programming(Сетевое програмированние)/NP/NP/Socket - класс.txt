@@ -1,0 +1,259 @@
+Socket - класс
+ 
+Реализует интерфейс сокетов Berkeley.
+Пространство имен:   System.Net.Sockets
+Сборка:  System (в System.dll)
+
+Иерархия наследования
+System.Object
+System.Net.Sockets.Socket
+
+Синтаксис
+public class Socket : IDisposable
+
+Конструкторы
+ Socket(AddressFamily, SocketType, ProtocolType)	Инициализирует новый экземпляр класса Socket, используя заданные семейство адресов, тип сокета и протокол.
+ Socket(SocketInformation)	Инициализирует новый экземпляр класса Socket с помощью указанного значения, возвращенного из объекта DuplicateAndClose.
+ Socket(SocketType, ProtocolType)	Инициализирует новый экземпляр класса Socket, используя указанный тип сокетов и протокол.
+
+Свойства
+ AddressFamily	Получает семейство адресов объекта Socket.
+ Available	Возвращает значение, указывающее количество полученных из сети и доступных для чтения данных.
+ Blocking	Возвращает или задает значение, определяющее, находится ли объект Socket в заблокированном режиме.
+ Connected	Получает значение, указывающее, был ли подключен объект Socket к удаленному узлу во время последней операции Send или Receive.
+ DontFragment	Возвращает или задает значение Boolean, указывающее, разрешает ли объект Socket выполнение фрагментации датаграмм протокола IP.
+ DualMode	Возвращает или задает значение Boolean, которое определяет, является ли Socket двухрежимным сокетом, используемый как для IPv4, так и для IPv6.
+ EnableBroadcast	Возвращает или задает значение Boolean, указывающее, может ли объект Socket производить отправку или прием широковещательных пакетов.
+ ExclusiveAddressUse	Возвращает или задает значение Boolean, указывающее, разрешает ли объект Socket привязку к порту только одного процесса.
+ Handle	Возвращает дескриптор операционной системы для объекта Socket.
+ IsBound	Получает значение, указывающее, привязан ли объект Socket к конкретному локальному порту.
+ LingerState	Возвращает или задает значение, указывающее, будет ли объект Socket задерживать закрытие сокета при попытке отправки всех отложенных данных.
+ LocalEndPoint	Возвращает локальную конечную точку.
+ MulticastLoopback	Возвращает или задает значение, указывающее, могут ли доставляться исходящие пакеты многоадресной рассылки в передающем приложении.
+ NoDelay	Возвращает или задает значение Boolean, указывающее, используется ли поток Socket в алгоритме Nagle.
+ static	OSSupportsIPv4	Указывает, поддерживают ли основная операционная система и сетевые адаптеры протокол IPv4.
+ static	OSSupportsIPv6	Указывает, поддерживают ли основная операционная система и сетевые адаптеры протокол IPv6.
+ ProtocolType	Получает тип протокола объекта Socket.
+ ReceiveBufferSize	Получает или задает значение, задающее размер приемного буфера объекта Socket.
+ ReceiveTimeout	Получает или устанавливает значение, указывающее промежуток времени, после которого для синхронного вызова Receive истечет время тайм-аута.
+ RemoteEndPoint	Возвращает удаленную конечную точку.
+ SendBufferSize	Получает или задает значение, определяющее размер буфера передачи объекта Socket.
+ SendTimeout	Получает или устанавливает значение, указывающее промежуток времени, после которого для синхронного вызова Send истечет время тайм-аута.
+ SocketType	Получает тип объекта Socket.
+ static	SupportsIPv4	Устарело.Возвращает значение, указывающее, доступна ли на текущем узле поддержка протокола IPv4 и включена ли эта функция.
+ static	SupportsIPv6	Устарело.Получает значение, указывающее, поддерживает ли Framework протокол IPv6 для определенных устаревших членов Dns.
+ Ttl	Получает или задает значение, задающее время существования (TTL) IP-пакетов, отправленных объектом Socket.
+ UseOnlyOverlappedIO	Указывает, должен ли сокет использовать только режим ввода-вывода Overlapped.
+
+Методы
+ Accept()	Создает новый объект Socket для заново созданного подключения.
+ AcceptAsync(SocketAsyncEventArgs)	Начинает асинхронную операцию, чтобы принять попытку входящего подключения.
+ BeginAccept(AsyncCallback, Object)	Начинает асинхронную операцию, чтобы принять попытку входящего подключения.
+ BeginAccept(Int32, AsyncCallback, Object)	Начинает асинхронную операцию, чтобы принять попытку входящего подключения и получить первый блок данных, посланных клиентским приложением.
+ BeginAccept(Socket, Int32, AsyncCallback, Object)	Начинает асинхронную операцию, чтобы принять попытку входящего подключения с указанного сокета и получить первый блок данных, посланных клиентским приложением.
+ BeginConnect(EndPoint, AsyncCallback, Object)	Начинает выполнение асинхронного запроса для подключения к удаленному узлу.
+ BeginConnect(IPAddress, Int32, AsyncCallback, Object)	Начинает выполнение асинхронного запроса для подключения к удаленному узлу.узел задается объектом IPAddress и номером порта.
+ BeginConnect(IPAddress[], Int32, AsyncCallback, Object)	Начинает выполнение асинхронного запроса для подключения к удаленному узлу.узел задается массивом IPAddress и номером порта.
+ BeginConnect(String, Int32, AsyncCallback, Object)	Начинает выполнение асинхронного запроса для подключения к удаленному узлу.узел задается именем узла и номером порта.
+ BeginDisconnect(Boolean, AsyncCallback, Object)	Начинает выполнение асинхронного запроса для отключения от удаленной конечной точки.
+ BeginReceive(Byte[], Int32, Int32, SocketFlags, AsyncCallback, Object)	Начинает выполнение асинхронного приема данных с подключенного объекта Socket.
+ BeginReceive(Byte[], Int32, Int32, SocketFlags, SocketError, AsyncCallback, Object)	Начинает выполнение асинхронного приема данных с подключенного объекта Socket.
+ BeginReceive(IList<ArraySegment<Byte>>, SocketFlags, AsyncCallback, Object)	Начинает выполнение асинхронного приема данных с подключенного объекта Socket.
+ BeginReceive(IList<ArraySegment<Byte>>, SocketFlags, SocketError, AsyncCallback, Object)	Начинает выполнение асинхронного приема данных с подключенного объекта Socket.
+ BeginReceiveFrom(Byte[], Int32, Int32, SocketFlags, EndPoint, AsyncCallback, Object)	Начинает выполнение асинхронного приема данных с указанного сетевого устройства.
+ BeginReceiveMessageFrom(Byte[], Int32, Int32, SocketFlags, EndPoint, AsyncCallback, Object)	Начинает асинхронный прием заданного числа байтов данных в указанное место буфера данных, используя заданный объект SocketFlags, а также сохраняет конечную точку и информацию пакета.
+ BeginSend(Byte[], Int32, Int32, SocketFlags, AsyncCallback, Object)	Выполняет асинхронную передачу данных на подключенный объект Socket.
+ BeginSend(Byte[], Int32, Int32, SocketFlags, SocketError, AsyncCallback, Object)	Выполняет асинхронную передачу данных на подключенный объект Socket.
+ BeginSend(IList<ArraySegment<Byte>>, SocketFlags, AsyncCallback, Object)	Выполняет асинхронную передачу данных на подключенный объект Socket.
+ BeginSend(IList<ArraySegment<Byte>>, SocketFlags, SocketError, AsyncCallback, Object)	Выполняет асинхронную передачу данных на подключенный объект Socket.
+ BeginSendFile(String, AsyncCallback, Object)	Отправляет файл fileName на подключенный объект Socket, используя флаг UseDefaultWorkerThread.
+ BeginSendFile(String, Byte[], Byte[], TransmitFileOptions, AsyncCallback, Object)	Выполняет асинхронную передачу файла и буферов данных на подключенный объект Socket.
+ BeginSendTo(Byte[], Int32, Int32, SocketFlags, EndPoint, AsyncCallback, Object)	Выполняет асинхронную передачу данных в указанный удаленный узел.
+ Bind(EndPoint)	Связывает объект Socket с локальной конечной точкой.
+ static	CancelConnectAsync(SocketAsyncEventArgs)	Отменяет выполнение асинхронного запроса для подключения к удаленному узлу.
+ Close()	Закрывает подключение Socket и освобождает все связанные ресурсы.
+ Close(Int32)	Закрывает подключение Socket и освобождает все связанные ресурсы с заданным временем ожидания, чтобы разрешить отправку данных в очереди.
+ Connect(EndPoint)	Создает подключение к удаленному узлу.
+ Connect(IPAddress, Int32)	Создает подключение к удаленному узлу.узел задается IP-адресом и номером порта.
+ Connect(IPAddress[], Int32)	Создает подключение к удаленному узлу.узел задается массивом IP-адресов и номером порта.
+ Connect(String, Int32)	Создает подключение к удаленному узлу.узел задается именем узла и номером порта.
+ ConnectAsync(SocketAsyncEventArgs)	Начинает выполнение асинхронного запроса для подключения к удаленному узлу.
+ static	ConnectAsync(SocketType, ProtocolType, SocketAsyncEventArgs)	Начинает выполнение асинхронного запроса для подключения к удаленному узлу.
+ Disconnect(Boolean)	Закрывает подключение к сокету и позволяет повторно его использовать.
+ DisconnectAsync(SocketAsyncEventArgs)	Начинает выполнение асинхронного запроса для отключения от удаленной конечной точки.
+ Dispose()	Освобождает все ресурсы, используемые текущим экземпляром класса Socket.
+ Dispose(Boolean)	Освобождает неуправляемые ресурсы, используемые объектом Socket, и по возможности — управляемые ресурсы.
+ DuplicateAndClose(Int32)	Дублирует ссылку сокета для конечного процесса и закрывает сокет для этого процесса.
+ EndAccept(Byte[], IAsyncResult)	Асинхронно принимает входящие попытки подключения и создает новый объект Socket для связи с удаленным узлом.Этот метод возвращает буфер, который содержит начальные данные для передачи.
+ EndAccept(Byte[], Int32, IAsyncResult)	Асинхронно принимает входящие попытки подключения и создает новый объект Socket для связи с удаленным узлом.Этот метод возвращает буфер, который содержит начальные данные и число переданных байтов.
+ EndAccept(IAsyncResult)	Асинхронно принимает входящие попытки подключения и создает новый объект Socket для связи с удаленным узлом.
+ EndConnect(IAsyncResult)	Завершает ожидающий асинхронный запрос на подключение.
+ EndDisconnect(IAsyncResult)	Завершает ожидающий асинхронный запрос на разъединение.
+ EndReceive(IAsyncResult)	Завершает отложенное асинхронное чтение.
+ EndReceive(IAsyncResult, SocketError)	Завершает отложенное асинхронное чтение.
+ EndReceiveFrom(IAsyncResult, EndPoint)	Завершает отложенное асинхронное чтение с определенной конечной точки.
+ EndReceiveMessageFrom(IAsyncResult, SocketFlags, EndPoint, IPPacketInformation)	Завершает отложенное асинхронное чтение с определенной конечной точки.Этот метод также показывает больше информации о пакете, чем метод EndReceiveFrom.
+ EndSend(IAsyncResult)	Завершает отложенную операцию асинхронной передачи.
+ EndSend(IAsyncResult, SocketError)	Завершает отложенную операцию асинхронной передачи.
+ EndSendFile(IAsyncResult)	Завершает отложенную операцию асинхронной передачи файла.
+ EndSendTo(IAsyncResult)	Завершает отложенную операцию асинхронной отправки в определенное местоположение.
+ Equals(Object)	Определяет, равен ли заданный объект текущему объекту.(Наследуется от Object.)
+ Finalize()	Освобождает ресурсы, используемые классом Socket.(Переопределяет Object.Finalize().)
+ GetHashCode()	Играет роль хэш-функции для определённого типа.(Наследуется от Object.)
+ GetSocketOption(SocketOptionLevel, SocketOptionName)	Возвращает значение указанного параметра Socket, представленного в виде объекта.
+ GetSocketOption(SocketOptionLevel, SocketOptionName, Byte[])	Возвращает указанное значение параметра Socket, представленного в виде байтового массива.
+ GetSocketOption(SocketOptionLevel, SocketOptionName, Int32)	Возвращает значение указанного параметра Socket в массиве.
+ GetType()	Возвращает объект класса Type для текущего экземпляра. (Наследуется от Object.)
+ IOControl(Int32, Byte[], Byte[])	Задает низкоуровневые операционные режимы для объекта Socket, используя цифровые коды элементов управления.
+ IOControl(IOControlCode, Byte[], Byte[])	Задает низкоуровневые операционные режимы для объекта Socket, используя перечисление IOControlCode, чтобы указать коды элементов управления.
+ Listen(Int32)	Устанавливает объект Socket в состояние прослушивания.
+ MemberwiseClone()	Создает "поверхностную" копию текущего объекта. (Наследуется от Object.)
+ Poll(Int32, SelectMode)	Определяет состояние объекта Socket.
+ Receive(Byte[])	Возвращает данные из связанного объекта Socket в приемный буфер.
+ Receive(Byte[], Int32, Int32, SocketFlags)	Получает указанное число байтов данных из связанного объекта Socket в приемный буфер с указанной позиции смещения, используя заданный объект SocketFlags.
+ Receive(Byte[], Int32, Int32, SocketFlags, SocketError)	Получает данные из связанного объекта Socket в приемный буфер, используя заданный объект SocketFlags.
+ Receive(Byte[], Int32, SocketFlags)	Получает указанное число байтов данных из связанного объекта Socket в приемный буфер, используя заданный объект SocketFlags.
+ Receive(Byte[], SocketFlags)	Получает данные из связанного объекта Socket в приемный буфер, используя заданный объект SocketFlags.
+ Receive(IList<ArraySegment<Byte>>)	Получает данные из связанного объекта Socket в список приемных буферов.
+ Receive(IList<ArraySegment<Byte>>, SocketFlags)	Получает данные из связанного объекта Socket в список приемных буферов, используя заданный объект SocketFlags.
+ Receive(IList<ArraySegment<Byte>>, SocketFlags, SocketError)	Получает данные из связанного объекта Socket в список приемных буферов, используя заданный объект SocketFlags.
+ ReceiveAsync(SocketAsyncEventArgs)	Начинает выполнение асинхронного запроса, чтобы получить данные из подключенного объекта Socket.
+ ReceiveFrom(Byte[], EndPoint)	Принимает датаграмму в буфер данных и сохраняет конечную точку.
+ ReceiveFrom(Byte[], Int32, Int32, SocketFlags, EndPoint)	Получает указанное число байтов данных в указанное место буфера данных, используя заданный объект SocketFlags, и сохраняет конечную точку.
+ ReceiveFrom(Byte[], Int32, SocketFlags, EndPoint)	Получает указанное число байтов во входной буфер, используя заданный объект SocketFlags, и сохраняет конечную точку.
+ ReceiveFrom(Byte[], SocketFlags, EndPoint)	Принимает датаграмму в буфер данных, используя заданный объект SocketFlags, и сохраняет конечную точку.
+ ReceiveFromAsync(SocketAsyncEventArgs)	Начинает выполнение асинхронного приема данных с указанного сетевого устройства.
+ ReceiveMessageFrom(Byte[], Int32, Int32, SocketFlags, EndPoint, IPPacketInformation)	Получает указанное число байтов данных в указанное место буфера данных, используя заданный объект SocketFlags, а также сохраняет конечную точку и информацию пакета.
+ ReceiveMessageFromAsync(SocketAsyncEventArgs)	Начинает асинхронный прием заданного числа байтов данных в указанное место буфера данных, используя заданный объект SocketAsyncEventArgs.SocketFlags, а также сохраняет конечную точку и информацию пакета.
+System_CAPS_pubmethodSystem_CAPS_static	Select(IList, IList, IList, Int32)	Определяет состояние одного или нескольких сокетов.
+ Send(Byte[])	Передает данные в подключенный объект Socket.
+ Send(Byte[], Int32, Int32, SocketFlags) Посылает указанное число байтов данных на подключенный объект Socket, начиная с указанного смещения и используя заданный объект SocketFlags.
+ Send(Byte[], Int32, Int32, SocketFlags, SocketError)	Посылает указанное число байтов данных на подключенный объект Socket, начиная с указанного смещения и используя заданный объект SocketFlags.
+ Send(Byte[], Int32, SocketFlags)	Посылает указанное число байтов данных на подключенный объект Socket, используя заданный объект SocketFlags.
+ Send(Byte[], SocketFlags)	Передает данные в подключенный объект Socket, используя заданный объект SocketFlags.
+ Send(IList<ArraySegment<Byte>>)	Отправляет набор буферов в список на подключенный объект Socket.
+ Send(IList<ArraySegment<Byte>>, SocketFlags)	Отправляет набор буферов в список на подключенный объект Socket, используя указанный объект SocketFlags.
+ Send(IList<ArraySegment<Byte>>, SocketFlags, SocketError)	Отправляет набор буферов в список на подключенный объект Socket, используя указанный объект SocketFlags.
+ SendAsync(SocketAsyncEventArgs)	Выполняет асинхронную передачу данных на подключенный объект Socket.
+ SendFile(String)	Отправляет файл fileName на подключенный объект Socket, используя флаг передачи UseDefaultWorkerThread.
+ SendFile(String, Byte[], Byte[], TransmitFileOptions)	Отправляет файл fileName и буферы данных на подключенный объект Socket, используя заданное значение TransmitFileOptions.
+ SendPacketsAsync(SocketAsyncEventArgs)	Выполняет асинхронную передачу набора файла или буферов данных в памяти на подключенный объект Socket.
+ SendTo(Byte[], EndPoint)	Посылает данные на указанную конечную точку.
+ SendTo(Byte[], Int32, Int32, SocketFlags, EndPoint)	Посылает указанное число байтов данных на указанную конечную точку, начиная с заданной позиции буфера и используя указанный объект SocketFlags.
+ SendTo(Byte[], Int32, SocketFlags, EndPoint)	Посылает указанное число байтов данных на указанную конечную точку, используя заданный объект SocketFlags.
+ SendTo(Byte[], SocketFlags, EndPoint)	Передает данные на указанную конечную точку, используя заданный объект SocketFlags.
+ SendToAsync(SocketAsyncEventArgs)	Выполняет асинхронную передачу данных в указанный удаленный узел.
+ SetIPProtectionLevel(IPProtectionLevel)	Задается стандартный уровень защиты IP для сокета.
+ SetSocketOption(SocketOptionLevel, SocketOptionName, Boolean)	Устанавливает для заданного параметра Socket указанное значение Boolean.
+ SetSocketOption(SocketOptionLevel, SocketOptionName, Byte[])	Устанавливает для указанного параметра Socket заданное значение, представленное в виде байтового массива.
+ SetSocketOption(SocketOptionLevel, SocketOptionName, Int32)	Устанавливает заданное целое значение для указанного параметра Socket.
+ SetSocketOption(SocketOptionLevel, SocketOptionName, Object)	Устанавливает для указанного параметра Socket заданное значение, представленное в виде объекта.
+ Shutdown(SocketShutdown)	Блокирует передачу и получение данных для объекта Socket.
+ ToString()	Возвращает строковое представление текущего объекта.(Наследуется от Object.)
+
+Заметки
+Класс Socket обеспечивает широкий набор методов и свойств для сетевых взаимодействий.Класс Socket позволяет выполнять как синхронную, так и асинхронную передачу данных с использованием любого из коммуникационных протоколов, имеющихся в перечислении ProtocolType.
+Класс Socket придерживается шаблона имен платформы .NET Framework для асинхронных методов.Например, синхронный метод Receive соответствует асинхронным методам BeginReceive и EndReceive.
+Если приложению при его исполнении требуется только один поток, воспользуйтесь приведенными ниже методами, которые разработаны для работы в синхронном режиме.
+Если используется протокол, ориентированный на установление соединения, такой как протокол TCP, сервер должен выполнять прослушивание подключений, используя метод Listen.Метод Accept обрабатывает любые входящие запросы на подключение и возвращает объект Socket, который может использоваться для передачи данных с удаленного узла.Используйте этот возвращенный объект Socket для вызова метода Send или Receive.Вызовите метод Bind, прежде чем производить обращение к методу Listen, если необходимо указать локальный IP-адрес или номер порта.Используйте нулевое значение для номера порта, если требуется, чтобы свободный порт был назначен основным поставщиком услуг.Если требуется произвести подключение к прослушивающему узлу, вызовите метод Connect.Для обмена данными вызовите метод Send или Receive.
+Если используется протокол, не ориентированный на установление соединения, такой как протокол UDP, нет необходимости в отслеживании подключений.Для приема всех поступающих датаграмм вызовите метод ReceiveFrom.Для посылки датаграмм на удаленный узел воспользуйтесь методом SendTo.
+Чтобы выполнить передачи с использованием отдельных потоков во время исполнения, воспользуйтесь следующими методами, предложенными для работы в асинхронном режиме.
+Если применяется протокол, ориентированный на установление соединения, такой как протокол TCP, используйте методы Socket, BeginConnect и EndConnect для подключения к прослушивающему узлу.Для асинхронного обмена данными воспользуйтесь методами BeginSend и EndSend или методами BeginReceive и EndReceive.Входящие запросы на подключение могут быть обработаны с помощью методов BeginAccept и EndAccept.
+Если используется протокол без установления соединения, такой как протокол UDP, можно воспользоваться для посылки датаграмм методами BeginSendTo и EndSendTo, а для получения датаграмм можно применить методы BeginReceiveFrom и EndReceiveFrom.
+Если на сокете выполняется несколько асинхронных операций, они не обязательно должны завершаться в том же порядке, в котором эти операции запускаются.
+Когда прием и отправка данных завершены, используйте метод Shutdown для того, чтобы отключить объект Socket.После вызова метода Shutdown обратитесь к методу Close, чтобы освободить все связанные с объектом Socket ресурсы.
+Класс Socket позволяет выполнить настройку объекта Socket с использованием метода SetSocketOption.Извлеките эти параметры, используя метод GetSocketOption.
+
+Примечание
+Если разрабатывается относительно простое приложение и нет необходимости в достижении максимальной производительности, рассмотрите возможность применения классов TcpClient, TcpListener и UdpClient.Эти классы предоставляют простой и удобный для пользователя интерфейс взаимодействия с объектом Socket.
+
+Примеры
+В следующем примере кода показано, каким образом можно использовать класс Socket для посылки данных на HTTP-сервер и для получения ответа.В этом примере производится блокирование до тех пор, пока не будет принята вся страница.
+
+using System;
+using System.Text;
+using System.IO;
+using System.Net;
+using System.Net.Sockets;
+
+public class GetSocket
+{
+    private static Socket ConnectSocket(string server, int port)
+    {
+        Socket s = null;
+        IPHostEntry hostEntry = null;
+
+        // Get host related information.
+        hostEntry = Dns.GetHostEntry(server);
+
+        // Loop through the AddressList to obtain the supported AddressFamily. This is to avoid
+        // an exception that occurs when the host IP Address is not compatible with the address family
+        // (typical in the IPv6 case).
+        foreach(IPAddress address in hostEntry.AddressList)
+        {
+            IPEndPoint ipe = new IPEndPoint(address, port);
+            Socket tempSocket = 
+                new Socket(ipe.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
+
+            tempSocket.Connect(ipe);
+
+            if(tempSocket.Connected)
+            {
+                s = tempSocket;
+                break;
+            }
+            else
+            {
+                continue;
+            }
+        }
+        return s;
+    }
+
+    // This method requests the home page content for the specified server.
+    private static string SocketSendReceive(string server, int port) 
+    {
+        string request = "GET / HTTP/1.1\r\nHost: " + server + 
+            "\r\nConnection: Close\r\n\r\n";
+        Byte[] bytesSent = Encoding.ASCII.GetBytes(request);
+        Byte[] bytesReceived = new Byte[256];
+
+        // Create a socket connection with the specified server and port.
+        Socket s = ConnectSocket(server, port);
+
+        if (s == null)
+            return ("Connection failed");
+
+        // Send request to the server.
+        s.Send(bytesSent, bytesSent.Length, 0);  
+
+        // Receive the server home page content.
+        int bytes = 0;
+        string page = "Default HTML page on " + server + ":\r\n";
+
+        // The following will block until te page is transmitted.
+        do {
+            bytes = s.Receive(bytesReceived, bytesReceived.Length, 0);
+            page = page + Encoding.ASCII.GetString(bytesReceived, 0, bytes);
+        }
+        while (bytes > 0);
+
+        return page;
+    }
+
+    public static void Main(string[] args) 
+    {
+        string host;
+        int port = 80;
+
+        if (args.Length == 0)
+            // If no server name is passed as argument to this program, 
+            // use the current host name as the default.
+            host = Dns.GetHostName();
+        else
+            host = args[0];
+
+        string result = SocketSendReceive(host, port); 
+        Console.WriteLine(result);
+    }
+}

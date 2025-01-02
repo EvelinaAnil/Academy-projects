@@ -1,0 +1,90 @@
+MailAddress - класс
+ 
+Представляет адрес отправителя или получателя электронной почты.
+Пространство имен:   System.Net.Mail
+Сборка:  System (в System.dll)
+
+Иерархия наследования
+System.Object
+System.Net.Mail.MailAddress
+
+Синтаксис
+public class MailAddress
+
+Конструкторы
+ MailAddress(String)	Инициализирует новый экземпляр класса MailAddress, используя указанный адрес.
+ MailAddress(String, String)	Инициализирует новый экземпляр класса MailAddress, используя заданные адрес и отображаемое имя.
+ MailAddress(String, String, Encoding)	Инициализирует новый экземпляр класса MailAddress, используя заданные адрес, отображаемое имя и кодировку.
+
+Свойства
+ Address	Возвращает адрес электронной почты, заданный при создании экземпляра.
+ DisplayName	Возвращает отображаемое имя, составленное из отображаемого имени и информации об адресе, заданных при создании этого экземпляра.
+ Host	Возвращает строку хоста из адреса электронной почты, заданного при создании экземпляра.
+ User	Возвращает информацию о пользователе из адреса электронной почты, заданного при создании экземпляра.
+
+Методы
+ Equals(Object)	Сравнивает два почтовых адреса.(Переопределяет Object.Equals(Object).)
+ Finalize()	Позволяет объекту попытаться освободить ресурсы и выполнить другие операции по очистке перед тем, как объект будет утилизирован сборщиком мусора. (Наследуется от Object.)
+ GetHashCode()	Возвращает значение хэш-функции для почтового адреса.(Переопределяет Object.GetHashCode().)
+ GetType()	Возвращает объект класса Type для текущего экземпляра. (Наследуется от Object.)
+ MemberwiseClone()	Создает "поверхностную" копию текущего объекта. (Наследуется от Object.)
+ ToString()	Возвращает строковое представление этого экземпляра.(Переопределяет Object.ToString().)
+
+Заметки
+Класс MailAddress используется классами SmtpClient и MailMessage для хранения информации об адресе сообщений электронной почты.
+Почтовый адрес состоит из имени User, имени Host и необязательного DisplayName. DisplayName может содержать символы, не входящие в набор ASCII, если их закодировать.
+Класс MailAddress поддерживает следующие форматы адресов электронной почты:
+Формат простого адреса user@host.Если DisplayName не задано, то это созданный формат адреса электронной почты.
+Формат стандартного отображаемого имени в кавычках "display name" <user@host>.Если DisplayName указано, это созданный формат.
+Угловые скобки добавляются вокруг имени User, если Host"display name" user@host не включены.
+Кавычки добавляются вокруг DisplayName для display name <user@host>, если они не включены.
+Символы юникода поддерживаются в DisplayName. свойство.
+Имя User в кавычках.Например, "user name"@host.
+Последовательные и конечные точки в именах пользователей.Например, user...name..@host.
+Литералы домена в квадратных скобках.Например, <user@[my domain]>.
+ПримечанияНапример, (comment)"display name"(comment)<(comment)user(comment)@(comment)domain(comment)>(comment).Перед началом передачи комментарии удаляются.
+Запятая используется для разделения элементов в списке адресов электронной почты.Таким образом запятую, не следует использовать в отображаемых именах без кавычек в списке.Следующие адреса электронной почты не будут разрешены
+"John, Doe" <user@host>, "Bob, Smith" <user2@host>
+Следующий адрес электронной почты не будет разрешен:
+John, Doe <user@host>, Bob, Smith <user2@host>
+Квоты могут быть внедрены в строку в кавычках, но они должны быть преобразованы в escape-формат.Следующие адреса электронной почты не будут разрешены
+"John \"Jr\" Doe" <user@host>
+"\"John \\\"Jr\\\" Doe\" <user@host>"
+Следующий адрес электронной почты не будет разрешен:
+"John "Jr" Doe" <user@host>
+Если имя пользователя заключено в кавычки, весь текст между началом строки (или запятой) и адресом считается частью DisplayName, включая комментарии.
+-- Пример: (не комментируется) отображаемое имя (не комментируется) без кавычек (не комментируется) < user@host >
+Несмотря на то, что класс MailAddress принимает адрес электронной почты как допустимый, другие почтовые серверы могут не принимать почтовый адрес.
+Класс MailAddress не поддерживает следующие форматы адресов электронной почты:
+Отображаемые имена в кавычках и без.Например, display "name" <user@host>.
+Группы, как определено в RFC 2822 раздел 3.4, публикуемого IETF.
+Устаревшие форматы имен пользователей "user"."name"@host, user."name"@host или "user".name@host
+
+Примеры
+Следующий пример кода демонстрирует отправку сообщения электронной почты с помощью классов SmtpClient, MailAddress и MailMessage.
+
+public static void CreateCopyMessage(string server)
+{
+	MailAddress from = new MailAddress("ben@contoso.com", "Ben Miller");
+	MailAddress to = new MailAddress("jane@contoso.com", "Jane Clayton");
+	MailMessage message = new MailMessage(from, to);
+	// message.Subject = "Using the SmtpClient class.";
+	message.Subject = "Using the SmtpClient class.";
+	message.Body = @"Using this feature, you can send an e-mail message from an application very easily.";
+	// Add a carbon copy recipient.
+	MailAddress copy = new MailAddress("Notification_List@contoso.com");
+	message.CC.Add(copy);
+	SmtpClient client = new SmtpClient(server);
+	// Include credentials if the server requires them.
+	client.Credentials = CredentialCache.DefaultNetworkCredentials;
+	Console.WriteLine("Sending an e-mail message to {0} by using the SMTP host {1}.",
+		 to.Address, client.Host);
+
+   try {
+      client.Send(message);
+    }
+    catch (Exception ex) {
+      Console.WriteLine("Exception caught in CreateCopyMessage(): {0}", 
+                  ex.ToString() );
+	  }
+  }

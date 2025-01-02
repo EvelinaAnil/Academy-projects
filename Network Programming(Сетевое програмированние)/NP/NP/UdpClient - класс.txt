@@ -1,0 +1,111 @@
+UdpClient - класс
+ 
+Предоставляет сетевые службы протокола UDP.
+Пространство имен:   System.Net.Sockets
+Сборка:  System (в System.dll)
+
+Иерархия наследования
+System.Object
+System.Net.Sockets.UdpClient
+
+Синтаксис
+public class UdpClient : IDisposable
+
+Конструкторы
+ UdpClient()	Инициализирует новый экземпляр класса UdpClient.
+ UdpClient(AddressFamily)	Инициализирует новый экземпляр класса UdpClient.
+ UdpClient(Int32)	Инициализирует новый экземпляр класса UdpClient и связывает его с заданным номером локального порта.
+ UdpClient(Int32, AddressFamily)	Инициализирует новый экземпляр класса UdpClient и связывает его с заданным номером локального порта.
+ UdpClient(IPEndPoint)	Инициализирует новый экземпляр класса UdpClient и связывает его с заданной локальной конечной точкой.
+ UdpClient(String, Int32)	Инициализирует новый экземпляр класса UdpClient и устанавливает удаленный узел, используемый по умолчанию.
+
+Свойства
+ Active	Получает или задает значение, указывающее, установлен ли удаленный узел, используемый по умолчанию.
+ Available	Возвращает значение, указывающее количество полученных из сети и доступных для чтения данных.
+ Client	Получает или задает основной сетевой объект Socket.
+ DontFragment	Получает или задает значение Boolean, указывающее, разрешает ли объект UdpClient выполнение фрагментации датаграмм протокола IP.
+ EnableBroadcast	Получает или задает значение Boolean, указывающее, может ли объект UdpClient производить отправку или прием широковещательных пакетов.
+ ExclusiveAddressUse	Получает или задает значение Boolean, указывающее, разрешает ли объект UdpClient использовать порт только одному клиенту.
+ MulticastLoopback	Получает или задает значение Boolean, указывающее, могут ли доставляться исходящие пакеты многоадресной рассылки в передающем приложении.
+ Ttl	Получает или задает значение, указывающее время существования TTL (Time To Live) для IP-пакетов, отправленных объектом UdpClient.
+
+Методы
+ AllowNatTraversal(Boolean)	Включает или отключает обход механизма преобразования сетевых адресов (NAT) для экземпляра UdpClient.
+ BeginReceive(AsyncCallback, Object)	Принимает датаграмму с удаленного узла в асинхронном режиме.
+ BeginSend(Byte[], Int32, AsyncCallback, Object)	Отправляет датаграмму на удаленный узел в асинхронном режиме.Пункт назначения был задан заранее путем обращения к объекту Connect.
+ BeginSend(Byte[], Int32, IPEndPoint, AsyncCallback, Object)	Отправляет датаграмму в пункт назначения в асинхронном режиме.Пункт назначения задается объектом EndPoint.
+ BeginSend(Byte[], Int32, String, Int32, AsyncCallback, Object)	Отправляет датаграмму в пункт назначения в асинхронном режиме.Пункт назначения задается именем узла и номером порта.
+ Close()	Закрывает UDP-подключение.
+ Connect(IPAddress, Int32)	Устанавливает удаленный узел по умолчанию, используя заданный IP-адрес и номер порта.
+ Connect(IPEndPoint)	Устанавливает удаленный узел по умолчанию, используя заданную сетевую конечную точку.
+ Connect(String, Int32)	Устанавливает удаленный узел по умолчанию, используя заданное имя узла и номер порта.
+ Dispose()	
+ Dispose(Boolean)	Освобождает неуправляемые ресурсы, используемые объектом UdpClient, а при необходимости освобождает также управляемые ресурсы.
+ DropMulticastGroup(IPAddress)	Покидает группу многоадресной рассылки.
+ DropMulticastGroup(IPAddress, Int32)	Покидает группу многоадресной рассылки.
+ EndReceive(IAsyncResult, IPEndPoint)	Завершает отложенный асинхронный прием.
+ EndSend(IAsyncResult)	Завершает отложенную операцию асинхронной передачи.
+ Equals(Object)	Определяет, равен ли заданный объект текущему объекту.(Наследуется от Object.)
+ Finalize()	Позволяет объекту попытаться освободить ресурсы и выполнить другие операции по очистке перед тем, как объект будет утилизирован сборщиком мусора. (Наследуется от Object.)
+ GetHashCode()	Играет роль хэш-функции для определённого типа. (Наследуется от Object.)
+ GetType()	Возвращает объект класса Type для текущего экземпляра. (Наследуется от Object.)
+ JoinMulticastGroup(Int32, IPAddress)	Добавляет объект UdpClient в группу многоадресной рассылки.
+ JoinMulticastGroup(IPAddress)	Добавляет объект UdpClient в группу многоадресной рассылки.
+ JoinMulticastGroup(IPAddress, Int32)	Добавьте в группу многоадресной рассылки объект UdpClient с заданным параметром времени существования TTL (Time to Live).
+ JoinMulticastGroup(IPAddress, IPAddress)	Добавляет объект UdpClient в группу многоадресной рассылки.
+ MemberwiseClone()	Создает "поверхностную" копию текущего объекта. (Наследуется от Object.)
+ Receive(IPEndPoint)	Возвращает UDP-датаграмму, которая была послана удаленным узлом.
+ ReceiveAsync()	Асинхронно возвращает UDP-датаграмму, которая была послана удаленным узлом.
+ Send(Byte[], Int32)	Передает UDP-датаграмму на удаленный узел.
+ Send(Byte[], Int32, IPEndPoint)	Передает UDP-датаграмму на узел, определенный указанной конечной точкой.
+ Send(Byte[], Int32, String, Int32)	Передает UDP-датаграмму на заданный порт указанного удаленного узла.
+ SendAsync(Byte[], Int32)	Асинхронно отправляет датаграмму UPD на удаленный узел.
+ SendAsync(Byte[], Int32, IPEndPoint)	Асинхронно отправляет датаграмму UPD на удаленный узел.
+ SendAsync(Byte[], Int32, String, Int32)	Асинхронно отправляет датаграмму UPD на удаленный узел.
+ ToString()	Возвращает строковое представление текущего объекта.(Наследуется от Object.)
+
+Заметки
+Класс UdpClient обеспечивает простые методы для передачи и приема UDP-датаграмм без установления соединения в блокирующем синхронном режиме.Так как протокол UDP — это транспортный протокол без установления соединения, не требуется выполнять подключение к удаленному узлу перед приемом и передачей данных.Необходимо, однако, иметь параметр для задания удаленного узла по умолчанию, что можно сделать одним из следующих двух способов:
+Создайте экземпляр класса UdpClient, используя в качестве параметров имя удаленного узла и номер порта.
+Создайте экземпляр класса UdpClient, а затем вызовите метод Connect.
+Для передачи данных на удаленное устройство можно использовать любой из методов передачи, обеспечиваемых объектом UdpClient.Используйте метод Receive, чтобы получить данные с удаленных узлов.
+
+Примечание
+Не вызывайте метод Send, используя имя узла или объект IPEndPoint, если уже имеется удаленный узел, заданный по умолчанию.Если это сделать, объект UdpClient создаст исключение.
+Методы UdpClient позволяют также передавать и принимать групповые датаграммы.Воспользуйтесь методом JoinMulticastGroup, чтобы подписать объект UdpClient для участия в группе многоадресной рассылки.Используйте метод DropMulticastGroup для отмены подписки объекта UdpClient в группе многоадресной рассылки.
+
+Примеры
+В следующем примере задается подключение UdpClient с использованием имени узла www.contoso.com на порте 11000.Посылается небольшое строковое сообщение на два отдельных компьютера удаленного узла.Метод Receive блокирует выполнение на время приема сообщения.Воспользуйтесь объектом IPEndPoint, переданным в метод Receive, чтобы определить удаленный узел, приславший ответ.
+
+// This constructor arbitrarily assigns the local port number.
+UdpClient udpClient = new UdpClient(11000);
+    try{
+         udpClient.Connect("www.contoso.com", 11000);
+
+         // Sends a message to the host to which you have connected.
+         Byte[] sendBytes = Encoding.ASCII.GetBytes("Is anybody there?");
+
+         udpClient.Send(sendBytes, sendBytes.Length);
+
+         // Sends a message to a different host using optional hostname and port parameters.
+         UdpClient udpClientB = new UdpClient();
+         udpClientB.Send(sendBytes, sendBytes.Length, "AlternateHostMachineName", 11000);
+
+         //IPEndPoint object will allow us to read datagrams sent from any source.
+         IPEndPoint RemoteIpEndPoint = new IPEndPoint(IPAddress.Any, 0);
+
+         // Blocks until a message returns on this socket from a remote host.
+         Byte[] receiveBytes = udpClient.Receive(ref RemoteIpEndPoint); 
+         string returnData = Encoding.ASCII.GetString(receiveBytes);
+
+         // Uses the IPEndPoint object to determine which of these two hosts responded.
+         Console.WriteLine("This is the message you received " + returnData.ToString());
+         Console.WriteLine("This message was sent from " + RemoteIpEndPoint.Address.ToString() + " on their port number " + RemoteIpEndPoint.Port.ToString());
+
+          udpClient.Close();
+          udpClientB.Close();
+
+          }  
+       catch (Exception e ) {
+         Console.WriteLine(e.ToString());
+        }

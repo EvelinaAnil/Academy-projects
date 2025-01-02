@@ -1,0 +1,77 @@
+
+            /* HyperText Transport Protocol (HTTP)
+             GET
+                HEAD
+                    POST
+                        OPTIONS
+                                DELETE
+                                        PUT
+                                            TRACE
+             */
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+            WebClient webClient = new WebClient();
+            //byte[] data = webClient.DownloadData("http://www.google.ua");
+            //string text = Encoding.UTF8.GetString(data);
+            //Console.WriteLine(text);
+
+            Console.WriteLine(Encoding.UTF8.GetString(webClient.DownloadData("http://www.google.ua")));
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+            try
+            {
+                WebClient webClient = new WebClient();
+                string url = "http://www.google.ua";
+                string path = @"D:/MyItStep.html";
+
+                Console.WriteLine($"Downloading data from {url} ...\n");
+
+                /*using (Stream stream = webClient.OpenRead(url))
+                {
+                    using (StreamReader reader = new StreamReader(stream))
+                    {
+                        using (StreamWriter writer = new FileInfo(path).CreateText())
+                        {
+                            writer.WriteLine(reader.ReadToEnd());
+                        }
+                    }
+                }*/
+                using (StreamReader reader = new StreamReader(webClient.OpenRead(url), Encoding.UTF8))
+                {
+                    using (StreamWriter writer = File.CreateText(path))
+                    {
+                        writer.WriteLine(reader.ReadToEnd());
+                    }
+                }
+
+                Console.WriteLine("Successfully!");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+            try
+            {
+                string url = "http://www.friendsofeurope.org/wp/wp-content/uploads/2019/06/bigstock-Planet-Earth-From-Space-Beaut-298703191-e1560939905471.jpg";
+                string path = @"D:/Space.jpg";
+
+                Console.WriteLine($"Downloading data from {url} ...\n");
+
+                using ( WebClient webClient = new WebClient())
+                {
+                    webClient.DownloadFile(url, path);
+                }
+
+                Console.WriteLine("Successfully!");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

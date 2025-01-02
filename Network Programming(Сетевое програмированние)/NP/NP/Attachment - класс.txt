@@ -1,0 +1,106 @@
+Attachment - класс
+ 
+Представляет вложение для электронной почты.
+Пространство имен:   System.Net.Mail
+Сборка:  System (в System.dll)
+
+Иерархия наследования
+System.Object
+System.Net.Mail.AttachmentBase
+System.Net.Mail.Attachment
+
+Синтаксис
+public class Attachment : AttachmentBase
+
+Конструкторы
+ Attachment(Stream, ContentType)	Инициализирует новый экземпляр класса Attachment с указанным потоком и типом содержимого.
+ Attachment(Stream, String)	Инициализирует новый экземпляр класса Attachment с указанными потоком и именем.
+ Attachment(Stream, String, String)	Инициализирует новый экземпляр класса Attachment с указанными потоком, именем и информацией о типе MIME.
+ Attachment(String)	Инициализирует новый экземпляр класса Attachment с указанной строкой содержимого.
+ Attachment(String, ContentType)	Инициализирует новый экземпляр класса Attachment с указанной строкой содержимого и ContentType.
+ Attachment(String, String)	Инициализирует новый экземпляр класса Attachment с указанной строкой содержимого и информацией о типе MIME.
+
+Свойства
+ ContentDisposition	Возвращает заголовок MIME Content-Disposition для данного вложения.
+ ContentId	(Наследуется от AttachmentBase.)
+ ContentStream	Возвращает поток содержимого данного вложения.(Наследуется от AttachmentBase.)
+ ContentType	Возвращает тип содержимого данного вложения.(Наследуется от AttachmentBase.)
+ Name	Получает или задает значение имени типа содержимого MIME, связанного с данным вложением.
+ NameEncoding	Задает кодирование для свойства Name объекта Attachment.
+ TransferEncoding	Получает или задает кодировку данного вложения.(Наследуется от AttachmentBase.)
+
+Методы
+ static	CreateAttachmentFromString(String, ContentType)	Создает почтовое вложение, используя содержимое указанной строки и заданный ContentType.
+ static	CreateAttachmentFromString(String, String)	Создает почтовое вложение, используя содержимое указанной строки и заданное имя типа содержимого MIME.
+ static	CreateAttachmentFromString(String, String, Encoding, String)	Создает почтовое вложение, используя содержимое указанной строки, заданное имя типа содержимого MIME, кодировку символов и информацию заголовка MIME для вложения.
+ Dispose()	Освобождает ресурсы, используемые объектом AttachmentBase. (Наследуется от AttachmentBase.)
+ Dispose(Boolean)	Освобождает неуправляемые ресурсы, используемые объектом AttachmentBase, а при необходимости освобождает также управляемые ресурсы. (Наследуется от AttachmentBase.)
+ Equals(Object)	Определяет, равен ли заданный объект текущему объекту.(Наследуется от Object.)
+ Finalize()	Позволяет объекту попытаться освободить ресурсы и выполнить другие операции по очистке перед тем, как объект будет утилизирован сборщиком мусора. (Наследуется от Object.)
+ GetHashCode()	Играет роль хэш-функции для определённого типа.(Наследуется от Object.)
+ GetType()	Возвращает объект класса Type для текущего экземпляра. (Наследуется от Object.)
+ MemberwiseClone()	Создает "поверхностную" копию текущего объекта. (Наследуется от Object.)
+ ToString()	Возвращает строковое представление текущего объекта.(Наследуется от Object.)
+
+Заметки
+Класс Attachment используется с классом MailMessage.Все сообщения содержат Body, в котором располагается содержимое сообщения.Кроме тела сообщения, может понадобиться отправить дополнительные файлы.Они отправляются в виде вложений и представлены экземплярами Attachment.Чтобы добавить вложение в почтовое сообщение, следует добавить его в коллекцию MailMessage.Attachments.
+Содержимое вложения может представлять собой String, Stream или имя файла.Содержимое можно указать во вложении, используя любой из конструкторов Attachment.
+Информация заголовка MIME Content-Type для вложения представлена свойством ContentType.Заголовок Content-Type указывает тип и подтип содержимого и любые связанные параметры.Свойство ContentType используется для получения экземпляра, связанного с вложением.
+Заголовок MIME Content-Disposition представлен свойством ContentDisposition.Заголовок Content-Disposition указывает представление и отметки времени файлов для вложения.Заголовок Content-Disposition отправляется только в случае, если вложение является файлом.Свойство ContentDisposition используется для получения экземпляра, связанного с вложением.
+Заголовок MIME Content-Transfer-Encoding представлен свойством TransferEncoding.
+
+Примеры
+Следующий пример кода демонстрирует вложение файла в сообщение электронной почты.
+
+public static void CreateMessageWithAttachment(string server)
+{
+	// Specify the file to be attached and sent.
+	// This example assumes that a file named Data.xls exists in the
+	// current working directory.
+	string file = "data.xls";
+	// Create a message and set up the recipients.
+	MailMessage message = new MailMessage(
+	   "jane@contoso.com",
+	   "ben@contoso.com",
+	   "Quarterly data report.",
+	   "See the attached spreadsheet.");
+
+	// Create  the file attachment for this e-mail message.
+	Attachment data = new Attachment(file, MediaTypeNames.Application.Octet);
+	// Add time stamp information for the file.
+	ContentDisposition disposition = data.ContentDisposition;
+	disposition.CreationDate = System.IO.File.GetCreationTime(file);
+	disposition.ModificationDate = System.IO.File.GetLastWriteTime(file);
+	disposition.ReadDate = System.IO.File.GetLastAccessTime(file);
+	// Add the file attachment to this e-mail message.
+	message.Attachments.Add(data);
+
+	//Send the message.
+	SmtpClient client = new SmtpClient(server);
+	// Add credentials if the SMTP server requires them.
+	client.Credentials = CredentialCache.DefaultNetworkCredentials;
+
+    try {
+	  client.Send(message);
+	}
+	catch (Exception ex) {
+	  Console.WriteLine("Exception caught in CreateMessageWithAttachment(): {0}", 
+                  ex.ToString() );			  
+	}
+	// Display the values in the ContentDisposition for the attachment.
+	ContentDisposition cd = data.ContentDisposition;
+	Console.WriteLine("Content disposition");
+	Console.WriteLine(cd.ToString());
+	Console.WriteLine("File {0}", cd.FileName);
+	Console.WriteLine("Size {0}", cd.Size);
+	Console.WriteLine("Creation {0}", cd.CreationDate);
+	Console.WriteLine("Modification {0}", cd.ModificationDate);
+	Console.WriteLine("Read {0}", cd.ReadDate);
+	Console.WriteLine("Inline {0}", cd.Inline);
+	Console.WriteLine("Parameters: {0}", cd.Parameters.Count);
+	foreach (DictionaryEntry d in cd.Parameters)
+	{
+		Console.WriteLine("{0} = {1}", d.Key, d.Value);
+	}
+	data.Dispose();
+}
