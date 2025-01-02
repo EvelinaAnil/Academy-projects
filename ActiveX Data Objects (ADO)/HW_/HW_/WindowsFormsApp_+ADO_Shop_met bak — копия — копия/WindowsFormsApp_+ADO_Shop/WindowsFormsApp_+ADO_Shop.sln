@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp_+ADO_Shop", "WindowsFormsApp_+ADO_Shop\WindowsFormsApp_+ADO_Shop.csproj", "{A14C80DF-71BF-46A9-AEA4-318A5DBF5C7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A14C80DF-71BF-46A9-AEA4-318A5DBF5C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14C80DF-71BF-46A9-AEA4-318A5DBF5C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14C80DF-71BF-46A9-AEA4-318A5DBF5C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14C80DF-71BF-46A9-AEA4-318A5DBF5C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72BC34AD-3499-46C8-B082-7DF98BA23245}
+	EndGlobalSection
+EndGlobal

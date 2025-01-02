@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO4_DataSet_2", "ADO4_DataSet_2\ADO4_DataSet_2.csproj", "{37B95F13-EF83-4D1B-B023-DDC3B65D43AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37B95F13-EF83-4D1B-B023-DDC3B65D43AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B95F13-EF83-4D1B-B023-DDC3B65D43AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B95F13-EF83-4D1B-B023-DDC3B65D43AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B95F13-EF83-4D1B-B023-DDC3B65D43AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {555A1A45-0E02-4CCD-A735-E3119F6CC09F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,228 @@
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.exe.config
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.AssemblyReference.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.SuggestedBindingRedirects.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN\WpfApp_EXAMEN\obj\Debug\LoginSql.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN\WpfApp_EXAMEN\obj\Debug\MainWindow.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN\WpfApp_EXAMEN\obj\Debug\RegisterWindow.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN\WpfApp_EXAMEN\obj\Debug\App.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN_MarkupCompile.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN_MarkupCompile.lref
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN\WpfApp_EXAMEN\obj\Debug\LoginSql.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN\WpfApp_EXAMEN\obj\Debug\MainWindow.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN\WpfApp_EXAMEN\obj\Debug\RegisterWindow.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.g.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.Properties.Resources.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.GenerateResource.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.CoreCompileInputs.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.exe.config
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.AssemblyReference.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.SuggestedBindingRedirects.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\obj\Debug\LoginSql.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\obj\Debug\MainWindow.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\obj\Debug\RegisterWindow.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\obj\Debug\App.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN_MarkupCompile.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN_MarkupCompile.lref
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\obj\Debug\LoginSql.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\obj\Debug\MainWindow.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\obj\Debug\RegisterWindow.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.g.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.Properties.Resources.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.GenerateResource.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.CoreCompileInputs.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\obj\Debug\End.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie\WpfApp_EXAMEN\obj\Debug\End.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.exe.config
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.AssemblyReference.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.SuggestedBindingRedirects.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\obj\Debug\End.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\obj\Debug\LoginSql.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\obj\Debug\MainWindow.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\obj\Debug\RegisterWindow.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\obj\Debug\App.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN_MarkupCompile.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN_MarkupCompile.lref
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\obj\Debug\End.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\obj\Debug\LoginSql.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\obj\Debug\MainWindow.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\obj\Debug\RegisterWindow.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.g.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.Properties.Resources.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.GenerateResource.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.CoreCompileInputs.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.exe.config
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.AssemblyReference.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.SuggestedBindingRedirects.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\End.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\LoginSql.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\MainWindow.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\RegisterWindow.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\App.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN_MarkupCompile.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN_MarkupCompile.lref
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\End.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\LoginSql.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\MainWindow.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\RegisterWindow.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.g.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.Properties.Resources.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.GenerateResource.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.CoreCompileInputs.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\End2.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия\WpfApp_EXAMEN\obj\Debug\End2.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.exe.config
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.AssemblyReference.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.SuggestedBindingRedirects.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\End.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\End2.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\LoginSql.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\MainWindow.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\RegisterWindow.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\App.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN_MarkupCompile.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN_MarkupCompile.lref
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\End.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\End2.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\LoginSql.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\MainWindow.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\RegisterWindow.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.g.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.Properties.Resources.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.GenerateResource.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.CoreCompileInputs.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.exe.config
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.AssemblyReference.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.SuggestedBindingRedirects.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\End.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\End2.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\LoginSql.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\MainWindow.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\RegisterWindow.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\App.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN_MarkupCompile.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN_MarkupCompile.lref
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\End.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\End2.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\LoginSql.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\MainWindow.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\RegisterWindow.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.g.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.Properties.Resources.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.GenerateResource.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.CoreCompileInputs.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.exe.config
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.AssemblyReference.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.SuggestedBindingRedirects.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\End.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\End2.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\LoginSql.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\MainWindow.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\RegisterWindow.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\App.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN_MarkupCompile.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN_MarkupCompile.lref
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\End.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\End2.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\LoginSql.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\MainWindow.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\RegisterWindow.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.g.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.Properties.Resources.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.GenerateResource.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.CoreCompileInputs.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN - kopie — копия — копия — копия — копия — копия (2)\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.exe.config
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.AssemblyReference.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.SuggestedBindingRedirects.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\End.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\End2.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\LoginSql.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\MainWindow.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\RegisterWindow.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\App.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN_MarkupCompile.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN_MarkupCompile.lref
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\End.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\End2.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\LoginSql.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\MainWindow.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\RegisterWindow.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.g.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.Properties.Resources.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.GenerateResource.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.CoreCompileInputs.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.exe.config
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.AssemblyReference.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.SuggestedBindingRedirects.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\End.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\End2.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\LoginSql.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\MainWindow.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\RegisterWindow.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\App.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN_MarkupCompile.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN_MarkupCompile.lref
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\End.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\End2.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\LoginSql.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\MainWindow.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\RegisterWindow.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.g.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.Properties.Resources.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.GenerateResource.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.CoreCompileInputs.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.exe.config
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\bin\Debug\WpfApp_EXAMEN.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.AssemblyReference.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.SuggestedBindingRedirects.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\End.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\End2.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\LoginSql.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\MainWindow.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\RegisterWindow.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\App.g.cs
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN_MarkupCompile.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN_MarkupCompile.lref
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\End.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\End2.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\LoginSql.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\MainWindow.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\RegisterWindow.baml
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.g.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.Properties.Resources.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.GenerateResource.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.csproj.CoreCompileInputs.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\WpfApp_EXAMEN  копия — копия — копия\WpfApp_EXAMEN\obj\Debug\WpfApp_EXAMEN.pdb

@@ -1,0 +1,121 @@
+﻿Конструкторы
+	DataSet()	Выполняет инициализацию нового экземпляра класса DataSet. 
+	DataSet(String)	Инициализирует новый экземпляр класса DataSet с заданным именем.
+	DataSet(SerializationInfo, StreamingContext)	Инфраструктура. Инициализирует новый экземпляр класса DataSet, содержащего заданные сведения о сериализации и контекст.
+	DataSet(SerializationInfo, StreamingContext, Boolean)	Инфраструктура. Инициализирует новый экземпляр класса DataSet.
+
+Методы
+	AcceptChanges	Сохраняет все изменения, внесенные в класс DataSet после его загрузки или после последнего вызова метода AcceptChanges.
+	BeginInit	Начинает инициализацию класса DataSet, используемого в форме или другим компонентом.Инициализация происходит во время выполнения.
+	Clear	Удаляет из класса DataSet любые данные путем удаления всех строк во всех таблицах.
+	Clone	Копирует структуру класса DataSet, включая все схемы, соотношения и ограничения объекта DataTable.Данные не копируются.
+	Copy	Копирует структуру и данные для DataSet.
+	CreateDataReader()	Возвращает объект DataTableReader с одним результирующим набором для каждой последовательности DataTable в той же последовательности, в которой таблицы отображаются в коллекции Tables.
+	CreateDataReader(DataTable[])	Возвращает объект DataTableReader с одним результирующим набором для каждой таблицы DataTable.
+	DetermineSchemaSerializationMode(XmlReader)	Определяет SchemaSerializationMode для DataSet.
+	DetermineSchemaSerializationMode(SerializationInfo, StreamingContext)	Определяет SchemaSerializationMode для DataSet.
+	Dispose()	Освобождает все ресурсы, используемые объектом MarshalByValueComponent. (Унаследовано от MarshalByValueComponent.)
+	Dispose(Boolean)	Освобождает неуправляемые ресурсы, используемые объектом MarshalByValueComponent, а при необходимости освобождает также управляемые ресурсы. (Унаследовано от MarshalByValueComponent.)
+	EndInit	Завершает инициализацию объекта DataSet, который используется в форме или другим компонентом.Инициализация происходит во время выполнения.
+	Equals(Object)	Определяет, равен ли заданный объект Object текущему объекту Object. (Унаследовано от Object.)
+	Finalize	Позволяет объекту Object попытаться освободить ресурсы и выполнить другие операции очистки, перед тем как объект Object будет утилизирован в процессе сборки мусора. (Унаследовано от MarshalByValueComponent.)
+	GetChanges()	Получает копию класса DataSet, содержащую все изменения, внесенные после его загрузки или после последнего вызова метода AcceptChanges.
+	GetChanges(DataRowState)	Получает копию класса DataSet, содержащую все изменения, внесенные после его последней загрузки или после вызова метода AcceptChanges и отфильтрованные по параметру DataRowState.
+	GetDataSetSchema	Инфраструктура. Получает копию XmlSchemaSet для DataSet.
+	GetHashCode	Играет роль хэш-функции для определенного типа. (Унаследовано от Object.)
+	GetObjectData	Заносит в объект сведений о сериализации данные, необходимые для сериализации объекта DataSet.
+	GetSchemaSerializable	Инфраструктура. Возвращает сериализуемый экземпляр XMLSchema.
+	GetSerializationData	Инфраструктура. Десериализует данные таблицы из двоичного потока или XML-потока.
+	GetService	Возвращает средство реализации объекта IServiceProvider. (Унаследовано от MarshalByValueComponent.)
+	GetType	Возвращает объект Type для текущего экземпляра. (Унаследовано от Object.)
+	GetXml	Возвращает XML-представление данных, хранящихся в классе DataSet.
+	GetXmlSchema	Возвращает XML-схему для XML-представления данных, хранящихся в классе DataSet.
+	HasChanges()	Получает значение, определяющее наличие изменений в классе DataSet, включая добавление, удаление или изменение строк.
+	HasChanges(DataRowState)	Получает значение, определяющее наличие изменений в классе DataSet, включая добавление, удаление или изменение строк, отфильтрованных по типу DataRowState.
+	InferXmlSchema(Stream, String[])	Применяет XML-схему из указанного объекта Stream к объекту DataSet.
+	InferXmlSchema(String, String[])	Применяет XML-схему из указанного файла к классу DataSet.
+	InferXmlSchema(TextReader, String[])	Применяет XML-схему из указанного класса TextReader к классу DataSet.
+	InferXmlSchema(XmlReader, String[])	Применяет XML-схему из указанного класса XmlReader к классу DataSet. 
+	InitializeDerivedDataSet	Инфраструктура. Десериализует все данные таблицы DataSet из двоичного потока или XML-потока.
+	IsBinarySerialized	Анализирует формат сериализованного представления набора данных DataSet.
+	Load(IDataReader, LoadOption, DataTable[])	Заполняет набор данных DataSet значениями из источника данных с помощью предоставляемого объекта IDataReader, использующего массив экземпляров DataTable для предоставления сведений о схеме и пространстве имен.
+	Load(IDataReader, LoadOption, String[])	Заполняет набор данных DataSet значениями из источника данных с помощью предоставляемого объекта IDataReader, используя массив строк для предоставления имен таблиц в наборе данных DataSet.
+	Load(IDataReader, LoadOption, FillErrorEventHandler, DataTable[])	Заполняет набор данных DataSet значениями из источника данных с помощью предоставляемого объекта IDataReader, использующего массив экземпляров DataTable для предоставления сведений о схеме и пространстве имен.
+	MemberwiseClone	Создает неполную копию текущего объекта Object. (Унаследовано от Object.)
+	Merge(DataRow[])	Осуществляет слияние массива объектов DataRow и текущего класса DataSet.
+	Merge(DataSet)	Осуществляет слияние указанного объекта DataSet и его схемы с текущим объектом DataSet.
+	Merge(DataTable)	Осуществляет слияние указанного объекта DataTable и его схемы с текущим объектом DataSet.
+	Merge(DataSet, Boolean)	Осуществляет слияние указанного класса DataSet и его схемы с текущим объектом DataSet, сохраняя или удаляя любые изменения в этом объекте DataSet в соответствии с заданным аргументом.
+	Merge(DataRow[], Boolean, MissingSchemaAction)	Осуществляет слияние массива объектов DataRow и текущего объекта DataSet, сохраняя или удаляя любые изменения в этом объекте DataSet и обрабатывая несовместимую схему в соответствии с заданными аргументами.
+	Merge(DataSet, Boolean, MissingSchemaAction)	Осуществляет слияние указанного класса DataSet и его схемы с текущим набором данных DataSet, сохраняя или удаляя любые изменения в текущем наборе данных DataSet и обрабатывая несовместимую схему в соответствии с заданными аргументами.
+	Merge(DataTable, Boolean, MissingSchemaAction)	Осуществляет слияние указанного класса DataTable и его схемы с текущим объектом DataSet, сохраняя или удаляя любые изменения в этом объекте DataSet и обрабатывая несовместимую схему в соответствии с заданными аргументами.
+	OnPropertyChanging	Генерирует событие OnPropertyChanging.
+	OnRemoveRelation	Происходит при удалении объекта DataRelation из DataTable.
+	OnRemoveTable	Происходит при удалении объекта DataTable из DataSet.
+	RaisePropertyChanging	Посылает уведомление об изменении указанного свойства DataSet.
+	ReadXml(Stream)	Считывает XML-схему и данные в DataSet, используя указанный класс System.IO.Stream.
+	ReadXml(String)	Считывает XML-схему и данные в DataSet, используя указанный файл.
+	ReadXml(TextReader)	Считывает XML-схему и данные в DataSet, используя указанный класс System.IO.TextReader.
+	ReadXml(XmlReader)	Читает данные и схему XML в DataSet, используя указанный объект System.Xml.XmlReader.
+	ReadXml(Stream, XmlReadMode)	Считывает XML-схему и данные в DataSet, используя указанные объекты System.IO.Stream и XmlReadMode.
+	ReadXml(String, XmlReadMode)	Считывает XML-схему и данные в DataSet, используя указанный файл и XmlReadMode.
+	ReadXml(TextReader, XmlReadMode)	Считывает XML-схему и данные в DataSet, используя указанные объекты System.IO.TextReader и XmlReadMode.
+	ReadXml(XmlReader, XmlReadMode)	Считывает XML-схему и данные в DataSet, используя указанные объекты System.Xml.XmlReader и XmlReadMode.
+	ReadXmlSchema(Stream)	Считывает XML-схему из указанного класса Stream в класс DataSet.
+	ReadXmlSchema(String)	Считывает XML-схему из указанного файла в класс DataSet.
+	ReadXmlSchema(TextReader)	Считывает XML-схему из указанного класса TextReader в класс DataSet.
+	ReadXmlSchema(XmlReader)	Считывает XML-схему из указанного класса XmlReader в класс DataSet.
+	ReadXmlSerializable	Инфраструктура. Игнорирует атрибуты и возвращает пустой DataSet.
+	RejectChanges	Отменяет все изменения, внесенные в класс DataSet после его создания или после последнего вызова метода DataSet.AcceptChanges.
+	Reset	Возвращает объект DataSet в исходное состояние.Для восстановления исходного состояния класса DataSet необходимо переопределить метод Reset в подклассах.
+	ShouldSerializeRelations	Получает значение, определяющее необходимость сохранения значения свойства Relations.
+	ShouldSerializeTables	Получает значение, определяющее необходимость сохранения значения свойства Tables.
+	ToString	Возвращает строку String, содержащую имя компонента Component, если таковое имеется.Этот метод не следует переопределять. (Унаследовано от MarshalByValueComponent.)
+	WriteXml(Stream)	Записывает текущие данные для DataSet с помощью указанного объекта System.IO.Stream.
+	WriteXml(String)	Записывает текущие данные для DataSet в указанный файл.
+	WriteXml(TextWriter)	Записывает текущие данные для DataSet с помощью указанного объекта TextWriter.
+	WriteXml(XmlWriter)	Записывает текущие данные для DataSet в указанный класс XmlWriter.
+	WriteXml(Stream, XmlWriteMode)	Записывает текущие данные и в случае необходимости схему для DataSet с помощью указанных System.IO.Stream и XmlWriteMode.Чтобы записать схему, задайте в параметре mode значение WriteSchema.
+	WriteXml(String, XmlWriteMode)	Записывает текущие данные и по возможности схему для DataSet в указанный файл с помощью заданного объекта XmlWriteMode.Чтобы записать схему, задайте в параметре mode значение WriteSchema.
+	WriteXml(TextWriter, XmlWriteMode)	Записывает текущие данные и по возможности схему для DataSet с помощью указанных объектов TextWriter и XmlWriteMode.Чтобы записать схему, задайте в параметре mode значение WriteSchema.
+	WriteXml(XmlWriter, XmlWriteMode)	Записывает текущие данные и по возможности схему для DataSet с помощью указанных объектов XmlWriter и XmlWriteMode.Чтобы записать схему, задайте в параметре mode значение WriteSchema.
+	WriteXmlSchema(Stream)	Записывает структуру DataSet в виде схемы XML для указанного объекта System.IO.Stream.
+	WriteXmlSchema(String)	Записывает структуру класса DataSet в виде XML-схемы в файл.
+	WriteXmlSchema(TextWriter)	Записывает структуру DataSet в виде схемы XML для указанного объекта TextWriter.
+	WriteXmlSchema(XmlWriter)	Записывает структуру класса DataSet в виде XML-схемы в объект XmlWriter.
+	WriteXmlSchema(Stream, Converter<Type, String>)	Записывает структуру DataSet в виде схемы XML для указанного объекта System.IO.Stream.
+	WriteXmlSchema(String, Converter<Type, String>)	Записывает структуру класса DataSet в виде XML-схемы в файл.
+	WriteXmlSchema(TextWriter, Converter<Type, String>)	Записывает структуру DataSet в виде схемы XML для указанного объекта TextWriter.
+	WriteXmlSchema(XmlWriter, Converter<Type, String>)	Записывает структуру DataSet в виде схемы XML для указанного объекта XmlWriter.
+
+Свойства
+	CaseSensitive	Возвращает или задает значение, определяющее, учитывается ли регистр при сравнении строк в объектах DataTable.
+	Container	Возвращает контейнер для компонента. (Унаследовано от MarshalByValueComponent.)
+	DataSetName	Возвращает или задает имя текущего DataSet.
+	DefaultViewManager	Получает новое представление данных класса DataSet для осуществления фильтрации, поиска или перехода с помощью настраиваемого класса DataViewManager.
+	DesignMode	Возвращает значение, показывающее, находится ли компонент в настоящий момент в режиме разработки. (Унаследовано от MarshalByValueComponent.)
+	EnforceConstraints	Возвращает или задает значение, определяющее соблюдение правил ограничения при попытке совершения операции обновления.
+	Events	Возвращает список обработчиков событий, которые прикреплены к этому компоненту. (Унаследовано от MarshalByValueComponent.)
+	ExtendedProperties	Возвращает коллекцию настраиваемых данных пользователя, связанных с DataSet.
+	HasErrors	Получает значение, определяющее наличие ошибок в любом из объектов DataTable в классе DataSet.
+	IsInitialized	Получает значение, указывающее, инициализирован ли набор данных DataSet.
+	Locale	Возвращает или задает сведения о языке, используемые для сравнения строк таблицы.
+	Namespace	Возвращает или задает пространство имен класса DataSet.
+	Prefix	Возвращает или задает префикс XML, который является псевдонимом пространства имен класса DataSet.
+	Relations	Возвращает коллекцию соотношений, связывающих таблицы и позволяющих переходить от родительских таблиц к дочерним.
+	RemotingFormat	Возвращает или задает объект SerializationFormat для набора данных DataSet, который используется для удаленного взаимодействия.
+	SchemaSerializationMode	Возвращает или задает объект SchemaSerializationMode для DataSet.
+	Site	Получает или задает System.ComponentModel.ISite для объекта DataSet. (Переопределяет MarshalByValueComponent.Site.)
+	Tables	Возвращает коллекцию таблиц класса DataSet.
+
+События
+	Disposed	Добавляет обработчик событий, чтобы прослушивать событие Disposed для компонента. (Унаследовано от MarshalByValueComponent.)
+	Initialized	Возникает после инициализации DataSet.
+	MergeFailed	Происходит, если значения первичного ключа конечного и основного объектов DataRow совпадают, а свойство EnforceConstraints имеет значение true.
+
+Явные реализации интерфейса
+	IListSource.ContainsListCollection	Описание этого элемента см. в разделе IListSource.ContainsListCollection.
+	IListSource.GetList	Описание этого элемента см. в разделе, посвященном IListSource.GetList.
+	IXmlSerializable.GetSchema	Описание этого элемента см. в разделе, посвященном IXmlSerializable.GetSchema.
+	IXmlSerializable.ReadXml	Описание этого члена см. в разделе IXmlSerializable.ReadXml.
+	IXmlSerializable.WriteXml	Описание этого члена см. в разделе IXmlSerializable.WriteXml.

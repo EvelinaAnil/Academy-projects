@@ -1,0 +1,70 @@
+﻿Конструкторы
+	DataRow	Инфраструктура. Выполняет инициализацию нового экземпляра DataRow.Создает строку из конструктора.Только для внутреннего пользования.
+
+Методы
+	AcceptChanges	Фиксирует все изменения, внесенные в эту строку со времени последнего вызова метода AcceptChanges.
+	BeginEdit	Начинает операцию изменения объекта DataRow.
+	CancelEdit	Отменяет текущее изменение строки.
+	ClearErrors	Очищает ошибки для строки.Это относится к свойству RowError и ошибкам, установленным с помощью метода SetColumnError.
+	Delete	Удаляет объект DataRow.
+	EndEdit	Прекращает изменение строки.
+	Equals(Object)	Определяет, равен ли заданный объект Object текущему объекту Object. (Унаследовано от Object.)
+	Finalize	Позволяет объекту Object попытаться освободить ресурсы и выполнить другие операции очистки, перед тем как объект Object будет утилизирован в процессе сборки мусора. (Унаследовано от Object.)
+	GetChildRows(DataRelation)	Получает дочерние строки этого объекта DataRow с помощью указанного объекта DataRelation.
+	GetChildRows(String)	Получает дочерние строки объекта DataRow с помощью указанного свойства RelationName объекта DataRelation.
+	GetChildRows(DataRelation, DataRowVersion)	Получает дочерние строки объекта DataRow с помощью указанных объектов DataRelation и DataRowVersion.
+	GetChildRows(String, DataRowVersion)	Получает дочерние строки объекта DataRow с помощью указанного свойства RelationName объектов DataRelation и DataRowVersion.
+	GetColumnError(DataColumn)	Получает описание ошибки указанного объекта DataColumn.
+	GetColumnError(Int32)	Получает описание ошибки для столбца, указанного по индексу.
+	GetColumnError(String)	Получает описание ошибки для столбца, указанного по имени.
+	GetColumnsInError	Получает массив столбцов с ошибками.
+	GetHashCode	Играет роль хэш-функции для определенного типа. (Унаследовано от Object.)
+	GetParentRow(DataRelation)	Получает родительскую строку объекта DataRow с помощью указанного объекта DataRelation.
+	GetParentRow(String)	Получает родительскую строку объекта DataRow с помощью указанного свойства RelationName объекта DataRelation.
+	GetParentRow(DataRelation, DataRowVersion)	Получает родительскую строку объекта DataRow с помощью указанных объектов DataRelation и DataRowVersion.
+	GetParentRow(String, DataRowVersion)	Получает родительскую строку объекта DataRow с помощью указанного свойства RelationName объектов DataRelation и DataRowVersion.
+	GetParentRows(DataRelation)	Получает родительские строки объекта DataRow с помощью указанного объекта DataRelation.
+	GetParentRows(String)	Получает родительские строки объекта DataRow с помощью указанного свойства RelationName объекта DataRelation.
+	GetParentRows(DataRelation, DataRowVersion)	Получает родительские строки объекта DataRow с помощью указанных объектов DataRelation и DataRowVersion.
+	GetParentRows(String, DataRowVersion)	Получает родительские строки объекта DataRow с помощью указанного свойства RelationName объектов DataRelation и DataRowVersion.
+	GetType	Возвращает объект Type для текущего экземпляра. (Унаследовано от Object.)
+	HasVersion	Получает значение, показывающее, существует ли указанная версия.
+	IsNull(DataColumn)	Получает значение, показывающее, содержит ли указанный объект DataColumn значение null.
+	IsNull(Int32)	Получает значение, показывающее, содержит ли столбец по указанному индексу значение null.
+	IsNull(String)	Получает значение, показывающее, содержит ли названный столбец значение null.
+	IsNull(DataColumn, DataRowVersion)	Получает значение, показывающее, содержит ли указанные объекты DataColumn и DataRowVersion значение null.
+	MemberwiseClone	Создает неполную копию текущего объекта Object. (Унаследовано от Object.)
+	RejectChanges	Отменяет все изменения, внесенные в строку после последнего вызова метода AcceptChanges.
+	SetAdded	Изменяет значение свойства Rowstate() объекта DataRow на Added. 
+	SetColumnError(DataColumn, String)	Задает описание ошибки для столбца, указанного как DataColumn.
+	SetColumnError(Int32, String)	Задает описание ошибки для столбца, указанного по индексу.
+	SetColumnError(String, String)	Задает описание ошибки для столбца, указанного по имени.
+	SetModified	Изменяет значение свойства Rowstate() объекта DataRow на Modified. 
+	SetNull	Задает значение null указанному параметру DataColumn.
+	SetParentRow(DataRow)	Задает родительскую строку DataRow с указанным новым родительским объектом DataRow.
+	SetParentRow(DataRow, DataRelation)	Задает родительскую строку DataRow с указанными новыми родительскими объектами DataRow и DataRelation.
+	ToString	Возвращает объект String, который представляет текущий объект Object. (Унаследовано от Object.)
+
+Методы расширения
+	Field<T>(DataColumn)	Перегружен. Обеспечивает строго типизированный доступ к каждому значению столбца в указанной строке.Метод Field также поддерживает типы, допускающие значения null. (Определено в DataRowExtensions.)
+	Field<T>(Int32)	Перегружен. Обеспечивает строго типизированный доступ к каждому значению столбца в указанной строке.Метод Field также поддерживает типы, допускающие значения null. (Определено в DataRowExtensions.)
+	Field<T>(String)	Перегружен. Обеспечивает строго типизированный доступ к каждому значению столбца в указанной строке.Метод Field также поддерживает типы, допускающие значения null. (Определено в DataRowExtensions.)
+	Field<T>(DataColumn, DataRowVersion)	Перегружен. Обеспечивает строго типизированный доступ к каждому значению столбца в указанной строке.Метод Field также поддерживает типы, допускающие значения null. (Определено в DataRowExtensions.)
+	Field<T>(Int32, DataRowVersion)	Перегружен. Обеспечивает строго типизированный доступ к каждому значению столбца в указанной строке.Метод Field также поддерживает типы, допускающие значения null. (Определено в DataRowExtensions.)
+	Field<T>(String, DataRowVersion)	Перегружен. Обеспечивает строго типизированный доступ к каждому значению столбца в указанной строке.Метод Field также поддерживает типы, допускающие значения null. (Определено в DataRowExtensions.)
+	SetField<T>(DataColumn, T)	Перегружен. Задает новое значение для указанного столбца в DataRow.Метод SetField также поддерживает типы, допускающие значения null. (Определено в DataRowExtensions.)
+	SetField<T>(Int32, T)	Перегружен. Задает новое значение для указанного столбца в вызванном методе DataRow.Метод SetField также поддерживает типы, допускающие значения null. (Определено в DataRowExtensions.)
+	SetField<T>(String, T)	Перегружен. Задает новое значение для указанного столбца в DataRow.Метод SetField также поддерживает типы, допускающие значения null. (Определено в DataRowExtensions.)
+
+Свойства
+	HasErrors	Получает значение, показывающее, есть ли ошибки в строке.
+	Item[DataColumn]	Возвращает или задает данные, сохраненные в указанном объекте DataColumn.
+	Item[Int32]	Возвращает или задает данные, сохраненные в столбце, указанном по индексу.
+	Item[String]	Возвращает или задает данные, сохраненные в столбце, указанном по имени.
+	Item[DataColumn, DataRowVersion]	Получает указанную версию данных, сохраненных в указанном объекте DataColumn.
+	Item[Int32, DataRowVersion]	Получает данные, сохраненные в столбце, указанном по индексу и версии извлекаемых данных.
+	Item[String, DataRowVersion]	Получает указанную версию данных, сохраненных в именованном столбце.
+	ItemArray	Возвращает или задает все значения для этой строки с помощью массива.
+	RowError	Возвращает или задает настраиваемое описание ошибки для строки.
+	RowState	Получает текущее состояние строки, относящееся к ее отношению к коллекции DataRowCollection.
+	Table	Получает объект DataTable, для которого эта строка имеет схему.

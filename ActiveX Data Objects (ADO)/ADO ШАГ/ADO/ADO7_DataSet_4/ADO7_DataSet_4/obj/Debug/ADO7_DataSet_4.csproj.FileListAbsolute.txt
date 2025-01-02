@@ -1,0 +1,9 @@
+C:\Users\Bux6\source\repos\ADO7_DataSet_4\ADO7_DataSet_4\bin\Debug\ADO7_DataSet_4.exe.config
+C:\Users\Bux6\source\repos\ADO7_DataSet_4\ADO7_DataSet_4\bin\Debug\ADO7_DataSet_4.exe
+C:\Users\Bux6\source\repos\ADO7_DataSet_4\ADO7_DataSet_4\bin\Debug\ADO7_DataSet_4.pdb
+C:\Users\Bux6\source\repos\ADO7_DataSet_4\ADO7_DataSet_4\obj\Debug\ADO7_DataSet_4.MainForm.resources
+C:\Users\Bux6\source\repos\ADO7_DataSet_4\ADO7_DataSet_4\obj\Debug\ADO7_DataSet_4.Properties.Resources.resources
+C:\Users\Bux6\source\repos\ADO7_DataSet_4\ADO7_DataSet_4\obj\Debug\ADO7_DataSet_4.csproj.GenerateResource.cache
+C:\Users\Bux6\source\repos\ADO7_DataSet_4\ADO7_DataSet_4\obj\Debug\ADO7_DataSet_4.exe
+C:\Users\Bux6\source\repos\ADO7_DataSet_4\ADO7_DataSet_4\obj\Debug\ADO7_DataSet_4.pdb
+C:\Users\Bux6\source\repos\ADO7_DataSet_4\ADO7_DataSet_4\obj\Debug\ADO7_DataSet_4.OrderInfo.resources

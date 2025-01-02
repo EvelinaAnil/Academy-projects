@@ -1,0 +1,8 @@
+--Use master;
+--IF(SELECT name FROM master.sys.databases WHERE name like '...') is null
+--begin
+--create database...;
+--end
+--else
+--ROLLBACK
+--CREATE DATABASE ...

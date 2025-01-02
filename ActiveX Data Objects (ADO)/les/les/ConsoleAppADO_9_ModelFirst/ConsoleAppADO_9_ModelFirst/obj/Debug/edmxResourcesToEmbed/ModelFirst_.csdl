@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ModelFirst_" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="ModelFirst_Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="UserSet" EntityType="ModelFirst_.User" />
+    <EntitySet Name="DepartmentSet" EntityType="ModelFirst_.Department" />
+    <AssociationSet Name="DepartmentUser" Association="ModelFirst_.DepartmentUser">
+      <End Role="Department" EntitySet="DepartmentSet" />
+      <End Role="User" EntitySet="UserSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LastName" Type="String" Nullable="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" Nullable="false" Unicode="true" />
+    <Property Name="BirthDate" Type="DateTime" Nullable="false" />
+    <Property Name="Email" Type="String" Nullable="true" />
+    <NavigationProperty Name="Department" Relationship="ModelFirst_.DepartmentUser" FromRole="User" ToRole="Department" />
+  </EntityType>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DeptName" Type="String" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="ModelFirst_.DepartmentUser" FromRole="Department" ToRole="User" />
+  </EntityType>
+  <Association Name="DepartmentUser">
+    <End Type="ModelFirst_.Department" Role="Department" Multiplicity="1" />
+    <End Type="ModelFirst_.User" Role="User" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Admin" BaseType="ModelFirst_.User">
+    <Property Name="Level" Nullable="false" Type="Int32" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,11 @@
+D:\_zmine\_myspace\source\repos\_ado_winter_2023\l_07_2023_02_14\WFAppADO7_1\WFAppADO7_1\bin\Debug\WFAppADO7_1.exe.config
+D:\_zmine\_myspace\source\repos\_ado_winter_2023\l_07_2023_02_14\WFAppADO7_1\WFAppADO7_1\bin\Debug\WFAppADO7_1.exe
+D:\_zmine\_myspace\source\repos\_ado_winter_2023\l_07_2023_02_14\WFAppADO7_1\WFAppADO7_1\bin\Debug\WFAppADO7_1.pdb
+D:\_zmine\_myspace\source\repos\_ado_winter_2023\l_07_2023_02_14\WFAppADO7_1\WFAppADO7_1\obj\Debug\WFAppADO7_1.csproj.AssemblyReference.cache
+D:\_zmine\_myspace\source\repos\_ado_winter_2023\l_07_2023_02_14\WFAppADO7_1\WFAppADO7_1\obj\Debug\WFAppADO7_1.csproj.SuggestedBindingRedirects.cache
+D:\_zmine\_myspace\source\repos\_ado_winter_2023\l_07_2023_02_14\WFAppADO7_1\WFAppADO7_1\obj\Debug\WFAppADO7_1.Form1.resources
+D:\_zmine\_myspace\source\repos\_ado_winter_2023\l_07_2023_02_14\WFAppADO7_1\WFAppADO7_1\obj\Debug\WFAppADO7_1.Properties.Resources.resources
+D:\_zmine\_myspace\source\repos\_ado_winter_2023\l_07_2023_02_14\WFAppADO7_1\WFAppADO7_1\obj\Debug\WFAppADO7_1.csproj.GenerateResource.cache
+D:\_zmine\_myspace\source\repos\_ado_winter_2023\l_07_2023_02_14\WFAppADO7_1\WFAppADO7_1\obj\Debug\WFAppADO7_1.csproj.CoreCompileInputs.cache
+D:\_zmine\_myspace\source\repos\_ado_winter_2023\l_07_2023_02_14\WFAppADO7_1\WFAppADO7_1\obj\Debug\WFAppADO7_1.exe
+D:\_zmine\_myspace\source\repos\_ado_winter_2023\l_07_2023_02_14\WFAppADO7_1\WFAppADO7_1\obj\Debug\WFAppADO7_1.pdb

@@ -1,0 +1,33 @@
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp_+ADO_Shop.csproj.AssemblyReference.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp_+ADO_Shop.csproj.SuggestedBindingRedirects.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp__ADO_Shop.Form1.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp__ADO_Shop.Properties.Resources.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp_+ADO_Shop.csproj.GenerateResource.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp_+ADO_Shop.csproj.CoreCompileInputs.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop\WindowsFormsApp_+ADO_Shop\bin\Debug\WindowsFormsApp_+ADO_Shop.exe.config
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop\WindowsFormsApp_+ADO_Shop\bin\Debug\WindowsFormsApp_+ADO_Shop.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop\WindowsFormsApp_+ADO_Shop\bin\Debug\WindowsFormsApp_+ADO_Shop.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp_+ADO_Shop.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp_+ADO_Shop.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия\WindowsFormsApp_+ADO_Shop\bin\Debug\WindowsFormsApp_+ADO_Shop.exe.config
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия\WindowsFormsApp_+ADO_Shop\bin\Debug\WindowsFormsApp_+ADO_Shop.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия\WindowsFormsApp_+ADO_Shop\bin\Debug\WindowsFormsApp_+ADO_Shop.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp_+ADO_Shop.csproj.AssemblyReference.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp_+ADO_Shop.csproj.SuggestedBindingRedirects.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp__ADO_Shop.Form1.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp__ADO_Shop.Properties.Resources.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp_+ADO_Shop.csproj.GenerateResource.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp_+ADO_Shop.csproj.CoreCompileInputs.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp_+ADO_Shop.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp_+ADO_Shop.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия — копия\WindowsFormsApp_+ADO_Shop\bin\Debug\WindowsFormsApp_+ADO_Shop.exe.config
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия — копия\WindowsFormsApp_+ADO_Shop\bin\Debug\WindowsFormsApp_+ADO_Shop.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия — копия\WindowsFormsApp_+ADO_Shop\bin\Debug\WindowsFormsApp_+ADO_Shop.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия — копия\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp_+ADO_Shop.csproj.AssemblyReference.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия — копия\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp_+ADO_Shop.csproj.SuggestedBindingRedirects.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия — копия\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp__ADO_Shop.Form1.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия — копия\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp__ADO_Shop.Properties.Resources.resources
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия — копия\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp_+ADO_Shop.csproj.GenerateResource.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия — копия\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp_+ADO_Shop.csproj.CoreCompileInputs.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия — копия\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp_+ADO_Shop.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\HW_\WindowsFormsApp_+ADO_Shop — копия — копия\WindowsFormsApp_+ADO_Shop\obj\Debug\WindowsFormsApp_+ADO_Shop.pdb

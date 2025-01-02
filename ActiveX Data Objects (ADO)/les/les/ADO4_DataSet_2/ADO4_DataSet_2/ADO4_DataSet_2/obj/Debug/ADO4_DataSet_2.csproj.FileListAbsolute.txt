@@ -1,0 +1,15 @@
+C:\Users\AdminkaMandarinka\source\repos\ADO4_DataSet_2\ADO4_DataSet_2\bin\Debug\ADO4_DataSet_2.exe.config
+C:\Users\AdminkaMandarinka\source\repos\ADO4_DataSet_2\ADO4_DataSet_2\bin\Debug\ADO4_DataSet_2.exe
+C:\Users\AdminkaMandarinka\source\repos\ADO4_DataSet_2\ADO4_DataSet_2\bin\Debug\ADO4_DataSet_2.pdb
+C:\Users\AdminkaMandarinka\source\repos\ADO4_DataSet_2\ADO4_DataSet_2\obj\Debug\ADO4_DataSet_2.csproj.AssemblyReference.cache
+C:\Users\AdminkaMandarinka\source\repos\ADO4_DataSet_2\ADO4_DataSet_2\obj\Debug\ADO4_DataSet_2.csproj.CoreCompileInputs.cache
+C:\Users\AdminkaMandarinka\source\repos\ADO4_DataSet_2\ADO4_DataSet_2\obj\Debug\ADO4_DataSet_2.exe
+C:\Users\AdminkaMandarinka\source\repos\ADO4_DataSet_2\ADO4_DataSet_2\obj\Debug\ADO4_DataSet_2.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\les\ADO4_DataSet_2\ADO4_DataSet_2\ADO4_DataSet_2\bin\Debug\ADO4_DataSet_2.exe.config
+E:\ШАГ\ActiveX Data Objects (ADO)\les\ADO4_DataSet_2\ADO4_DataSet_2\ADO4_DataSet_2\bin\Debug\ADO4_DataSet_2.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\les\ADO4_DataSet_2\ADO4_DataSet_2\ADO4_DataSet_2\bin\Debug\ADO4_DataSet_2.pdb
+E:\ШАГ\ActiveX Data Objects (ADO)\les\ADO4_DataSet_2\ADO4_DataSet_2\ADO4_DataSet_2\obj\Debug\ADO4_DataSet_2.csproj.AssemblyReference.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\les\ADO4_DataSet_2\ADO4_DataSet_2\ADO4_DataSet_2\obj\Debug\ADO4_DataSet_2.csproj.SuggestedBindingRedirects.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\les\ADO4_DataSet_2\ADO4_DataSet_2\ADO4_DataSet_2\obj\Debug\ADO4_DataSet_2.csproj.CoreCompileInputs.cache
+E:\ШАГ\ActiveX Data Objects (ADO)\les\ADO4_DataSet_2\ADO4_DataSet_2\ADO4_DataSet_2\obj\Debug\ADO4_DataSet_2.exe
+E:\ШАГ\ActiveX Data Objects (ADO)\les\ADO4_DataSet_2\ADO4_DataSet_2\ADO4_DataSet_2\obj\Debug\ADO4_DataSet_2.pdb

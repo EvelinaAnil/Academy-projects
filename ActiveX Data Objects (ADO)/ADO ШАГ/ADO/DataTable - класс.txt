@@ -1,0 +1,148 @@
+﻿Конструкторы
+	DataTable()	Инициализирует новый экземпляр класса DataTable, не передавая ему никаких аргументов.
+	DataTable(String)	Инициализирует новый экземпляр класса DataTable с указанным именем таблицы.
+	DataTable(SerializationInfo, StreamingContext)	Инициализирует новый экземпляр класса DataTable со свойствами SerializationInfo и StreamingContext.
+	DataTable(String, String)	Инициализирует новый экземпляр класса DataTable с заданными именем таблицы и пространством имен.
+
+Методы
+	AcceptChanges	Фиксирует все изменения, внесенные в таблицу после последнего вызова метода AcceptChanges.
+	BeginInit	Начинает инициализацию класса DataTable, используемого в форме или другим компонентом.Инициализация происходит во время выполнения.
+	BeginLoadData	Отключает уведомления, ведение индексов и ограничения в процессе загрузки данных.
+	Clear	Очищает DataTable от всех данных.
+	Clone	Копирует структуру объекта DataTable, включая все схемы и ограничения DataTable.
+	Compute	Вычисляет заданное выражение для текущих строк, отвечающих условию фильтра.
+	Copy	Копирует структуру и данные для DataTable.
+	CreateDataReader	Возвращает объект DataTableReader, соответствующий данным в этой таблице DataTable.
+	CreateInstance	Инфраструктура. Создает новый экземпляр DataTable.
+	Dispose()	Освобождает все ресурсы, используемые объектом MarshalByValueComponent. (Унаследовано от MarshalByValueComponent.)
+	Dispose(Boolean)	Освобождает неуправляемые ресурсы, используемые объектом MarshalByValueComponent, а при необходимости освобождает также управляемые ресурсы. (Унаследовано от MarshalByValueComponent.)
+	EndInit	Завершает инициализацию объекта DataTable, используемого в форме или другим компонентом.Инициализация происходит во время выполнения.
+	EndLoadData	Включает уведомления, ведение индексов и ограничения после загрузки данных.
+	Equals(Object)	Определяет, равен ли заданный объект Object текущему объекту Object. (Унаследовано от Object.)
+	Finalize	Позволяет объекту Object попытаться освободить ресурсы и выполнить другие операции очистки, перед тем как объект Object будет утилизирован в процессе сборки мусора. (Унаследовано от MarshalByValueComponent.)
+	GetChanges()	Получает копию таблицы DataTable, содержащую все изменения, внесенные после ее загрузки или после последнего вызова метода AcceptChanges.
+	GetChanges(DataRowState)	Получает копию таблицы DataTable, содержащую все изменения, внесенные после ее последней загрузки или после вызова метода AcceptChanges и отфильтрованные по параметру DataRowState.
+	GetDataTableSchema	Этот метод возвращает экземпляр XmlSchemaSet, содержащий язык описания веб-служб (WSDL), который описывает объект DataTable для веб-служб.
+	GetErrors	Получает массив объектов DataRow, содержащих ошибки.
+	GetHashCode	Играет роль хэш-функции для определенного типа. (Унаследовано от Object.)
+	GetObjectData	Заносит в объект сведений о сериализации данные, необходимые для сериализации объекта DataTable.
+	GetRowType	Инфраструктура. Получает тип строки.
+	GetSchema	Инфраструктура. Описание этого элемента см. в разделе IXmlSerializable.GetSchema.
+	GetService	Возвращает средство реализации объекта IServiceProvider. (Унаследовано от MarshalByValueComponent.)
+	GetType	Возвращает объект Type для текущего экземпляра. (Унаследовано от Object.)
+	ImportRow	Копирует объект DataRow в DataTable, сохраняя все параметры свойств, а также текущие и исходные значения.
+	Load(IDataReader)	Заполняет таблицу DataTable значениями из источника данных с помощью предоставляемого объекта IDataReader.Если объект DataTable уже содержит строки, входящие данные из источника данных объединяются с существующими строками.
+	Load(IDataReader, LoadOption)	Заполняет таблицу DataTable значениями из источника данных с помощью предоставляемого объекта IDataReader.Если объект DataTable уже содержит строки, поступающие данные из источника данных объединяются с существующими строками согласно значению параметра loadOption.
+	Load(IDataReader, LoadOption, FillErrorEventHandler)	Заполняет таблицу DataTable значениями из источника данных с помощью предоставляемого объекта IDataReader, использующего делегат для обработки ошибок.
+	LoadDataRow(Object[], Boolean)	Находит и обновляет конкретную строку.Если нужная строка не найдена, то с помощью заданных значений создается новая строка.
+	LoadDataRow(Object[], LoadOption)	Находит и обновляет конкретную строку.Если нужная строка не найдена, то с помощью заданных значений создается новая строка.
+	MemberwiseClone	Создает неполную копию текущего объекта Object. (Унаследовано от Object.)
+	Merge(DataTable)	Объединяет заданный объект DataTable с текущим объектом DataTable.
+	Merge(DataTable, Boolean)	Объедините заданный объект DataTable с текущим объектом DataTable, указав, следует ли сохранить изменения в контейнере данных DataTable.
+	Merge(DataTable, Boolean, MissingSchemaAction)	Объедините заданный объект DataTable с текущим объектом DataTable, указав, следует ли сохранить изменения и способ обработки отсутствующей схемы в текущем контейнере данных DataTable.
+	NewRow	Создает новый класс DataRow, имеющий ту же схему, что и таблица.
+	NewRowArray	Инфраструктура. Возвращает массив DataRow.
+	NewRowFromBuilder	Создает новую строку из существующей строки.
+	OnColumnChanged	Генерирует событие ColumnChanged.
+	OnColumnChanging	Вызывает событие ColumnChanging.
+	OnPropertyChanging	Вызывает событие PropertyChanged.
+	OnRemoveColumn	Сообщает классу DataTable об удалении объекта DataColumn.
+	OnRowChanged	Вызывает событие RowChanged.
+	OnRowChanging	Вызывает событие RowChanging.
+	OnRowDeleted	Вызывает событие RowDeleted.
+	OnRowDeleting	Вызывает событие RowDeleting.
+	OnTableCleared	Вызывает событие TableCleared.
+	OnTableClearing	Вызывает событие TableClearing.
+	OnTableNewRow	Вызывает событие TableNewRow.
+	ReadXml(Stream)	Считывает XML-схему и данные в DataTable, используя указанный класс Stream.
+	ReadXml(String)	Читает данные и схему XML в DataTable из указанного файла.
+	ReadXml(TextReader)	Считывает схему XML и данные в DataTable, используя указанный объект TextReader.
+	ReadXml(XmlReader)	Читает данные и схему XML в DataTable, используя указанное средство чтения XmlReader. 
+	ReadXmlSchema(Stream)	Считывает XML-схему в DataTable, используя указанный поток.
+	ReadXmlSchema(String)	Считывает XML-схему из указанного файла в таблицу DataTable.
+	ReadXmlSchema(TextReader)	Считывает XML-схему в DataTable, используя указанный объект TextReader.
+	ReadXmlSchema(XmlReader)	Считывает XML-схему в DataTable, используя указанный объект XmlReader.
+	ReadXmlSerializable	Инфраструктура. Считывает из XML-потока.
+	RejectChanges	Выполняется откат всех изменений, внесенных в таблицу с момента ее загрузки или после последнего вызова метода AcceptChanges.
+	Reset	Возвращает объект DataTable в исходное состояние.
+	Select()	Получает массив всех объектов DataRow.
+	Select(String)	Получает массив всех объектов DataRow, отвечающих условиям фильтра в порядке первичного ключа (если ключ отсутствует, то в порядке их добавления). 
+	Select(String, String)	Получает массив всех объектов DataRow, отвечающих условиям фильтра, согласно указанному порядку сортировки.
+	Select(String, String, DataViewRowState)	Получает массив всех объектов DataRow, отвечающих условиям фильтра, согласно порядку сортировки, соответствующему указанному состоянию.
+	ToString	Получает свойства TableName и DisplayExpression, если существует сцепленная строка. (Переопределяет MarshalByValueComponent.ToString().)
+	WriteXml(Stream)	Записывает текущее содержимое таблицы DataTable в формате XML, используя заданный поток Stream.
+	WriteXml(String)	Записывает текущее содержимое таблицы DataTable в формате XML, используя указанный файл.
+	WriteXml(TextWriter)	Записывает текущее содержимое таблицы DataTable в формате XML, используя указанный объект TextWriter.
+	WriteXml(XmlWriter)	Записывает текущее содержимое таблицы DataTable в формате XML, используя указанный объект XmlWriter.
+	WriteXml(Stream, Boolean)	Записывает текущее содержимое таблицы DataTable в формате XML, используя заданный поток Stream.Чтобы сохранить данные для таблицы и всех ее потомков, установите для параметра writeHierarchy значение true.
+	WriteXml(Stream, XmlWriteMode)	Записывает текущие данные и по возможности схему для DataTable в указанный файл с помощью заданного объекта XmlWriteMode.Чтобы записать схему, задайте в параметре mode значение WriteSchema.
+	WriteXml(String, Boolean)	Записывает текущее содержимое таблицы DataTable в формате XML, используя указанный файл.Чтобы сохранить данные для таблицы и всех ее потомков, установите для параметра writeHierarchy значение true.
+	WriteXml(String, XmlWriteMode)	Записывает текущие данные и по возможности схему для DataTable, используя указанный файл и заданное перечисление XmlWriteMode.Чтобы записать схему, задайте в параметре mode значение WriteSchema.
+	WriteXml(TextWriter, Boolean)	Записывает текущее содержимое таблицы DataTable в формате XML, используя указанный объект TextWriter.Чтобы сохранить данные для таблицы и всех ее потомков, установите для параметра writeHierarchy значение true.
+	WriteXml(TextWriter, XmlWriteMode)	Записывает текущие данные и по возможности схему для DataTable с помощью указанных TextWriter и XmlWriteMode.Чтобы записать схему, задайте в параметре mode значение WriteSchema.
+	WriteXml(XmlWriter, Boolean)	Записывает текущее содержимое таблицы DataTable в формате XML, используя указанный объект XmlWriter. 
+	WriteXml(XmlWriter, XmlWriteMode)	Записывает текущие данные и по возможности схему для таблицы DataTable с помощью указанных объектов XmlWriter и XmlWriteMode.Чтобы записать схему, задайте в параметре mode значение WriteSchema.
+	WriteXml(Stream, XmlWriteMode, Boolean)	Записывает текущие данные и по возможности схему для DataTable в указанный файл с помощью заданного объекта XmlWriteMode.Чтобы записать схему, задайте в параметре mode значение WriteSchema.Чтобы сохранить данные для таблицы и всех ее потомков, установите для параметра writeHierarchy значение true.
+	WriteXml(String, XmlWriteMode, Boolean)	Записывает текущие данные и по возможности схему для DataTable, используя указанный файл и заданное перечисление XmlWriteMode.Чтобы записать схему, задайте в параметре mode значение WriteSchema.Чтобы сохранить данные для таблицы и всех ее потомков, установите для параметра writeHierarchy значение true.
+	WriteXml(TextWriter, XmlWriteMode, Boolean)	Записывает текущие данные и по возможности схему для таблицы DataTable с помощью указанных объектов TextWriter и XmlWriteMode.Чтобы записать схему, задайте в параметре mode значение WriteSchema.Чтобы сохранить данные для таблицы и всех ее потомков, установите для параметра writeHierarchy значение true.
+	WriteXml(XmlWriter, XmlWriteMode, Boolean)	Записывает текущие данные и по возможности схему для таблицы DataTable с помощью указанных объектов XmlWriter и XmlWriteMode.Чтобы записать схему, задайте в параметре mode значение WriteSchema.Чтобы сохранить данные для таблицы и всех ее потомков, установите для параметра writeHierarchy значение true.
+	WriteXmlSchema(Stream)	Записывает текущую структуру данных таблицы DataTable в виде XML-схемы в указанный поток.
+	WriteXmlSchema(String)	Записывает текущую структуру данных таблицы DataTable в виде XML-схемы в указанный файл.
+	WriteXmlSchema(TextWriter)	Записывает текущую структуру данных таблицы DataTable в виде XML-схемы, используя указанный класс TextWriter.
+	WriteXmlSchema(XmlWriter)	Записывает текущую структуру данных таблицы DataTable в виде XML-схемы, используя указанный класс XmlWriter.
+	WriteXmlSchema(Stream, Boolean)	Записывает текущую структуру данных таблицы DataTable в виде XML-схемы в указанный поток.Чтобы сохранить схему для таблицы и всех ее потомков, установите для параметра writeHierarchy значение true.
+	WriteXmlSchema(String, Boolean)	Записывает текущую структуру данных таблицы DataTable в виде XML-схемы в указанный файл.Чтобы сохранить схему для таблицы и всех ее потомков, установите для параметра writeHierarchy значение true.
+	WriteXmlSchema(TextWriter, Boolean)	Записывает текущую структуру данных таблицы DataTable в виде XML-схемы, используя указанный класс TextWriter.Чтобы сохранить схему для таблицы и всех ее потомков, установите для параметра writeHierarchy значение true.
+	WriteXmlSchema(XmlWriter, Boolean)	Записывает текущую структуру данных таблицы DataTable в виде XML-схемы, используя указанный класс XmlWriter.Чтобы сохранить схему для таблицы и всех ее потомков, установите для параметра writeHierarchy значение true.
+
+Методы расширения
+	AsDataView	Создает и возвращает объект DataView с поддержкой LINQ. (Определено в DataTableExtensions.)
+	AsEnumerable	Возвращает объект IEnumerable<T>, где универсальный параметр T имеет значение DataRow.Этот объект может использоваться в выражении LINQ или запросе метода. (Определено в DataTableExtensions.)
+
+Поля
+	fInitInProgress	Инфраструктура. Проверяет, выполняется ли инициализация.Инициализация происходит во время выполнения.
+
+Свойства
+	CaseSensitive	Показывает, учитывается ли регистр при сравнении строк в таблице.
+	ChildRelations	Получает коллекцию дочерних отношений для объекта DataTable.
+	Columns	Получает коллекцию столбцов, принадлежащих данной таблице.
+	Constraints	Получает коллекцию ограничений, содержащихся в данной таблице.
+	Container	Возвращает контейнер для компонента. (Унаследовано от MarshalByValueComponent.)
+	DataSet	Получает класс DataSet, к которому принадлежит данная таблица.
+	DefaultView	Получает настраиваемое представление таблицы, которая может включать в себя представление с фильтром или положение курсора.
+	DesignMode	Возвращает значение, показывающее, находится ли компонент в настоящий момент в режиме разработки. (Унаследовано от MarshalByValueComponent.)
+	DisplayExpression	Возвращает или задает выражение, возвращающее значение, используемое для представления таблицы в пользовательском интерфейсе.Свойство DisplayExpression позволяет отображать имя этой таблицы в пользовательском интерфейсе.
+	Events	Возвращает список обработчиков событий, которые прикреплены к этому компоненту. (Унаследовано от MarshalByValueComponent.)
+	ExtendedProperties	Получает коллекцию настраиваемых пользовательских сведений.
+	HasErrors	Получает значение, указывающее наличие ошибок в строках таблиц класса DataSet, к которому принадлежат таблицы.
+	IsInitialized	Получает значение, указывающее, инициализирована ли таблица DataTable.
+	Locale	Возвращает или задает сведения о языковом стандарте, используемые для сравнения строк таблицы.
+	MinimumCapacity	Возвращает или задает начальный размер таблицы.
+	Namespace	Возвращает или задает пространство имен для представления данных объекта DataTable в формате XML.
+	ParentRelations	Получает коллекцию родительских отношений для объекта DataTable.
+	Prefix	Возвращает или задает пространство имен для представления данных объекта DataTable в формате XML.
+	PrimaryKey	Возвращает или задает массив столбцов, которые являются столбцами первичного ключа для таблицы данных.
+	RemotingFormat	Возвращает или задает формат сериализации.
+	Rows	Получает коллекцию строк, принадлежащих данной таблице.
+	Site	Возвращает или задает тип System.ComponentModel.ISite для объекта DataTable. (Переопределяет MarshalByValueComponent.Site.)
+	TableName	Возвращает или задает имя DataTable.
+
+События
+	ColumnChanged	Происходит после изменения значения указанного объекта DataColumn в DataRow.
+	ColumnChanging	Происходит при изменении значения указанного объекта DataColumn в DataRow.
+	Disposed	Добавляет обработчик событий, чтобы прослушивать событие Disposed для компонента. (Унаследовано от MarshalByValueComponent.)
+	Initialized	Происходит после инициализации таблицы DataTable.
+	RowChanged	Происходит после успешного изменения DataRow.
+	RowChanging	Происходит при изменении объекта DataRow.
+	RowDeleted	Происходит после удаления строки таблицы.
+	RowDeleting	Происходит перед удалением строки таблицы.
+	TableCleared	Происходит после очистки DataTable.
+	TableClearing	Происходит, когда очищается таблица DataTable.
+	TableNewRow	Происходит, когда вставляется новая строка DataRow.
+
+Явные реализации интерфейса
+	IListSource.ContainsListCollection	Описание этого элемента см. в разделе IListSource.ContainsListCollection.
+	IListSource.GetList	Описание этого члена см. в описании IListSource.GetList.
+	IXmlSerializable.GetSchema	Описание этого члена см. в разделе IXmlSerializable.GetSchema.
+	IXmlSerializable.ReadXml	Описание этого члена см. в разделе IXmlSerializable.ReadXml.
+	IXmlSerializable.WriteXml	Описание этого члена см. в разделе IXmlSerializable.WriteXml.
