@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,java,js,php,nodejs,html,css,mysql,git,visualstudio,vscode,idea,unity&perline=7" />
+  <img src="https://skillicons.dev/icons?i=cpp,cs,dotnet,java,js,php,nodejs,html,css,mysql,git,visualstudio,vscode,idea,unity,linux,github&perline=7" />
 </p>
 
 <p align="center">
@@ -113,13 +113,13 @@
 ## 🧠 Programming Experience
 
 ```text
-C# / .NET          ████████████████ 90%
-Java               ██████████████   80%
-JavaScript         ████████████     75%
-PHP                ██████████       65%
-SQL / MySQL        ████████████     75%
-Python             ████████         60%
-C++                ███████          50%
+SQL / MySQL        ██████████████████ 90%
+C# / .NET          ████████████████   80%
+Java               ███████████████    75%
+JavaScript         ██████████████     70%
+Python             ██████████████     70%
+PHP                ████████████       60%
+C++                ███████████        55%
 ```
 
 
@@ -155,30 +155,6 @@ F --> F1[SQL]
 F --> F2[MySQL]
 ```
 
-## 📚 Learning Journey
-
-2021
-│
-├── C# Fundamentals
-├── OOP Concepts
-│
-2022
-│
-├── Java SE
-├── Android Development
-├── SQL Databases
-│
-2023
-│
-├── ASP.NET MVC
-├── PHP
-├── JavaScript
-│
-2024
-│
-├── Node.js
-├── Unity
-├── Network Programming
 
 ## 📊 Repository Statistics
 
@@ -191,37 +167,3 @@ F --> F2[MySQL]
 | Frameworks | 8 |
 | IDEs Used | 5 |
 
-mindmap
-  root((IT-Step Projects))
-    Programming
-      C#
-      Java
-      JavaScript
-      PHP
-      Python
-      C++
-    Web
-      ASP.NET
-      MVC
-      Node.js
-      HTML
-      CSS
-    Database
-      SQL
-      MySQL
-      ADO
-    Tools
-      Git
-      Visual Studio
-      VS Code
-      IntelliJ IDEA
-    Game Dev
-      Unity
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=c,cpp,cs,java,python,js,php,html,css,dotnet,nodejs,mysql,git,github,docker,linux,unity&perline=9"/>
-</p>
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact"/>
-</p>
