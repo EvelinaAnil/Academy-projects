@@ -102,18 +102,19 @@
 
 <table>
 <tr>
+
 <td width="50%" valign="top">
 
 ### 🎓 Project Information
 
-| | |
-|---|---|
+| 📌 Category | Details |
+|:---|:---|
 | 🎓 Institution | **IT-Step University** |
-| 📁 Repository Type | **University Coursework** |
+| 📁 Type | **University Coursework** |
 | 📂 Projects | **100+** |
-| ⏳ Study Period | **3+ Years** |
-| 💻 Programming Languages | **10+** |
-| 🛠 Frameworks & Technologies | **8+** |
+| ⏳ Duration | **3+ Years** |
+| 💻 Languages | **10+** |
+| 🛠 Technologies | **8+** |
 
 </td>
 
@@ -121,16 +122,17 @@
 
 ### 🛠 Technology Stack
 
-| Category | Technologies |
-|---|---|
+| 📌 Category | Technologies |
+|:---|:---|
 | 💻 Languages | C#, Java, JavaScript, PHP, Python, C++ |
-| 🌍 Web Development | ASP.NET, MVC, Node.js, HTML, CSS |
+| 🌍 Web | ASP.NET, MVC, Node.js, HTML, CSS |
 | 🗄️ Databases | SQL, MySQL, ADO |
-| 🎮 Game Development | Unity |
-| 🖥 Desktop Development | Qt |
-| 🔧 Tools & IDEs | Visual Studio, VS Code, IntelliJ IDEA, Git |
+| 🎮 Game Dev | Unity |
+| 🖥 Desktop | Qt |
+| 🔧 Tools | Visual Studio, VS Code, IntelliJ IDEA, Git |
 
 </td>
+
 </tr>
 </table>
 
@@ -138,23 +140,18 @@
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/Status-Archived-blue?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Type-University%20Projects-purple?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Completed-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Type-Academic%20Portfolio-purple?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Projects-100%2B-success?style=for-the-badge"/>
 
 </p>
-
 
 ---
 
 ## 🧠 Programming Experience
 
-<table>
-<tr>
-<td width="100%">
-
 | Technology | Experience |
-|:---|:---|
+|:---|:---:|
 | 💾 SQL / MySQL | ██████████████████ **90%** |
 | ⚙️ C# / .NET | ████████████████ **80%** |
 | ☕ Java | ███████████████ **75%** |
@@ -162,7 +159,3 @@
 | 🐍 Python | ██████████████ **70%** |
 | 🐘 PHP | ████████████ **60%** |
 | 🔵 C++ | ███████████ **55%** |
-
-</td>
-</tr>
-</table>
