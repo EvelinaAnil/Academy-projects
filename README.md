@@ -40,53 +40,46 @@
 <details>
 <summary><b>☕ Java Projects</b></summary>
 
-Java Fundamentals  
-Android Development  
-RecyclerView  
-Retrofit  
-Room Database  
-Spring Boot  
-Fragments  
-ListView  
-ViewPager  
-Homework  
-Laboratory Work  
-
+&nbsp;&nbsp;&nbsp;Java Fundamentals<br>
+&nbsp;&nbsp;&nbsp;Android Development<br>
+&nbsp;&nbsp;&nbsp;RecyclerView<br>
+&nbsp;&nbsp;&nbsp;Retrofit<br>
+&nbsp;&nbsp;&nbsp;Room Database<br>
+&nbsp;&nbsp;&nbsp;Spring Boot<br>
+&nbsp;&nbsp;&nbsp;Fragments<br>
+&nbsp;&nbsp;&nbsp;ListView<br>
+&nbsp;&nbsp;&nbsp;ViewPager<br>
+&nbsp;&nbsp;&nbsp;Homework<br>
+&nbsp;&nbsp;&nbsp;Laboratory Work
 </details>
 
-<br>
 <details>
 <summary><b>💜 C# / .NET Projects</b></summary>
 
-Windows Applications  
-Homework  
-Laboratory Exercises  
-Lesson Materials  
-
+&nbsp;&nbsp;&nbsp;Windows Applications<br>
+&nbsp;&nbsp;&nbsp;Homework<br>
+&nbsp;&nbsp;&nbsp;Laboratory Exercises<br>
+&nbsp;&nbsp;&nbsp;Lesson Materials
 </details>
 
-<br>
 <details>
 <summary><b>🌐 Web Development</b></summary>
 
-ASP  
-ASP.NET MVC  
-PHP  
-JavaScript  
-Node.js  
-HTML / CSS  
-
+&nbsp;&nbsp;&nbsp;ASP<br>
+&nbsp;&nbsp;&nbsp;ASP.NET MVC<br>
+&nbsp;&nbsp;&nbsp;PHP<br>
+&nbsp;&nbsp;&nbsp;JavaScript<br>
+&nbsp;&nbsp;&nbsp;Node.js<br>
+&nbsp;&nbsp;&nbsp;HTML / CSS
 </details>
 
-<br>
 <details>
-<summary><b>🗄️ Database </b></summary>
+<summary><b>🗄️ Database</b></summary>
 
-SQL  
-MySQL  
-ADO  
-Database Theory  
-
+&nbsp;&nbsp;&nbsp;SQL<br>
+&nbsp;&nbsp;&nbsp;MySQL<br>
+&nbsp;&nbsp;&nbsp;ADO<br>
+&nbsp;&nbsp;&nbsp;Database Theory
 </details>
 
 ---
