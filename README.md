@@ -50,19 +50,6 @@
 
 </details>
 
-
-## 🧠 Programming Experience
-
-```text
-C# / .NET          ████████████████ 90%
-Java               ██████████████   80%
-JavaScript         ████████████     75%
-PHP                ██████████       65%
-SQL / MySQL        ████████████     75%
-Python             ████████         60%
-C++                ███████          50%
-```
-
 <details>
 <summary><b>💜 C# / .NET</b></summary>
 
@@ -122,6 +109,19 @@ C++                ███████          50%
 | 🎮 Game Development | Unity |
 | 🖥 Desktop | Qt |
 | 📁 Repository Type | University Coursework |
+
+## 🧠 Programming Experience
+
+```text
+C# / .NET          ████████████████ 90%
+Java               ██████████████   80%
+JavaScript         ████████████     75%
+PHP                ██████████       65%
+SQL / MySQL        ████████████     75%
+Python             ████████         60%
+C++                ███████          50%
+```
+
 
 ## 3. Add Mermaid diagrams (GitHub supports them)
 
