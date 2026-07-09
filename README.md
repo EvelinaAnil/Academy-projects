@@ -85,7 +85,7 @@
 <p align="center">
 
 <img src="https://img.shields.io/badge/Coursework-IT--Step-purple?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Projects-100+-green?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Projects-100+-magenta?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Languages-10+-blue?style=for-the-badge"/>
 
 </p>
