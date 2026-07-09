@@ -148,52 +148,54 @@ Database Theory
 
 ---
 
-# 🧠 Programming Experience
+<p align="center">
+<b>Programming Skills Overview</b><br>
+A visual representation of technologies learned during university coursework.
+</p>
 
-| Technology | Experience |
-|:---|:---:|
-| 💾 SQL / MySQL | ██████████████████ **90%** |
-| ⚙️ C# / .NET | ████████████████ **80%** |
-| ☕ Java | ███████████████ **75%** |
-| 🌐 JavaScript | ██████████████ **70%** |
-| 🐍 Python | ██████████████ **70%** |
-| 🐘 PHP | ████████████ **60%** |
-| 🔵 C++ | ███████████ **55%** |
+## 🧠 Programming Experience
+
+<p align="center">
+
+<img src="https://quickchart.io/chart?c={
+type:'radar',
+data:{
+labels:[
+'SQL / MySQL',
+'C# / .NET',
+'Java',
+'JavaScript',
+'Python',
+'PHP',
+'C++'
+],
+datasets:[
+{
+label:'Programming Skills',
+data:[90,80,75,70,70,60,55],
+fill:true,
+backgroundColor:'rgba(138,43,226,0.25)',
+borderColor:'rgba(138,43,226,1)',
+pointBackgroundColor:'rgba(186,85,211,1)'
+}
+]
+},
+options:{
+scale:{
+ticks:{
+beginAtZero:true,
+max:100
+}
+},
+plugins:{
+legend:{
+display:true
+}
+}
+}
+}" width="500"/>
+
+</p>
 
 ---
 
-# 🧩 Technology Map
-
-```mermaid
-flowchart TD
-
-A[IT-Step Projects]
-
-A --> B[💻 Programming]
-A --> C[🌐 Web Development]
-A --> D[🗄 Databases]
-A --> E[🎮 Game Development]
-A --> F[🛠 Tools]
-
-B --> B1[C#]
-B --> B2[Java]
-B --> B3[JavaScript]
-B --> B4[Python]
-B --> B5[C++]
-
-C --> C1[ASP.NET MVC]
-C --> C2[PHP]
-C --> C3[Node.js]
-C --> C4[HTML/CSS]
-
-D --> D1[SQL]
-D --> D2[MySQL]
-D --> D3[ADO]
-
-E --> E1[Unity]
-
-F --> F1[Git]
-F --> F2[Visual Studio]
-F --> F3[VS Code]
-F --> F4[IntelliJ IDEA]
-```
