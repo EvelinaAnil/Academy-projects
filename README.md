@@ -7,14 +7,6 @@
 <p align="center">
   <img src="https://skillicons.dev/icons?i=cpp,cs,dotnet,java,js,php,nodejs,html,css,mysql,git,visualstudio,vscode,idea,unity,linux,github&perline=7" />
 </p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/IT--Step-University-blue" />
-  <img src="https://img.shields.io/badge/Projects-100%2B-success" />
-  <img src="https://img.shields.io/badge/License-MIT-green" />
-</p>
----
-
 ## 📂 Repository Contents
 
 | Category | Description |
@@ -92,9 +84,8 @@
 <p align="center">
 
 <img src="https://img.shields.io/badge/Coursework-IT--Step-blue?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Projects-100+-green?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Projects-100+-purple?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Languages-10+-orange?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Status-Archived-lightgrey?style=for-the-badge"/>
 
 </p>
 
@@ -140,9 +131,8 @@
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/Status-Completed-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Completed-green?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Type-Academic%20Portfolio-purple?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Projects-100%2B-success?style=for-the-badge"/>
 
 </p>
 
