@@ -40,52 +40,70 @@
 <details>
 <summary><b>☕ Java Projects</b></summary>
 
-- Java Fundamentals
-- Android Development
-- RecyclerView
-- Retrofit
-- Room Database
-- Spring Boot
-- Fragments
-- ListView
-- ViewPager
-- Homework
-- Laboratory Work
+<br>
+
+| Topic | |
+|:---|:---|
+| Java Fundamentals | Core Java concepts and OOP |
+| Android Development | Mobile application development |
+| RecyclerView | Android UI components |
+| Retrofit | API communication |
+| Room Database | Local database storage |
+| Spring Boot | Backend development |
+| Fragments | Android navigation components |
+| ListView | UI collections |
+| ViewPager | Screen navigation |
+| Homework | Practice assignments |
+| Laboratory Work | University laboratory tasks |
 
 </details>
+
 
 <details>
 <summary><b>💜 C# / .NET Projects</b></summary>
 
-- Windows Applications
-- Homework
-- Laboratory Exercises
-- Lesson Materials
+<br>
+
+| Topic | |
+|:---|:---|
+| Windows Applications | Desktop application development |
+| Homework | Programming exercises |
+| Laboratory Exercises | Practical coursework |
+| Lesson Materials | Theory and examples |
 
 </details>
+
 
 <details>
 <summary><b>🌐 Web Development</b></summary>
 
-- ASP
-- ASP.NET MVC
-- PHP
-- JavaScript
-- Node.js
-- HTML / CSS
+<br>
+
+| Technology | |
+|:---|:---|
+| ASP | Server-side web development |
+| ASP.NET MVC | Web applications architecture |
+| PHP | Backend development |
+| JavaScript | Frontend programming |
+| Node.js | Backend runtime |
+| HTML / CSS | Web structure and styling |
 
 </details>
+
 
 <details>
-<summary><b>🗄️ Database</b></summary>
+<summary><b>🗄️ Database Projects</b></summary>
 
-- SQL
-- MySQL
-- ADO
-- Database Theory
+<br>
+
+| Technology | |
+|:---|:---|
+| SQL | Database queries and management |
+| MySQL | Relational database systems |
+| ADO | Database connectivity |
+| Database Theory | Database concepts |
 
 </details>
-
 ---
 
 # 🛠 Tech Stack
