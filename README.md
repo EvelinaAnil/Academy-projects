@@ -108,7 +108,7 @@ Database Theory
 
 ### 🎓 Project Information
 
-| 📌 Category | Details |
+| Category | Details |
 |:---|:---|
 | Institution | **IT-Step University** |
 | Type | **University Coursework** |
@@ -123,7 +123,7 @@ Database Theory
 
 ### 🛠 Technology Stack
 
-| 📌 Category | Technologies |
+| Category | Technologies |
 |:---|:---|
 | Languages | C#, Java, JavaScript, PHP, Python, C++ |
 | Web | ASP.NET, MVC, Node.js, HTML, CSS |
