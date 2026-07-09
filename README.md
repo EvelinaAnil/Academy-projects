@@ -168,6 +168,61 @@
 
 <p align="center">
 
-<img src="https://quickchart.io/chart?width=600&height=600&c=%7Btype%3A%27radar%27%2Cdata%3A%7Blabels%3A%5B%27SQL%2FMySQL%20-%2090%25%27%2C%27C%23%2F.NET%20-%2080%25%27%2C%27Java%20-%2075%25%27%2C%27JavaScript%20-%2070%25%27%2C%27Python%20-%2070%25%27%2C%27PHP%20-%2060%25%27%2C%27C%2B%2B%20-%2055%25%27%5D%2Cdatasets%3A%5B%7Blabel%3A%27Programming%20Skills%27%2Cdata%3A%5B90%2C80%2C75%2C70%2C70%2C60%2C55%5D%2Cfill%3Atrue%2CbackgroundColor%3A%27rgba(138%2C43%2C226%2C0.25)%27%2CborderColor%3A%27rgb(138%2C43%2C226)%27%2CpointBackgroundColor%3A%27rgb(186%2C85%2C211)%27%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Br%3A%7Bticks%3A%7Bdisplay%3Afalse%7D%2CpointLabels%3A%7Bfont%3A%7Bsize%3A14%7D%7D%7D%7D%7D%7D" width="500"/>
+<img src="https://quickchart.io/chart?width=600&height=600&c={
+type:'radar',
+data:{
+labels:[
+'SQL / MySQL',
+'C# / .NET',
+'Java',
+'JavaScript',
+'Python',
+'PHP',
+'C++'
+],
+datasets:[
+{
+label:'Programming Skills',
+data:[90,80,75,70,70,60,55],
+fill:true,
+backgroundColor:'rgba(138,43,226,0.25)',
+borderColor:'rgba(138,43,226,1)',
+pointBackgroundColor:'rgba(186,85,211,1)',
+pointRadius:5
+}
+]
+},
+options:{
+plugins:{
+legend:{
+display:false
+},
+datalabels:{
+display:true,
+color:'#8A2BE2',
+font:{
+size:14,
+weight:'bold'
+},
+formatter:(value)=>value+'%'
+}
+},
+scales:{
+r:{
+min:0,
+max:100,
+ticks:{
+display:false
+},
+pointLabels:{
+font:{
+size:14
+}
+}
+}
+}
+},
+plugins:['datalabels']
+}" width="500"/>
 
 </p>
