@@ -152,5 +152,5 @@ Database Theory
 ## Programming Experience
 
 <p align="center">
-  <img src="https://quickchart.io/chart?c={type:'radar',data:{labels:['SQL','C%23','Java','Python','JS','PHP','C%2B%2B'],datasets:[{label:'Programming Skills',data:[90,80,75,70,70,60,55],fill:true,backgroundColor:'rgba(138,43,226,0.25)',borderColor:'rgba(138,43,226,1)',pointBackgroundColor:'rgba(186,85,211,1)'}]},options:{scale:{ticks:{beginAtZero:true,max:100}}}}&v=1" width="500"/>
+  <img src="https://quickchart.io/chart?c={type:'radar',data:{labels:['SQL','C%23','Java','Python','JS','PHP','C%2B%2B'],datasets:[{label:'Programming Skills',data:[90,80,75,70,70,60,55],fill:true,backgroundColor:'rgba(138,43,226,0.25)',borderColor:'rgba(138,43,226,1)',pointBackgroundColor:'rgba(186,85,211,1)'}]},options:{scale:{ticks:{beginAtZero:true,max:100}}}}&v=2" width="500"/>
 </p>
