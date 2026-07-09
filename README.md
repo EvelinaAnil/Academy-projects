@@ -100,135 +100,69 @@
 
 ## 📊 Repository Overview
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🎓 Project Information
+
 | | |
 |---|---|
-| 🎓 Institution | IT-Step University |
-| 💻 Languages | C#, Java, JavaScript, PHP, SQL |
-| 🌍 Web | ASP.NET, MVC, Node.js |
+| 🎓 Institution | **IT-Step University** |
+| 📁 Repository Type | **University Coursework** |
+| 📂 Projects | **100+** |
+| ⏳ Study Period | **3+ Years** |
+| 💻 Programming Languages | **10+** |
+| 🛠 Frameworks & Technologies | **8+** |
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🛠 Technology Stack
+
+| Category | Technologies |
+|---|---|
+| 💻 Languages | C#, Java, JavaScript, PHP, Python, C++ |
+| 🌍 Web Development | ASP.NET, MVC, Node.js, HTML, CSS |
 | 🗄️ Databases | SQL, MySQL, ADO |
 | 🎮 Game Development | Unity |
-| 🖥 Desktop | Qt |
-| 📁 Repository Type | University Coursework |
-
-<table>
-<tr>
-<td width="55%" valign="top">
-
-<h2>Programming Experience</h2>
-
-<table>
-<tr>
-<td>💾 SQL / MySQL</td>
-<td>
-
-██████████████████  <b>90%</b>
+| 🖥 Desktop Development | Qt |
+| 🔧 Tools & IDEs | Visual Studio, VS Code, IntelliJ IDEA, Git |
 
 </td>
 </tr>
-
-<tr>
-<td>⚙️ C# / .NET</td>
-<td>
-
-████████████████  <b>80%</b>
-
-</td>
-</tr>
-
-<tr>
-<td>☕ Java</td>
-<td>
-
-███████████████  <b>75%</b>
-
-</td>
-</tr>
-
-<tr>
-<td>🌐 JavaScript</td>
-<td>
-
-██████████████  <b>70%</b>
-
-</td>
-</tr>
-
-<tr>
-<td>🐍 Python</td>
-<td>
-
-██████████████  <b>70%</b>
-
-</td>
-</tr>
-
-<tr>
-<td>🐘 PHP</td>
-<td>
-
-████████████  <b>60%</b>
-
-</td>
-</tr>
-
-<tr>
-<td>🔵 C++</td>
-<td>
-
-███████████  <b>55%</b>
-
-</td>
-</tr>
-
-</table>
-
-</td>
-
-
-<td width="45%" valign="top">
-
-<h2>Repository Statistics</h2>
-
-<table>
-
-<tr>
-<td>📂 <b>Projects</b></td>
-<td><b>100+</b></td>
-</tr>
-
-<tr>
-<td>💻 <b>Languages</b></td>
-<td><b>10</b></td>
-</tr>
-
-<tr>
-<td>🎓 <b>Study Period</b></td>
-<td><b>3+ years</b></td>
-</tr>
-
-<tr>
-<td>🗄️ <b>Databases</b></td>
-<td><b>3</b></td>
-</tr>
-
-<tr>
-<td>🛠️ <b>Frameworks</b></td>
-<td><b>8</b></td>
-</tr>
-
-<tr>
-<td>🖥️ <b>IDEs Used</b></td>
-<td><b>5</b></td>
-</tr>
-
 </table>
 
 <br>
 
+<p align="center">
+
 <img src="https://img.shields.io/badge/Status-Archived-blue?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Type-University%20Projects-purple?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Projects-100%2B-success?style=for-the-badge"/>
+
+</p>
+
+
+---
+
+## 🧠 Programming Experience
+
+<table>
+<tr>
+<td width="100%">
+
+| Technology | Experience |
+|:---|:---|
+| 💾 SQL / MySQL | ██████████████████ **90%** |
+| ⚙️ C# / .NET | ████████████████ **80%** |
+| ☕ Java | ███████████████ **75%** |
+| 🌐 JavaScript | ██████████████ **70%** |
+| 🐍 Python | ██████████████ **70%** |
+| 🐘 PHP | ████████████ **60%** |
+| 🔵 C++ | ███████████ **55%** |
 
 </td>
-
 </tr>
 </table>
