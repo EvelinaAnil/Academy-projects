@@ -153,44 +153,6 @@ Database Theory
 
 <p align="center">
 
-<img src="https://quickchart.io/chart?c={
-type:'radar',
-data:{
-labels:[
-'SQL / MySQL',
-'C# / .NET',
-'Java',
-'JavaScript',
-'Python',
-'PHP',
-'C++'
-],
-datasets:[
-{
-label:'Programming Skills',
-data:[90,80,75,70,70,60,55],
-fill:true,
-backgroundColor:'rgba(138,43,226,0.25)',
-borderColor:'rgba(138,43,226,1)',
-pointBackgroundColor:'rgba(186,85,211,1)'
-}
-]
-},
-options:{
-scale:{
-ticks:{
-beginAtZero:true,
-max:100
-}
-},
-plugins:{
-legend:{
-display:true
-}
-}
-}
-}" width="500"/>
-
-</p>
+<img src="https://quickchart.io/chart?width=500&height=500&c={type:'radar',data:{labels:['SQL','C#','.NET','Java','JavaScript','Python','PHP','C++'],datasets:[{label:'Skills',data:[90,80,75,75,70,70,60,55],backgroundColor:'rgba(138,43,226,0.3)',borderColor:'rgb(138,43,226)'}]}}"/>
 
 </p>
