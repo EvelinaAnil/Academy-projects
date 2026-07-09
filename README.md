@@ -84,9 +84,9 @@
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/Coursework-IT--Step-blue?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Projects-100+-purple?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Languages-10+-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Coursework-IT--Step-purple?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Projects-100+-green?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Languages-10+-blue?style=for-the-badge"/>
 
 </p>
 
@@ -131,9 +131,9 @@
 <br>
 
 <p align="center">
-
-<img src="https://img.shields.io/badge/Status-Completed-green?style=for-the-badge"/>
+  
 <img src="https://img.shields.io/badge/Type-Academic%20Portfolio-purple?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Completed-green?style=for-the-badge"/>
 
 </p>
 
