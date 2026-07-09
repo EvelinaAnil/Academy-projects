@@ -110,37 +110,125 @@
 | 🖥 Desktop | Qt |
 | 📁 Repository Type | University Coursework |
 
-## 🧠 Programming Experience
+<table>
+<tr>
+<td width="55%" valign="top">
 
-```text
-💾 SQL / MySQL        ██████████████████  90%
+<h2>🧠 Programming Experience</h2>
 
-⚙️ C# / .NET          ████████████████    80%
+<table>
+<tr>
+<td>💾 SQL / MySQL</td>
+<td>
 
-☕ Java               ███████████████     75%
+██████████████████  <b>90%</b>
 
-🌐 JavaScript         ██████████████      70%
+</td>
+</tr>
 
-🐍 Python             ██████████████      70%
+<tr>
+<td>⚙️ C# / .NET</td>
+<td>
 
-🐘 PHP                ████████████        60%
+████████████████  <b>80%</b>
 
-🔵 C++                ███████████         55%
-```
+</td>
+</tr>
 
----
+<tr>
+<td>☕ Java</td>
+<td>
 
-## 📊 Repository Statistics
+███████████████  <b>75%</b>
 
-<div align="center">
+</td>
+</tr>
 
-| 📌 Metric | 📈 Amount |
-|:---------:|:---------:|
-| 📂 Projects | **100+** |
-| 💻 Programming Languages | **10** |
-| 🎓 Years of Study | **3+** |
-| 🗄️ Databases | **3** |
-| 🛠 Frameworks | **8** |
-| 🖥 IDEs Used | **5** |
+<tr>
+<td>🌐 JavaScript</td>
+<td>
 
-</div>
+██████████████  <b>70%</b>
+
+</td>
+</tr>
+
+<tr>
+<td>🐍 Python</td>
+<td>
+
+██████████████  <b>70%</b>
+
+</td>
+</tr>
+
+<tr>
+<td>🐘 PHP</td>
+<td>
+
+████████████  <b>60%</b>
+
+</td>
+</tr>
+
+<tr>
+<td>🔵 C++</td>
+<td>
+
+███████████  <b>55%</b>
+
+</td>
+</tr>
+
+</table>
+
+</td>
+
+
+<td width="45%" valign="top">
+
+<h2>📊 Repository Statistics</h2>
+
+<table>
+
+<tr>
+<td>📂 <b>Projects</b></td>
+<td><b>100+</b></td>
+</tr>
+
+<tr>
+<td>💻 <b>Languages</b></td>
+<td><b>10</b></td>
+</tr>
+
+<tr>
+<td>🎓 <b>Study Period</b></td>
+<td><b>3+ years</b></td>
+</tr>
+
+<tr>
+<td>🗄️ <b>Databases</b></td>
+<td><b>3</b></td>
+</tr>
+
+<tr>
+<td>🛠️ <b>Frameworks</b></td>
+<td><b>8</b></td>
+</tr>
+
+<tr>
+<td>🖥️ <b>IDEs Used</b></td>
+<td><b>5</b></td>
+</tr>
+
+</table>
+
+<br>
+
+<img src="https://img.shields.io/badge/Status-Archived-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Type-University%20Projects-purple?style=for-the-badge"/>
+
+</td>
+
+</tr>
+</table>
