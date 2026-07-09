@@ -113,57 +113,34 @@
 ## 🧠 Programming Experience
 
 ```text
-SQL / MySQL        ██████████████████ 90%
-C# / .NET          ████████████████   80%
-Java               ███████████████    75%
-JavaScript         ██████████████     70%
-Python             ██████████████     70%
-PHP                ████████████       60%
-C++                ███████████        55%
+💾 SQL / MySQL        ██████████████████  90%
+
+⚙️ C# / .NET          ████████████████    80%
+
+☕ Java               ███████████████     75%
+
+🌐 JavaScript         ██████████████      70%
+
+🐍 Python             ██████████████      70%
+
+🐘 PHP                ████████████        60%
+
+🔵 C++                ███████████         55%
 ```
 
-
-## 3. Add Mermaid diagrams (GitHub supports them)
-
-For example, your technology ecosystem:
-
-```mermaid
-flowchart TD
-
-A[IT-Step Projects]
-
-A --> B[Desktop Development]
-A --> C[Web Development]
-A --> D[Mobile Development]
-A --> E[Game Development]
-A --> F[Databases]
-
-B --> B1[C#]
-B --> B2[Qt]
-
-C --> C1[ASP.NET MVC]
-C --> C2[PHP]
-C --> C3[JavaScript]
-C --> C4[Node.js]
-
-D --> D1[Java]
-D --> D2[Android]
-
-E --> E1[Unity]
-
-F --> F1[SQL]
-F --> F2[MySQL]
-```
-
+---
 
 ## 📊 Repository Statistics
 
-| Metric | Amount |
-|---|---:|
-| Projects | 100+ |
-| Programming Languages | 10 |
-| Years of Study | 3+ |
-| Databases | 3 |
-| Frameworks | 8 |
-| IDEs Used | 5 |
+<div align="center">
 
+| 📌 Metric | 📈 Amount |
+|:---------:|:---------:|
+| 📂 Projects | **100+** |
+| 💻 Programming Languages | **10** |
+| 🎓 Years of Study | **3+** |
+| 🗄️ Databases | **3** |
+| 🛠 Frameworks | **8** |
+| 🖥 IDEs Used | **5** |
+
+</div>
