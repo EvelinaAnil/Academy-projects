@@ -15,44 +15,29 @@
 </p>
 ---
 
-## Repository Structure
+## 📂 Repository Contents
 
-### 📁 ALL.TXT
-General notes and study materials, including:
-- Java
-- C#
-- ADO
-- Git Bash
-- Visual Studio
-- Visual Studio Code
-- IQ
-- Database Theory
+| Category | Description |
+|:---------|:------------|
+| **ALL.TXT** | Programming notes, theory, and personal study materials. |
+| **ASP** | Active Server Pages assignments and laboratory work. |
+| **ADO** | Database connectivity and ADO projects. |
+| **Java** | Java SE and Android development assignments. |
+| **C# / .NET** | Desktop applications and C# coursework. |
+| **PHP** | PHP web development projects and homework. |
+| **JavaScript** | JavaScript exercises, lessons and exams. |
+| **MVC** | ASP.NET MVC web applications. |
+| **Network Programming** | Client-server programming and networking labs. |
+| **Node.js** | Backend development assignments. |
+| **Qt** | Qt desktop applications. |
+| **SQL** | SQL & MySQL exercises. |
+| **Unity** | Unity game development projects. |
 
----
+<details>
+<summary><b>☕ Java Projects</b></summary>
 
-### 📁 Active Server Pages (ASP)
-Projects, laboratory work, and homework related to:
-- ASP
-- LES (Lessons)
-- ASP exercises
-- Text materials
-
----
-
-### 📁 ActiveX Data Objects (ADO)
-Assignments and examples covering:
-- Database connectivity
-- ADO projects
-- Homework
-- Exam preparation
-- Laboratory exercises
-
----
-
-### 📁 Java
-Java programming projects, including:
-- Homework
-- Android development
+- Java Fundamentals
+- Android Development
 - RecyclerView
 - Retrofit
 - Room Database
@@ -60,134 +45,67 @@ Java programming projects, including:
 - Fragments
 - ListView
 - ViewPager
-- Java fundamentals
-- Practical exercises
-
----
-
-### 📁 C# / .NET
-Projects and coursework involving:
-- C#
-- Windows applications
-- Homework archives
-- Lesson materials
-- Practice exercises
-
----
-
-### 📁 PHP
-Projects developed using PHP, including:
 - Homework
-- Lessons
-- Exams
-- Chess projects
-- Practice assignments
+- Laboratory Work
 
----
+</details>
 
-### 📁 IntelliJ IDEA
-Projects created using IntelliJ IDEA.
+<details>
+<summary><b>💜 C# / .NET</b></summary>
 
----
-
-### 📁 JavaScript
-JavaScript coursework including:
+- Windows Applications
 - Homework
-- Lessons
-- Exams
-- Practice projects
+- Laboratory Exercises
+- Lesson Materials
 
----
+</details>
 
-### 📁 MVC (Model-View-Controller)
-ASP.NET MVC applications including:
-- Web MVC projects
-- Laboratory assignments
-- Practical exercises
+<details>
+<summary><b>🌐 Web Development</b></summary>
 
----
-
-### 📁 Network Programming
-Projects related to:
-- Socket programming
-- Client-server applications
-- Networking exercises
-- Laboratory work
-
----
-
-### 📁 Node.js
-Assignments and projects using Node.js.
-
----
-
-### 📁 Qt
-Desktop application development using the Qt framework.
-
----
-
-### 📁 SQL
-Database projects involving:
-- SQL
-- MySQL
-- Database design
-- Queries
-- Database exercises
-
----
-
-### 📁 Unity
-Unity game development projects and experiments.
-
----
-
-## Technologies Used
-
-- C#
-- .NET
-- Java
-- Android
-- JavaScript
-- PHP
 - ASP
 - ASP.NET MVC
+- PHP
+- JavaScript
 - Node.js
-- SQL
-- MySQL
-- Unity
-- Qt
 - HTML
 - CSS
-- Git
-- Visual Studio
-- IntelliJ IDEA
 
----
+</details>
 
-## Purpose
+<details>
+<summary><b>🗄️ Databases</b></summary>
 
-This repository documents my learning journey throughout my studies at **IT-Step University**.
+- SQL
+- MySQL
+- ADO
+- Database Theory
 
-It includes:
+</details>
 
-- Homework assignments
-- Laboratory work
-- Practice exercises
-- Semester projects
-- Exam preparation materials
-- Lecture notes
-- Personal experiments while learning new technologies
+## 🛠 Tech Stack
 
----
+| Languages | Frameworks | Databases | Tools |
+|-----------|------------|-----------|-------|
+| C#, Java, JavaScript, PHP | ASP.NET, MVC, Node.js, Unity, Qt | SQL, MySQL, ADO | Visual Studio, VS Code, IntelliJ IDEA, Git |
 
-## Disclaimer
+<p align="center">
 
-Most of these projects were created for educational purposes while learning new technologies. Some code may not follow current best practices, as it reflects my progress throughout different stages of my studies.
+<img src="https://img.shields.io/badge/Coursework-IT--Step-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Projects-100+-green?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Languages-10+-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Archived-lightgrey?style=for-the-badge"/>
 
----
+</p>
 
-## License
+## 📊 Repository Overview
 
-This repository is intended for educational and portfolio purposes.
-
-Please do not copy or submit these assignments as your own work.
+| | |
+|---|---|
+| 🎓 Institution | IT-Step University |
+| 💻 Languages | C#, Java, JavaScript, PHP, SQL |
+| 🌍 Web | ASP.NET, MVC, Node.js |
+| 🗄️ Databases | SQL, MySQL, ADO |
+| 🎮 Game Development | Unity |
+| 🖥 Desktop | Qt |
+| 📁 Repository Type | University Coursework |
