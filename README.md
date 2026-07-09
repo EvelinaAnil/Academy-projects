@@ -50,6 +50,19 @@
 
 </details>
 
+
+## 🧠 Programming Experience
+
+```text
+C# / .NET          ████████████████ 90%
+Java               ██████████████   80%
+JavaScript         ████████████     75%
+PHP                ██████████       65%
+SQL / MySQL        ████████████     75%
+Python             ████████         60%
+C++                ███████          50%
+```
+
 <details>
 <summary><b>💜 C# / .NET</b></summary>
 
@@ -109,3 +122,106 @@
 | 🎮 Game Development | Unity |
 | 🖥 Desktop | Qt |
 | 📁 Repository Type | University Coursework |
+
+## 3. Add Mermaid diagrams (GitHub supports them)
+
+For example, your technology ecosystem:
+
+```mermaid
+flowchart TD
+
+A[IT-Step Projects]
+
+A --> B[Desktop Development]
+A --> C[Web Development]
+A --> D[Mobile Development]
+A --> E[Game Development]
+A --> F[Databases]
+
+B --> B1[C#]
+B --> B2[Qt]
+
+C --> C1[ASP.NET MVC]
+C --> C2[PHP]
+C --> C3[JavaScript]
+C --> C4[Node.js]
+
+D --> D1[Java]
+D --> D2[Android]
+
+E --> E1[Unity]
+
+F --> F1[SQL]
+F --> F2[MySQL]
+```
+
+## 📚 Learning Journey
+
+2021
+│
+├── C# Fundamentals
+├── OOP Concepts
+│
+2022
+│
+├── Java SE
+├── Android Development
+├── SQL Databases
+│
+2023
+│
+├── ASP.NET MVC
+├── PHP
+├── JavaScript
+│
+2024
+│
+├── Node.js
+├── Unity
+├── Network Programming
+
+## 📊 Repository Statistics
+
+| Metric | Amount |
+|---|---:|
+| Projects | 100+ |
+| Programming Languages | 10 |
+| Years of Study | 3+ |
+| Databases | 3 |
+| Frameworks | 8 |
+| IDEs Used | 5 |
+
+mindmap
+  root((IT-Step Projects))
+    Programming
+      C#
+      Java
+      JavaScript
+      PHP
+      Python
+      C++
+    Web
+      ASP.NET
+      MVC
+      Node.js
+      HTML
+      CSS
+    Database
+      SQL
+      MySQL
+      ADO
+    Tools
+      Git
+      Visual Studio
+      VS Code
+      IntelliJ IDEA
+    Game Dev
+      Unity
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=c,cpp,cs,java,python,js,php,html,css,dotnet,nodejs,mysql,git,github,docker,linux,unity&perline=9"/>
+</p>
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact"/>
+</p>
