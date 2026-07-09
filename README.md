@@ -148,12 +148,8 @@ Database Theory
 
 ---
 
-<p align="center">
-<b>Programming Skills Overview</b><br>
-A visual representation of technologies learned during university coursework.
-</p>
 
-## 🧠 Programming Experience
+## Programming Experience
 
 <p align="center">
 
@@ -196,8 +192,3 @@ display:true
 }" width="500"/>
 
 </p>
-
-</p>
-
----
-
