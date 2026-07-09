@@ -114,7 +114,7 @@
 <tr>
 <td width="55%" valign="top">
 
-<h2>🧠 Programming Experience</h2>
+<h2>Programming Experience</h2>
 
 <table>
 <tr>
@@ -187,7 +187,7 @@
 
 <td width="45%" valign="top">
 
-<h2>📊 Repository Statistics</h2>
+<h2>Repository Statistics</h2>
 
 <table>
 
