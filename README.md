@@ -169,45 +169,32 @@
 <tr>
 <td width="50%" align="center">
 
-<img src="https://quickchart.io/chart?width=500&height=500&c=%7Btype%3A%27radar%27%2Cdata%3A%7Blabels%3A%5B%27SQL%2FMySQL%27%2C%27C%23%2F.NET%27%2C%27Java%27%2C%27Python%27%2C%27JavaScript%27%2C%27PHP%27%2C%27C%2B%2B%27%5D%2Cdatasets%3A%5B%7Blabel%3A%27Programming%20Skills%27%2Cdata%3A%5B90%2C80%2C75%2C70%2C70%2C60%2C55%5D%2Cfill%3Atrue%2CbackgroundColor%3A%27rgba(168%2C85%2C247%2C0.25)%27%2CborderColor%3A%27%23a855f7%27%2CpointBackgroundColor%3A%27%23a855f7%27%2CpointRadius%3A4%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Br%3A%7Bmin%3A0%2Cmax%3A100%2Cticks%3A%7Bdisplay%3Afalse%7D%2Cgrid%3A%7Bcolor%3A%27rgba(255%2C255%2C255%2C0.15)%27%7D%2CangleLines%3A%7Bcolor%3A%27rgba(255%2C255%2C255%2C0.15)%27%7D%7D%7D%7D%7D&backgroundColor=%230d1117">
+<img src="https://quickchart.io/chart?width=500&height=500&backgroundColor=%230d1117&c=%7Btype%3A%27radar%27%2Cdata%3A%7Blabels%3A%5B%27SQL%2FMySQL%27%2C%27C%23%2F.NET%27%2C%27Java%27%2C%27Python%27%2C%27JavaScript%27%2C%27PHP%27%2C%27C%2B%2B%27%5D%2Cdatasets%3A%5B%7Blabel%3A%27%27%2Cdata%3A%5B90%2C80%2C75%2C70%2C70%2C60%2C55%5D%2Cfill%3Atrue%2CbackgroundColor%3A%27rgba(168%2C85%2C247%2C0.25)%27%2CborderColor%3A%27rgb(168%2C85%2C247)%27%2CpointBackgroundColor%3A%27rgb(168%2C85%2C247)%27%2CpointRadius%3A4%7D%5D%7D%2Coptions%3A%7Bplugins%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%2Cscales%3A%7Br%3A%7Bmin%3A0%2Cmax%3A100%2Cticks%3A%7Bdisplay%3Afalse%7D%2Cgrid%3A%7Bcolor%3A%27rgba(255%2C255%2C255%2C0.15)%27%7D%2CangleLines%3A%7Bcolor%3A%27rgba(255%2C255%2C255%2C0.15)%27%7D%2CpointLabels%3A%7Bcolor%3A%27white%27%2Cfont%3A%7Bsize%3A14%7D%7D%7D%7D%7D%7D">
 
 </td>
 
-<td width="50%" valign="middle">
+<td width="50%">
 
-<h3>📊 Skill Levels</h3>
+## 📊 Skill Levels
 
-<p>
-🟣 SQL / MySQL ━━━━━━━━━━ <b>90%</b>
-</p>
+🟣 **SQL / MySQL** — 90%
 
-<p>
-🟣 C# / .NET ━━━━━━━━━ <b>80%</b>
-</p>
+🟣 **C# / .NET** — 80%
 
-<p>
-🟣 Java ━━━━━━━━ <b>75%</b>
-</p>
+🟣 **Java** — 75%
 
-<p>
-🟣 Python ━━━━━━━ <b>70%</b>
-</p>
+🟣 **Python** — 70%
 
-<p>
-🟣 JavaScript ━━━━━━━ <b>70%</b>
-</p>
+🟣 **JavaScript** — 70%
 
-<p>
-🟣 PHP ━━━━━━ <b>60%</b>
-</p>
+🟣 **PHP** — 60%
 
-<p>
-🟣 C++ ━━━━━ <b>55%</b>
-</p>
+🟣 **C++** — 55%
 
 </td>
 </tr>
 </table>
+
 ---
 
 <div align="center">
