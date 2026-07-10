@@ -165,11 +165,6 @@
 
 ## 💻 Programming Experience
 
-<p>
-  I have experience working with backend development, databases, 
-  object-oriented programming, and web technologies.  
-  The chart below provides an overview of my current technical skill levels.
-</p>
 
 <table>
   <tr>
@@ -185,7 +180,7 @@
 
 <td width="32%" valign="top">
 
-### 🛠️ Skill Levels
+### Skill Levels
 
 | Technology | Level |
 |:-----------|------:|
