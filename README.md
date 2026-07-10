@@ -167,35 +167,14 @@
 ## 💻 Programming Experience
 
 <p align="center">
-<img src="https://quickchart.io/chart?c={
-type:'radar',
-data:{
-labels:[
-'SQL/MySQL 90%',
-'C#/.NET 80%',
-'Java 75%',
-'Python 70%',
-'JavaScript 70%',
-'PHP 60%',
-'C++ 55%'
-],
-datasets:[{
-label:'Skill Level',
-data:[90,80,75,70,70,60,55],
-backgroundColor:'rgba(139,92,246,0.25)',
-borderColor:'rgb(139,92,246)',
-pointBackgroundColor:'rgb(139,92,246)'
-}]
-},
-options:{
-scale:{
-ticks:{
-beginAtZero:true,
-max:100
-}
-}
-}
-}" />
+
+SQL/MySQL     ██████████████████░░ 90%
+C#/.NET       ████████████████░░░░ 80%
+Java          ███████████████░░░░░ 75%
+Python        ██████████████░░░░░░ 70%
+JavaScript    ██████████████░░░░░░ 70%
+PHP           ████████████░░░░░░░░ 60%
+C++           ███████████░░░░░░░░░ 55%
   
 </p>
 
