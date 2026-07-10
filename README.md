@@ -263,15 +263,3 @@ If you like this repository, consider giving it a **Star** ⭐
 <img src="https://img.shields.io/badge/Thanks%20for%20visiting!-💜-A855F7?style=for-the-badge"/>
 
 </div>
-
-## 📑 Table of Contents
-- [Overview](#-overview)
-- [Repository Highlights](#-repository-highlights)
-- [Repository Contents](#-repository-contents)
-- [Project Categories](#-project-categories)
-- [Tech Stack](#-tech-stack)
-- [Repository Overview](#-repository-overview)
-- [Programming Experience](#-programming-experience)
-
-## 🧠 About This Repository
-This repository serves as a personal academic archive of my software development journey at IT-Step University. It includes coursework, practice exercises, laboratory work, and technology-focused projects.
