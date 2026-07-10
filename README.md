@@ -165,32 +165,40 @@
 
 ## 💻 Programming Experience
 
-<table>
-<tr>
-<td width="80%" align="center">
+<p>
+  I have experience working with backend development, databases, 
+  object-oriented programming, and web technologies.  
+  The chart below provides an overview of my current technical skill levels.
+</p>
 
-  
-<img src="https://quickchart.io/chart?c=%7Btype%3A%27radar%27%2Cdata%3A%7Blabels%3A%5B%27SQL%2FMySQL%27%2C%27C%23%2F.NET%27%2C%27Java%27%2C%27JavaScript%27%2C%27Python%27%2C%27PHP%27%2C%27C%2B%2B%27%5D%2Cdatasets%3A%5B%7Blabel%3A%27Programming%20Skills%27%2Cdata%3A%5B90%2C80%2C75%2C70%2C70%2C60%2C55%5D%2Cfill%3Atrue%2CbackgroundColor%3A%27rgba(138%2C43%2C226%2C0.25)%27%2CborderColor%3A%27rgba(138%2C43%2C226%2C1)%27%2CpointBackgroundColor%3A%27rgba(186%2C85%2C211%2C1)%27%7D%5D%7D%2Coptions%3A%7Bscale%3A%7Bticks%3A%7BbeginAtZero%3Atrue%2Cmax%3A100%7D%7D%7D%7D" /> 
+<table>
+  <tr>
+    <td width="68%" align="center">
+
+<img
+  src="https://quickchart.io/chart?c=%7B%22type%22%3A%22radar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22SQL%20%2F%20MySQL%22%2C%22C%23%20%2F%20.NET%22%2C%22Java%22%2C%22JavaScript%22%2C%22Python%22%2C%22PHP%22%2C%22C%2B%2B%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22Programming%20Skills%22%2C%22data%22%3A%5B90%2C80%2C75%2C70%2C70%2C60%2C55%5D%2C%22fill%22%3Atrue%2C%22backgroundColor%22%3A%22rgba%28139%2C92%2C246%2C0.22%29%22%2C%22borderColor%22%3A%22rgb%28168%2C85%2C247%29%22%2C%22borderWidth%22%3A3%2C%22pointBackgroundColor%22%3A%22rgb%28216%2C180%2C254%29%22%2C%22pointBorderColor%22%3A%22rgb%28255%2C255%2C255%29%22%2C%22pointBorderWidth%22%3A1.5%2C%22pointRadius%22%3A4%2C%22pointHoverRadius%22%3A6%7D%5D%7D%2C%22options%22%3A%7B%22responsive%22%3Atrue%2C%22maintainAspectRatio%22%3Afalse%2C%22plugins%22%3A%7B%22legend%22%3A%7B%22display%22%3Atrue%2C%22position%22%3A%22top%22%2C%22labels%22%3A%7B%22color%22%3A%22%23e5e7eb%22%2C%22font%22%3A%7B%22size%22%3A14%2C%22weight%22%3A%22bold%22%7D%2C%22boxWidth%22%3A28%7D%7D%2C%22tooltip%22%3A%7B%22enabled%22%3Atrue%7D%7D%2C%22scales%22%3A%7B%22r%22%3A%7B%22beginAtZero%22%3Atrue%2C%22min%22%3A0%2C%22max%22%3A100%2C%22ticks%22%3A%7B%22stepSize%22%3A20%2C%22display%22%3Atrue%2C%22color%22%3A%22%23cbd5e1%22%2C%22backdropColor%22%3A%22rgba%2815%2C23%2C42%2C0.85%29%22%2C%22font%22%3A%7B%22size%22%3A11%7D%7D%2C%22grid%22%3A%7B%22color%22%3A%22rgba%28148%2C163%2C184%2C0.28%29%22%7D%2C%22angleLines%22%3A%7B%22color%22%3A%22rgba%28148%2C163%2C184%2C0.28%29%22%7D%2C%22pointLabels%22%3A%7B%22color%22%3A%22%23e5e7eb%22%2C%22font%22%3A%7B%22size%22%3A13%2C%22weight%22%3A%22bold%22%7D%7D%7D%7D%7D%7D&w=700&h=500&v=4&bkg=%230d1117&f=png"
+  alt="Radar chart showing programming skill levels"
+  width="100%"
+/>
 
 </td>
 
-<td width="20%">
+<td width="32%" valign="top">
 
-### Skill Levels
+### 🛠️ Skill Levels
 
-| Technology | Experience |
-|:--|--:|
+| Technology | Level |
+|:-----------|------:|
 | SQL / MySQL | 90% |
 | C# / .NET | 80% |
 | Java | 75% |
-| Python | 70% |
 | JavaScript | 70% |
+| Python | 70% |
 | PHP | 60% |
 | C++ | 55% |
 
-
 </td>
-</tr>
+  </tr>
 </table>
 
 ---
